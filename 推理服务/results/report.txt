@@ -1,0 +1,103 @@
+==============================================================================
+BOUNDED INFERENCE SERVICE
+==============================================================================
+Python   : 3.11.1
+numpy    : 1.26.4
+pandas   : 2.2.3
+client timeout: 2500 ms
+repeats  : 3
+
+Configurations
+--------------
+  baseline    supplied serial HTTPServer; no validation/bounds/timeout
+  bounded     workers=4  queue=32  batch=1 wait=0ms queue_timeout=200ms priority=False
+  batched     workers=4  queue=32  batch=8 wait=10ms queue_timeout=300ms priority=False
+  wide_fast   workers=16 queue=128 batch=1 wait=0ms queue_timeout=500ms priority=False
+  priority    workers=4  queue=32  batch=1 wait=0ms queue_timeout=200ms priority=True
+
+Scenario: nominal
+-----------------
+   config      n successes error_rate throughput_rps goodput_rps latency_p50_all_ms latency_p95_all_ms latency_p99_all_ms latency_p95_ok_ms status_429 status_504 client_timeouts client_errors server_mean_queue_ms server_p95_queue_ms mean_batch_size
+ baseline 40.000    40.000      0.000         31.705      31.705            125.680            126.971            127.426           126.971      0.000      0.000           0.000         0.000                                                         
+  bounded 40.000    40.000      0.000        115.960     115.960             33.156             34.257             41.406            34.257      0.000      0.000           0.000         0.000                0.237               0.000           1.000
+  batched 40.000    40.000      0.000         78.457      78.457             47.999             65.234             66.119            65.234      0.000      0.000           0.000         0.000               16.304              21.000           1.133
+wide_fast 40.000    40.000      0.000        118.169     118.169             33.067             34.045             37.259            34.045      0.000      0.000           0.000         0.000                0.000               0.000           1.000
+ priority 40.000    40.000      0.000        119.722     119.722             33.104             34.009             34.476            34.009      0.000      0.000           0.000         0.000                0.111               0.000           1.000
+  (n=40, concurrency=4, batch_fraction=0%; mean of 3 repeats)
+
+Scenario: overload
+------------------
+   config       n successes error_rate throughput_rps goodput_rps latency_p50_all_ms latency_p95_all_ms latency_p99_all_ms latency_p95_ok_ms status_429 status_504 client_timeouts client_errors server_mean_queue_ms server_p95_queue_ms mean_batch_size
+ baseline 200.000   106.667      0.467         46.815      24.968           1811.285           2050.957           2163.480          2005.328      0.000      0.000           0.000        93.333                                                         
+  bounded 200.000    28.667      0.857        549.881      78.907             22.605            229.304            234.923           215.176    146.333     25.000           0.000         0.000              122.929             213.667           1.000
+  batched 200.000   188.667      0.057        463.193     435.929            130.252            141.189            149.208           141.269     11.333      0.000           0.000         0.000               43.758              63.000           7.459
+wide_fast 200.000   200.000      0.000        489.630     489.630            121.684            123.484            124.173           123.484      0.000      0.000           0.000         0.000               64.338              94.000           1.000
+ priority 200.000    29.000      0.855        548.711      79.724             24.298            235.569            238.225           218.170    145.333     25.667           0.000         0.000              125.706             213.667           1.000
+  (n=200, concurrency=64, batch_fraction=0%; mean of 3 repeats)
+
+Scenario: mixed
+---------------
+   config       n successes error_rate throughput_rps goodput_rps latency_p50_all_ms latency_p95_all_ms latency_p99_all_ms latency_p95_ok_ms status_429 status_504 client_timeouts client_errors server_mean_queue_ms server_p95_queue_ms mean_batch_size
+ baseline 200.000   106.333      0.468         46.847      24.906           1863.859           2044.517           2161.756          2011.639      0.000      0.000           0.000        93.667                                                         
+  bounded 200.000    28.667      0.857        582.383      83.471             21.738            232.420            234.568           214.218    148.000     23.333           0.000         0.000              123.006             218.667           1.000
+  batched 200.000   185.000      0.075        467.797     430.313            129.794            143.294            145.305           143.537     15.000      0.000           0.000         0.000               44.613              63.000           7.478
+wide_fast 200.000   200.000      0.000        489.517     489.517            121.492            123.535            125.411           123.535      0.000      0.000           0.000         0.000               66.860              94.000           1.000
+ priority 200.000    38.333      0.808        601.050     115.110             21.180            221.254            230.603           206.872    146.667     15.000           0.000         0.000              128.177             271.333           1.000
+  (n=200, concurrency=64, batch_fraction=30%; mean of 3 repeats)
+
+Mixed workload: interactive vs batch (mean)
+-------------------------------------------
+   config interactive_p95_all_ms batch_p95_all_ms interactive_error_rate batch_error_rate
+ baseline               2045.485         2043.001                  0.457            0.494
+  bounded                232.869          225.098                  0.862            0.844
+  batched                143.018          143.733                  0.081            0.061
+wide_fast                123.548          123.463                  0.000            0.000
+ priority                205.374          228.091                  0.767            0.906
+
+Validation: invalid requests
+----------------------------
+   config            case  status                                                             error                                            body
+ baseline    invalid_json      -1 RemoteDisconnected: Remote end closed connection without response                                              {}
+ baseline    missing_text     200                                                                                                 {"prediction": 0}
+ baseline text_not_string      -1 RemoteDisconnected: Remote end closed connection without response                                              {}
+ baseline   text_too_long     200                                                                                              {"prediction": 2001}
+ baseline   unknown_class     200                                                                                                 {"prediction": 5}
+  bounded    invalid_json     400                                                                        {"error": "invalid JSON: Expecting value"}
+  bounded    missing_text     400                                                                                {"error": "text must be a string"}
+  bounded text_not_string     400                                                                                {"error": "text must be a string"}
+  bounded   text_too_long     400                                                                         {"error": "text exceeds 2000 characters"}
+  bounded   unknown_class     400                                                                   {"error": "class must be interactive or batch"}
+  batched    invalid_json     400                                                                        {"error": "invalid JSON: Expecting value"}
+  batched    missing_text     400                                                                                {"error": "text must be a string"}
+  batched text_not_string     400                                                                                {"error": "text must be a string"}
+  batched   text_too_long     400                                                                         {"error": "text exceeds 2000 characters"}
+  batched   unknown_class     400                                                                   {"error": "class must be interactive or batch"}
+wide_fast    invalid_json     400                                                                        {"error": "invalid JSON: Expecting value"}
+wide_fast    missing_text     400                                                                                {"error": "text must be a string"}
+wide_fast text_not_string     400                                                                                {"error": "text must be a string"}
+wide_fast   text_too_long     400                                                                         {"error": "text exceeds 2000 characters"}
+wide_fast   unknown_class     400                                                                   {"error": "class must be interactive or batch"}
+ priority    invalid_json     400                                                                        {"error": "invalid JSON: Expecting value"}
+ priority    missing_text     400                                                                                {"error": "text must be a string"}
+ priority text_not_string     400                                                                                {"error": "text must be a string"}
+ priority   text_too_long     400                                                                         {"error": "text exceeds 2000 characters"}
+ priority   unknown_class     400                                                                   {"error": "class must be interactive or batch"}
+
+Targeted tests
+--------------
+  timeout test passed   : True (first=200, second=504)
+  cancellation passed   : True (cancelled statuses=[499, 499])
+  ordering passed       : True (ordering=100%, prediction=100%)
+
+Saved:
+  results/client_requests.csv
+  results/metadata.json
+  results/mixed_by_class.csv
+  results/report.txt
+  results/scenario_runs.csv
+  results/scenario_summary.csv
+  results/server_requests.csv
+  results/targeted_tests.json
+  results/validation_results.csv
+
+Done.

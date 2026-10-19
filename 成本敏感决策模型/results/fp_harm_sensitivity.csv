@@ -1,0 +1,13 @@
+added_fp_cost_s,effective_fp_cost,model,threshold,dev_effective_cost,test_business_cost,test_social_cost,test_fp,test_fn,test_fp_per_1000
+0.0,1.0,LogisticRegression,0.136,0.445,0.515,0.515,75,7,375.0
+0.5,1.5,LogisticRegression,0.388,0.585,0.58,0.65,28,22,140.0
+1.0,2.0,LogisticRegression,0.41400000000000003,0.66,0.605,0.73,25,24,125.0
+2.0,3.0,LogisticRegression,0.55,0.76,0.795,0.945,15,36,75.0
+4.0,5.0,LogisticRegression,0.5720000000000001,0.875,0.83,1.11,14,38,70.0
+8.0,9.0,LogisticRegression,0.646,1.07,0.9,1.38,12,42,60.0
+0.0,1.0,DecisionTree,0.2,0.465,0.535,0.535,79,7,395.0
+0.5,1.5,DecisionTree,0.312,0.64,0.6,0.75,60,15,300.0
+1.0,2.0,DecisionTree,0.312,0.78,0.6,0.9,60,15,300.0
+2.0,3.0,DecisionTree,0.639,1.01,0.835,0.985,15,38,75.0
+4.0,5.0,DecisionTree,0.639,1.15,0.835,1.135,15,38,75.0
+8.0,9.0,DecisionTree,0.999,1.2,1.2,1.2,0,60,0.0

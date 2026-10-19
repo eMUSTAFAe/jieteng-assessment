@@ -1,0 +1,5 @@
+model,rule,threshold,dev_cost,dev_fp,dev_fn
+LogisticRegression,cost-optimal,0.136,0.445,77,3
+LogisticRegression,FP-guarded,0.251,0.48,52,11
+DecisionTree,cost-optimal,0.2,0.465,73,5
+DecisionTree,FP-guarded,0.312,0.5,56,11

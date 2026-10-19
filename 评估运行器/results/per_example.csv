@@ -1,0 +1,1108 @@
+adapter,case_id,input_text,expected,repeat,attempt,output,correct,outcome,detail,latency_ms,cost
+fast,C00,hello,HELLO,0,0,HELLO,True,correct,,0.13870000111637637,1.0
+fast,C00,hello,HELLO,1,0,HELLO,True,correct,,0.14029999874765053,1.0
+fast,C00,hello,HELLO,2,0,HELLO,True,correct,,0.17759999900590628,1.0
+fast,C00,hello,HELLO,3,0,HELLO,True,correct,,0.15439999697264284,1.0
+fast,C00,hello,HELLO,4,0,HELLO,True,correct,,0.14940000255592167,1.0
+fast,C01,world,WORLD,0,0,WORLD,True,correct,,0.13749999925494194,1.0
+fast,C01,world,WORLD,1,0,WORLD,True,correct,,0.4650999981095083,1.0
+fast,C01,world,WORLD,2,0,WORLD,True,correct,,0.1688999982434325,1.0
+fast,C01,world,WORLD,3,0,WORLD,True,correct,,0.15729999722680077,1.0
+fast,C01,world,WORLD,4,0,WORLD,True,correct,,0.15780000103404745,1.0
+fast,C02,test,TEST,0,0,TEST,True,correct,,0.1520000005257316,1.0
+fast,C02,test,TEST,1,0,TEST,True,correct,,0.14620000001741573,1.0
+fast,C02,test,TEST,2,0,TEST,True,correct,,0.16250000044237822,1.0
+fast,C02,test,TEST,3,0,TEST,True,correct,,0.15269999857991934,1.0
+fast,C02,test,TEST,4,0,TEST,True,correct,,0.1568000006955117,1.0
+fast,C03,a,A,0,0,A,True,correct,,0.1871999993454665,1.0
+fast,C03,a,A,1,0,A,True,correct,,0.2356000040890649,1.0
+fast,C03,a,A,2,0,A,True,correct,,0.14319999900180846,1.0
+fast,C03,a,A,3,0,A,True,correct,,0.16169999435078353,1.0
+fast,C03,a,A,4,0,A,True,correct,,0.13829999807057902,1.0
+fast,C04,,,0,0,,True,correct,,0.14059999375604093,1.0
+fast,C04,,,1,0,,True,correct,,0.13559999933931977,1.0
+fast,C04,,,2,0,,True,correct,,0.1353999978164211,1.0
+fast,C04,,,3,0,,True,correct,,0.13179999950807542,1.0
+fast,C04,,,4,0,,True,correct,,0.13529999705497175,1.0
+fast,C05,go,GO,0,0,GO,True,correct,,0.14789999841013923,1.0
+fast,C05,go,GO,1,0,GO,True,correct,,0.15870000061113387,1.0
+fast,C05,go,GO,2,0,GO,True,correct,,0.14969999756431207,1.0
+fast,C05,go,GO,3,0,GO,True,correct,,0.14370000280905515,1.0
+fast,C05,go,GO,4,0,GO,True,correct,,0.14980000560171902,1.0
+fast,C06,run,RUN,0,0,RUN,True,correct,,0.1613000058569014,1.0
+fast,C06,run,RUN,1,0,RUN,True,correct,,0.14139999984763563,1.0
+fast,C06,run,RUN,2,0,RUN,True,correct,,0.1412999990861863,1.0
+fast,C06,run,RUN,3,0,RUN,True,correct,,0.13700000272365287,1.0
+fast,C06,run,RUN,4,0,RUN,True,correct,,0.13419999595498666,1.0
+fast,C07,model,MODEL,0,0,MODEL,True,correct,,0.1362999973935075,1.0
+fast,C07,model,MODEL,1,0,MODEL,True,correct,,0.13480000052368268,1.0
+fast,C07,model,MODEL,2,0,MODEL,True,correct,,0.1604999997653067,1.0
+fast,C07,model,MODEL,3,0,MODEL,True,correct,,0.134299996716436,1.0
+fast,C07,model,MODEL,4,0,MODEL,True,correct,,0.12970000534551218,1.0
+fast,C08,tiny,TINY,0,0,TINY,True,correct,,0.13670000043930486,1.0
+fast,C08,tiny,TINY,1,0,TINY,True,correct,,0.12849999620812014,1.0
+fast,C08,tiny,TINY,2,0,TINY,True,correct,,0.12879999849246815,1.0
+fast,C08,tiny,TINY,3,0,TINY,True,correct,,0.12469999637687579,1.0
+fast,C08,tiny,TINY,4,0,TINY,True,correct,,0.12799999967683107,1.0
+fast,C09,data,DATA,0,0,DATA,True,correct,,0.1286999977310188,1.0
+fast,C09,data,DATA,1,0,DATA,True,correct,,0.3440000000409782,1.0
+fast,C09,data,DATA,2,0,DATA,True,correct,,0.1373999984934926,1.0
+fast,C09,data,DATA,3,0,DATA,True,correct,,0.13249999756226316,1.0
+fast,C09,data,DATA,4,0,DATA,True,correct,,0.13139999646227807,1.0
+fast,C10,python,PYTHON,0,0,PYTHON,True,correct,,0.14080000255489722,1.0
+fast,C10,python,PYTHON,1,0,PYTHON,True,correct,,0.13160000526113436,1.0
+fast,C10,python,PYTHON,2,0,PYTHON,True,correct,,0.14509999891743064,1.0
+fast,C10,python,PYTHON,3,0,PYTHON,True,correct,,0.14369999553309754,1.0
+fast,C10,python,PYTHON,4,0,PYTHON,True,correct,,0.13349999790079892,1.0
+fast,C11,runner,RUNNER,0,0,RUNNER,True,correct,,0.19640000391518697,1.0
+fast,C11,runner,RUNNER,1,0,RUNNER,True,correct,,0.14930000179447234,1.0
+fast,C11,runner,RUNNER,2,0,RUNNER,True,correct,,0.14419999934034422,1.0
+fast,C11,runner,RUNNER,3,0,RUNNER,True,correct,,0.1384999995934777,1.0
+fast,C11,runner,RUNNER,4,0,RUNNER,True,correct,,0.13330000365385786,1.0
+fast,C12,adapter,ADAPTER,0,0,ADAPTER,True,correct,,0.15069999790284783,1.0
+fast,C12,adapter,ADAPTER,1,0,ADAPTER,True,correct,,0.13150000449968502,1.0
+fast,C12,adapter,ADAPTER,2,0,ADAPTER,True,correct,,0.13649999891640618,1.0
+fast,C12,adapter,ADAPTER,3,0,ADAPTER,True,correct,,0.13419999595498666,1.0
+fast,C12,adapter,ADAPTER,4,0,ADAPTER,True,correct,,0.13329999637790024,1.0
+fast,C13,latency,LATENCY,0,0,LATENCY,True,correct,,0.13079999916953966,1.0
+fast,C13,latency,LATENCY,1,0,LATENCY,True,correct,,0.13480000052368268,1.0
+fast,C13,latency,LATENCY,2,0,LATENCY,True,correct,,0.13659999967785552,1.0
+fast,C13,latency,LATENCY,3,0,LATENCY,True,correct,,0.16940000205067918,1.0
+fast,C13,latency,LATENCY,4,0,LATENCY,True,correct,,0.15490000077988952,1.0
+fast,C14,timeout,TIMEOUT,0,0,TIMEOUT,True,correct,,0.1508999994257465,1.0
+fast,C14,timeout,TIMEOUT,1,0,TIMEOUT,True,correct,,0.258100000792183,1.0
+fast,C14,timeout,TIMEOUT,2,0,TIMEOUT,True,correct,,0.16650000179652125,1.0
+fast,C14,timeout,TIMEOUT,3,0,TIMEOUT,True,correct,,0.14549999468727037,1.0
+fast,C14,timeout,TIMEOUT,4,0,TIMEOUT,True,correct,,0.15169999824138358,1.0
+fast,C15,retry,RETRY,0,0,RETRY,True,correct,,0.14000000373926014,1.0
+fast,C15,retry,RETRY,1,0,RETRY,True,correct,,0.1336999994236976,1.0
+fast,C15,retry,RETRY,2,0,RETRY,True,correct,,0.13780000153928995,1.0
+fast,C15,retry,RETRY,3,0,RETRY,True,correct,,0.17079999815905467,1.0
+fast,C15,retry,RETRY,4,0,RETRY,True,correct,,0.14430000010179356,1.0
+fast,C16,failure,FAILURE,0,0,FAILURE,True,correct,,0.14679999731015414,1.0
+fast,C16,failure,FAILURE,1,0,FAILURE,True,correct,,0.13530000433092937,1.0
+fast,C16,failure,FAILURE,2,0,FAILURE,True,correct,,0.13309999485500157,1.0
+fast,C16,failure,FAILURE,3,0,FAILURE,True,correct,,0.149200001033023,1.0
+fast,C16,failure,FAILURE,4,0,FAILURE,True,correct,,0.1320999945164658,1.0
+fast,C17,cost,COST,0,0,COST,True,correct,,0.14840000221738592,1.0
+fast,C17,cost,COST,1,0,COST,True,correct,,0.13130000297678635,1.0
+fast,C17,cost,COST,2,0,COST,True,correct,,0.3223000021534972,1.0
+fast,C17,cost,COST,3,0,COST,True,correct,,0.15130000247154385,1.0
+fast,C17,cost,COST,4,0,COST,True,correct,,0.14409999857889488,1.0
+fast,C18,evaluation,EVALUATION,0,0,EVALUATION,True,correct,,0.1649999976507388,1.0
+fast,C18,evaluation,EVALUATION,1,0,EVALUATION,True,correct,,0.14830000145593658,1.0
+fast,C18,evaluation,EVALUATION,2,0,EVALUATION,True,correct,,0.16659999528201297,1.0
+fast,C18,evaluation,EVALUATION,3,0,EVALUATION,True,correct,,0.16659999528201297,1.0
+fast,C18,evaluation,EVALUATION,4,0,EVALUATION,True,correct,,0.1674999948590994,1.0
+fast,C19,reproducible,REPRODUCIBLE,0,0,REPRODUCIBLE,True,correct,,0.15619999612681568,1.0
+fast,C19,reproducible,REPRODUCIBLE,1,0,REPRODUCIBLE,True,correct,,0.30669999978272244,1.0
+fast,C19,reproducible,REPRODUCIBLE,2,0,REPRODUCIBLE,True,correct,,0.15639999764971435,1.0
+fast,C19,reproducible,REPRODUCIBLE,3,0,REPRODUCIBLE,True,correct,,0.15100000018719584,1.0
+fast,C19,reproducible,REPRODUCIBLE,4,0,REPRODUCIBLE,True,correct,,0.15490000077988952,1.0
+fast,C20,hello world,HELLO WORLD,0,0,HELLO WORLD,True,correct,,0.16500000492669642,1.0
+fast,C20,hello world,HELLO WORLD,1,0,HELLO WORLD,True,correct,,0.14139999984763563,1.0
+fast,C20,hello world,HELLO WORLD,2,0,HELLO WORLD,True,correct,,0.14630000077886507,1.0
+fast,C20,hello world,HELLO WORLD,3,0,HELLO WORLD,True,correct,,0.1351000028080307,1.0
+fast,C20,hello world,HELLO WORLD,4,0,HELLO WORLD,True,correct,,0.14090000331634656,1.0
+fast,C21,tiny model,TINY MODEL,0,0,TINY MODEL,True,correct,,0.13679999392479658,1.0
+fast,C21,tiny model,TINY MODEL,1,0,TINY MODEL,True,correct,,0.1562000034027733,1.0
+fast,C21,tiny model,TINY MODEL,2,0,TINY MODEL,True,correct,,0.15020000137155876,1.0
+fast,C21,tiny model,TINY MODEL,3,0,TINY MODEL,True,correct,,0.15189999976428226,1.0
+fast,C21,tiny model,TINY MODEL,4,0,TINY MODEL,True,correct,,0.14709999959450215,1.0
+fast,C22,evaluation runner,EVALUATION RUNNER,0,0,EVALUATION RUNNER,True,correct,,0.14220000593923032,1.0
+fast,C22,evaluation runner,EVALUATION RUNNER,1,0,EVALUATION RUNNER,True,correct,,0.18979999731527641,1.0
+fast,C22,evaluation runner,EVALUATION RUNNER,2,0,EVALUATION RUNNER,True,correct,,0.15949999942677096,1.0
+fast,C22,evaluation runner,EVALUATION RUNNER,3,0,EVALUATION RUNNER,True,correct,,0.15279999934136868,1.0
+fast,C22,evaluation runner,EVALUATION RUNNER,4,0,EVALUATION RUNNER,True,correct,,0.14340000052470714,1.0
+fast,C23,adapter ranking,ADAPTER RANKING,0,0,ADAPTER RANKING,True,correct,,0.1393000056850724,1.0
+fast,C23,adapter ranking,ADAPTER RANKING,1,0,ADAPTER RANKING,True,correct,,0.13649999891640618,1.0
+fast,C23,adapter ranking,ADAPTER RANKING,2,0,ADAPTER RANKING,True,correct,,0.2674999996088445,1.0
+fast,C23,adapter ranking,ADAPTER RANKING,3,0,ADAPTER RANKING,True,correct,,0.13349999790079892,1.0
+fast,C23,adapter ranking,ADAPTER RANKING,4,0,ADAPTER RANKING,True,correct,,0.13390000094659626,1.0
+fast,C24,keep failures visible,KEEP FAILURES VISIBLE,0,0,KEEP FAILURES VISIBLE,True,correct,,0.13699999544769526,1.0
+fast,C24,keep failures visible,KEEP FAILURES VISIBLE,1,0,KEEP FAILURES VISIBLE,True,correct,,0.1402000052621588,1.0
+fast,C24,keep failures visible,KEEP FAILURES VISIBLE,2,0,KEEP FAILURES VISIBLE,True,correct,,0.1979000007850118,1.0
+fast,C24,keep failures visible,KEEP FAILURES VISIBLE,3,0,KEEP FAILURES VISIBLE,True,correct,,0.21949999791104347,1.0
+fast,C24,keep failures visible,KEEP FAILURES VISIBLE,4,0,KEEP FAILURES VISIBLE,True,correct,,0.13800000306218863,1.0
+fast,C25,straße,STRASSE,0,0,STRASSE,True,correct,,0.6800999981351197,1.0
+fast,C25,straße,STRASSE,1,0,STRASSE,True,correct,,0.20560000120894983,1.0
+fast,C25,straße,STRASSE,2,0,STRASSE,True,correct,,0.17040000238921493,1.0
+fast,C25,straße,STRASSE,3,0,STRASSE,True,correct,,0.16180000238819048,1.0
+fast,C25,straße,STRASSE,4,0,STRASSE,True,correct,,0.16010000399546698,1.0
+fast,C26,mañana,MAÑANA,0,0,MAÑANA,True,correct,,0.156299996888265,1.0
+fast,C26,mañana,MAÑANA,1,0,MAÑANA,True,correct,,0.16069999401224777,1.0
+fast,C26,mañana,MAÑANA,2,0,MAÑANA,True,correct,,0.14799999917158857,1.0
+fast,C26,mañana,MAÑANA,3,0,MAÑANA,True,correct,,0.13999999646330252,1.0
+fast,C26,mañana,MAÑANA,4,0,MAÑANA,True,correct,,0.1517000055173412,1.0
+fast,C27,café,CAFÉ,0,0,CAFÉ,True,correct,,0.13749999925494194,1.0
+fast,C27,café,CAFÉ,1,0,CAFÉ,True,correct,,0.14510000619338825,1.0
+fast,C27,café,CAFÉ,2,0,CAFÉ,True,correct,,0.14090000331634656,1.0
+fast,C27,café,CAFÉ,3,0,CAFÉ,True,correct,,0.15700000221841037,1.0
+fast,C27,café,CAFÉ,4,0,CAFÉ,True,correct,,0.14309999824035913,1.0
+fast,C28,naïve,NAÏVE,0,0,NAÏVE,True,correct,,0.14460000238614157,1.0
+fast,C28,naïve,NAÏVE,1,0,NAÏVE,True,correct,,0.15720000374130905,1.0
+fast,C28,naïve,NAÏVE,2,0,NAÏVE,True,correct,,0.5500999977812171,1.0
+fast,C28,naïve,NAÏVE,3,0,NAÏVE,True,correct,,0.18390000332146883,1.0
+fast,C28,naïve,NAÏVE,4,0,NAÏVE,True,correct,,0.16200000391108915,1.0
+fast,C29,Ångström,ÅNGSTRÖM,0,0,ÅNGSTRÖM,True,correct,,0.17409999418305233,1.0
+fast,C29,Ångström,ÅNGSTRÖM,1,0,ÅNGSTRÖM,True,correct,,0.16829999367473647,1.0
+fast,C29,Ångström,ÅNGSTRÖM,2,0,ÅNGSTRÖM,True,correct,,0.15890000213403255,1.0
+fast,C29,Ångström,ÅNGSTRÖM,3,0,ÅNGSTRÖM,True,correct,,0.17139999545179307,1.0
+fast,C29,Ångström,ÅNGSTRÖM,4,0,ÅNGSTRÖM,True,correct,,0.15939999866532162,1.0
+fast,C30,a b c,A B C,0,0,A B C,True,correct,,0.1472000003559515,1.0
+fast,C30,a b c,A B C,1,0,A B C,True,correct,,0.1430000047548674,1.0
+fast,C30,a b c,A B C,2,0,A B C,True,correct,,0.1427000024705194,1.0
+fast,C30,a b c,A B C,3,0,A B C,True,correct,,0.14009999722475186,1.0
+fast,C30,a b c,A B C,4,0,A B C,True,correct,,0.15079999866429716,1.0
+fast,C31,  spaced  ,  SPACED  ,0,0,  SPACED  ,True,correct,,0.14250000094762072,1.0
+fast,C31,  spaced  ,  SPACED  ,1,0,  SPACED  ,True,correct,,0.13870000111637637,1.0
+fast,C31,  spaced  ,  SPACED  ,2,0,  SPACED  ,True,correct,,0.185800003237091,1.0
+fast,C31,  spaced  ,  SPACED  ,3,0,  SPACED  ,True,correct,,0.13390000094659626,1.0
+fast,C31,  spaced  ,  SPACED  ,4,0,  SPACED  ,True,correct,,0.1551000023027882,1.0
+fast,C32,12345,12345,0,0,12345,True,correct,,0.17549999756738544,1.0
+fast,C32,12345,12345,1,0,12345,True,correct,,0.17359999765176326,1.0
+fast,C32,12345,12345,2,0,12345,True,correct,,0.15970000094966963,1.0
+fast,C32,12345,12345,3,0,12345,True,correct,,0.15520000306423753,1.0
+fast,C32,12345,12345,4,0,12345,True,correct,,0.1506000044173561,1.0
+fast,C33,mixedCase 42,MIXEDCASE 42,0,0,MIXEDCASE 42,True,correct,,0.14660000306321308,1.0
+fast,C33,mixedCase 42,MIXEDCASE 42,1,0,MIXEDCASE 42,True,correct,,0.1612999985809438,1.0
+fast,C33,mixedCase 42,MIXEDCASE 42,2,0,MIXEDCASE 42,True,correct,,0.15390000044135377,1.0
+fast,C33,mixedCase 42,MIXEDCASE 42,3,0,MIXEDCASE 42,True,correct,,0.15949999942677096,1.0
+fast,C33,mixedCase 42,MIXEDCASE 42,4,0,MIXEDCASE 42,True,correct,,0.19270000484539196,1.0
+fast,C34,xxxxxxxxxx,XXXXXXXXXX,0,0,XXXXXXXXXX,True,correct,,0.17210000078193843,1.0
+fast,C34,xxxxxxxxxx,XXXXXXXXXX,1,0,XXXXXXXXXX,True,correct,,0.1477999976486899,1.0
+fast,C34,xxxxxxxxxx,XXXXXXXXXX,2,0,XXXXXXXXXX,True,correct,,0.15580000035697594,1.0
+fast,C34,xxxxxxxxxx,XXXXXXXXXX,3,0,XXXXXXXXXX,True,correct,,0.14679999731015414,1.0
+fast,C34,xxxxxxxxxx,XXXXXXXXXX,4,0,XXXXXXXXXX,True,correct,,0.13310000213095918,1.0
+fast,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,0,0,YYYYYYYYYYYY,True,correct,,0.13439999747788534,1.0
+fast,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,1,0,YYYYYYYYYYYY,True,correct,,0.13770000077784061,1.0
+fast,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,2,0,YYYYYYYYYYYY,True,correct,,0.1436000020476058,1.0
+fast,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,3,0,YYYYYYYYYYYY,True,correct,,0.15010000061010942,1.0
+fast,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,4,0,YYYYYYYYYYYY,True,correct,,0.4870000047958456,1.0
+fast,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,0,0,ZZZZZZZZZZZZZZZZ,True,correct,,0.1655000014579855,1.0
+fast,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,0,ZZZZZZZZZZZZZZZZ,True,correct,,0.17389999993611127,1.0
+fast,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,2,0,ZZZZZZZZZZZZZZZZ,True,correct,,0.1692000005277805,1.0
+fast,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,3,0,ZZZZZZZZZZZZZZZZ,True,correct,,0.16400000458816066,1.0
+fast,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,0,ZZZZZZZZZZZZZZZZ,True,correct,,0.1554000045871362,1.0
+fast,C37,abababababababababab,ABABABABABABABABABAB,0,0,ABABABABABABABABABAB,True,correct,,0.1357000001007691,1.0
+fast,C37,abababababababababab,ABABABABABABABABABAB,1,0,ABABABABABABABABABAB,True,correct,,0.16090000281110406,1.0
+fast,C37,abababababababababab,ABABABABABABABABABAB,2,0,ABABABABABABABABABAB,True,correct,,0.15980000171111897,1.0
+fast,C37,abababababababababab,ABABABABABABABABABAB,3,0,ABABABABABABABABABAB,True,correct,,0.1632999992580153,1.0
+fast,C37,abababababababababab,ABABABABABABABABABAB,4,0,ABABABABABABABABABAB,True,correct,,0.1571000029798597,1.0
+fast,C38,short,SHORT,0,0,SHORT,True,correct,,0.16340000001946464,1.0
+fast,C38,short,SHORT,1,0,SHORT,True,correct,,0.13939999917056412,1.0
+fast,C38,short,SHORT,2,0,SHORT,True,correct,,0.15659999917261302,1.0
+fast,C38,short,SHORT,3,0,SHORT,True,correct,,0.15420000272570178,1.0
+fast,C38,short,SHORT,4,0,SHORT,True,correct,,0.16310000501107424,1.0
+fast,C39,longer phrase here,LONGER PHRASE HERE,0,0,LONGER PHRASE HERE,True,correct,,0.15659999917261302,1.0
+fast,C39,longer phrase here,LONGER PHRASE HERE,1,0,LONGER PHRASE HERE,True,correct,,0.1588000013725832,1.0
+fast,C39,longer phrase here,LONGER PHRASE HERE,2,0,LONGER PHRASE HERE,True,correct,,0.1540000012028031,1.0
+fast,C39,longer phrase here,LONGER PHRASE HERE,3,0,LONGER PHRASE HERE,True,correct,,0.2625999986776151,1.0
+fast,C39,longer phrase here,LONGER PHRASE HERE,4,0,LONGER PHRASE HERE,True,correct,,0.20419999782461673,1.0
+transient,C00,hello,HELLO,0,0,,False,error,RuntimeError: deterministic transient failure,0.21879999985685572,1.0
+transient,C00,hello,HELLO,0,1,HELLO,True,correct,,0.41540000529494137,1.0
+transient,C00,hello,HELLO,1,0,,False,error,RuntimeError: deterministic transient failure,1.044299999193754,1.0
+transient,C00,hello,HELLO,1,1,,False,error,RuntimeError: deterministic transient failure,0.21800000104121864,1.0
+transient,C00,hello,HELLO,1,2,,False,error,RuntimeError: deterministic transient failure,0.17179999849759042,1.0
+transient,C00,hello,HELLO,1,3,HELLO,True,correct,,0.15559999883407727,1.0
+transient,C00,hello,HELLO,2,0,,False,error,RuntimeError: deterministic transient failure,0.2015999998548068,1.0
+transient,C00,hello,HELLO,2,1,HELLO,True,correct,,0.26819999766303226,1.0
+transient,C00,hello,HELLO,3,0,HELLO,True,correct,,0.18149999959859997,1.0
+transient,C00,hello,HELLO,4,0,HELLO,True,correct,,0.16489999688928947,1.0
+transient,C01,world,WORLD,0,0,WORLD,True,correct,,0.33940000139409676,1.0
+transient,C01,world,WORLD,1,0,WORLD,True,correct,,0.18900000577559695,1.0
+transient,C01,world,WORLD,2,0,WORLD,True,correct,,0.170899998920504,1.0
+transient,C01,world,WORLD,3,0,,False,error,RuntimeError: deterministic transient failure,0.17269999807467684,1.0
+transient,C01,world,WORLD,3,1,WORLD,True,correct,,0.16969999705906957,1.0
+transient,C01,world,WORLD,4,0,WORLD,True,correct,,0.167199999850709,1.0
+transient,C02,test,TEST,0,0,TEST,True,correct,,0.15439999697264284,1.0
+transient,C02,test,TEST,1,0,TEST,True,correct,,0.1551000023027882,1.0
+transient,C02,test,TEST,2,0,TEST,True,correct,,0.1472000003559515,1.0
+transient,C02,test,TEST,3,0,TEST,True,correct,,0.1720000000204891,1.0
+transient,C02,test,TEST,4,0,,False,error,RuntimeError: deterministic transient failure,0.15320000238716602,1.0
+transient,C02,test,TEST,4,1,TEST,True,correct,,0.15079999866429716,1.0
+transient,C03,a,A,0,0,A,True,correct,,0.1731000011204742,1.0
+transient,C03,a,A,1,0,,False,error,RuntimeError: deterministic transient failure,0.1565000056871213,1.0
+transient,C03,a,A,1,1,A,True,correct,,0.14749999536434188,1.0
+transient,C03,a,A,2,0,,False,error,RuntimeError: deterministic transient failure,0.1497999983257614,1.0
+transient,C03,a,A,2,1,A,True,correct,,0.1810000030673109,1.0
+transient,C03,a,A,3,0,A,True,correct,,0.14409999857889488,1.0
+transient,C03,a,A,4,0,,False,error,RuntimeError: deterministic transient failure,0.1788000008673407,1.0
+transient,C03,a,A,4,1,A,True,correct,,0.17159999697469175,1.0
+transient,C04,,,0,0,,True,correct,,0.16999999934341758,1.0
+transient,C04,,,1,0,,True,correct,,0.145500001963228,1.0
+transient,C04,,,2,0,,False,error,RuntimeError: deterministic transient failure,0.1564999984111637,1.0
+transient,C04,,,2,1,,True,correct,,0.15439999697264284,1.0
+transient,C04,,,3,0,,True,correct,,0.15419999544974416,1.0
+transient,C04,,,4,0,,True,correct,,0.15409999468829483,1.0
+transient,C05,go,GO,0,0,GO,True,correct,,0.14569999621016905,1.0
+transient,C05,go,GO,1,0,GO,True,correct,,0.14569999621016905,1.0
+transient,C05,go,GO,2,0,GO,True,correct,,0.1412999990861863,1.0
+transient,C05,go,GO,3,0,GO,True,correct,,0.14899999951012433,1.0
+transient,C05,go,GO,4,0,GO,True,correct,,0.14599999849451706,1.0
+transient,C06,run,RUN,0,0,RUN,True,correct,,0.16350000078091398,1.0
+transient,C06,run,RUN,1,0,RUN,True,correct,,0.1412999990861863,1.0
+transient,C06,run,RUN,2,0,,False,error,RuntimeError: deterministic transient failure,0.1424999936716631,1.0
+transient,C06,run,RUN,2,1,,False,error,RuntimeError: deterministic transient failure,0.15379999967990443,1.0
+transient,C06,run,RUN,2,2,,False,error,RuntimeError: deterministic transient failure,0.16120000509545207,1.0
+transient,C06,run,RUN,2,3,RUN,True,correct,,0.15020000137155876,1.0
+transient,C06,run,RUN,3,0,,False,error,RuntimeError: deterministic transient failure,0.15940000594127923,1.0
+transient,C06,run,RUN,3,1,,False,error,RuntimeError: deterministic transient failure,0.1405000002705492,1.0
+transient,C06,run,RUN,3,2,RUN,True,correct,,0.1999000014620833,1.0
+transient,C06,run,RUN,4,0,,False,error,RuntimeError: deterministic transient failure,0.1731999946059659,1.0
+transient,C06,run,RUN,4,1,RUN,True,correct,,0.15839999832678586,1.0
+transient,C07,model,MODEL,0,0,,False,error,RuntimeError: deterministic transient failure,0.15159999747993425,1.0
+transient,C07,model,MODEL,0,1,,False,error,RuntimeError: deterministic transient failure,0.16420000611105934,1.0
+transient,C07,model,MODEL,0,2,MODEL,True,correct,,0.15100000018719584,1.0
+transient,C07,model,MODEL,1,0,,False,error,RuntimeError: deterministic transient failure,0.1453000004403293,1.0
+transient,C07,model,MODEL,1,1,MODEL,True,correct,,0.16410000534961,1.0
+transient,C07,model,MODEL,2,0,MODEL,True,correct,,0.15100000018719584,1.0
+transient,C07,model,MODEL,3,0,MODEL,True,correct,,0.1579000017954968,1.0
+transient,C07,model,MODEL,4,0,MODEL,True,correct,,0.13819999730912969,1.0
+transient,C08,tiny,TINY,0,0,TINY,True,correct,,0.1463999942643568,1.0
+transient,C08,tiny,TINY,1,0,TINY,True,correct,,0.13819999730912969,1.0
+transient,C08,tiny,TINY,2,0,,False,error,RuntimeError: deterministic transient failure,0.1419000036548823,1.0
+transient,C08,tiny,TINY,2,1,,False,error,RuntimeError: deterministic transient failure,0.1404999929945916,1.0
+transient,C08,tiny,TINY,2,2,TINY,True,correct,,0.1416000013705343,1.0
+transient,C08,tiny,TINY,3,0,TINY,True,correct,,0.13050000416114926,1.0
+transient,C08,tiny,TINY,4,0,TINY,True,correct,,0.13670000043930486,1.0
+transient,C09,data,DATA,0,0,DATA,True,correct,,0.1390999968862161,1.0
+transient,C09,data,DATA,1,0,DATA,True,correct,,0.13970000145491213,1.0
+transient,C09,data,DATA,2,0,DATA,True,correct,,0.3938000008929521,1.0
+transient,C09,data,DATA,3,0,DATA,True,correct,,0.15130000247154385,1.0
+transient,C09,data,DATA,4,0,,False,error,RuntimeError: deterministic transient failure,0.15069999790284783,1.0
+transient,C09,data,DATA,4,1,DATA,True,correct,,0.14489999739453197,1.0
+transient,C10,python,PYTHON,0,0,PYTHON,True,correct,,0.15050000365590677,1.0
+transient,C10,python,PYTHON,1,0,,False,error,RuntimeError: deterministic transient failure,0.15350000467151403,1.0
+transient,C10,python,PYTHON,1,1,PYTHON,True,correct,,0.15490000077988952,1.0
+transient,C10,python,PYTHON,2,0,PYTHON,True,correct,,0.1857999959611334,1.0
+transient,C10,python,PYTHON,3,0,PYTHON,True,correct,,0.14689999807160348,1.0
+transient,C10,python,PYTHON,4,0,PYTHON,True,correct,,0.4182999982731417,1.0
+transient,C11,runner,RUNNER,0,0,RUNNER,True,correct,,0.15549999807262793,1.0
+transient,C11,runner,RUNNER,1,0,,False,error,RuntimeError: deterministic transient failure,0.15440000424860045,1.0
+transient,C11,runner,RUNNER,1,1,,False,error,RuntimeError: deterministic transient failure,0.14699999883305281,1.0
+transient,C11,runner,RUNNER,1,2,RUNNER,True,correct,,0.13760000001639128,1.0
+transient,C11,runner,RUNNER,2,0,,False,error,RuntimeError: deterministic transient failure,0.1368000012007542,1.0
+transient,C11,runner,RUNNER,2,1,RUNNER,True,correct,,0.13919999764766544,1.0
+transient,C11,runner,RUNNER,3,0,RUNNER,True,correct,,0.13939999917056412,1.0
+transient,C11,runner,RUNNER,4,0,RUNNER,True,correct,,0.14579999697161838,1.0
+transient,C12,adapter,ADAPTER,0,0,ADAPTER,True,correct,,0.13939999917056412,1.0
+transient,C12,adapter,ADAPTER,1,0,,False,error,RuntimeError: deterministic transient failure,0.3341000046930276,1.0
+transient,C12,adapter,ADAPTER,1,1,ADAPTER,True,correct,,0.17459999799029902,1.0
+transient,C12,adapter,ADAPTER,2,0,ADAPTER,True,correct,,0.1664000010350719,1.0
+transient,C12,adapter,ADAPTER,3,0,ADAPTER,True,correct,,0.17010000010486692,1.0
+transient,C12,adapter,ADAPTER,4,0,,False,error,RuntimeError: deterministic transient failure,0.16929999401327223,1.0
+transient,C12,adapter,ADAPTER,4,1,ADAPTER,True,correct,,0.170899998920504,1.0
+transient,C13,latency,LATENCY,0,0,LATENCY,True,correct,,0.14250000094762072,1.0
+transient,C13,latency,LATENCY,1,0,LATENCY,True,correct,,0.13720000424655154,1.0
+transient,C13,latency,LATENCY,2,0,LATENCY,True,correct,,0.19809999503195286,1.0
+transient,C13,latency,LATENCY,3,0,LATENCY,True,correct,,0.15010000061010942,1.0
+transient,C13,latency,LATENCY,4,0,,False,error,RuntimeError: deterministic transient failure,0.14399999781744555,1.0
+transient,C13,latency,LATENCY,4,1,,False,error,RuntimeError: deterministic transient failure,0.14290000399341807,1.0
+transient,C13,latency,LATENCY,4,2,LATENCY,True,correct,,0.1373999984934926,1.0
+transient,C14,timeout,TIMEOUT,0,0,TIMEOUT,True,correct,,0.1362999973935075,1.0
+transient,C14,timeout,TIMEOUT,1,0,TIMEOUT,True,correct,,0.14980000560171902,1.0
+transient,C14,timeout,TIMEOUT,2,0,,False,error,RuntimeError: deterministic transient failure,0.1419000036548823,1.0
+transient,C14,timeout,TIMEOUT,2,1,TIMEOUT,True,correct,,0.14430000010179356,1.0
+transient,C14,timeout,TIMEOUT,3,0,TIMEOUT,True,correct,,0.13469999976223335,1.0
+transient,C14,timeout,TIMEOUT,4,0,TIMEOUT,True,correct,,0.1523000028100796,1.0
+transient,C15,retry,RETRY,0,0,RETRY,True,correct,,0.14029999874765053,1.0
+transient,C15,retry,RETRY,1,0,,False,error,RuntimeError: deterministic transient failure,0.3643000018200837,1.0
+transient,C15,retry,RETRY,1,1,RETRY,True,correct,,0.18170000112149864,1.0
+transient,C15,retry,RETRY,2,0,RETRY,True,correct,,0.14480000390904024,1.0
+transient,C15,retry,RETRY,3,0,RETRY,True,correct,,0.16560000221943483,1.0
+transient,C15,retry,RETRY,4,0,,False,error,RuntimeError: deterministic transient failure,0.14540000120177865,1.0
+transient,C15,retry,RETRY,4,1,RETRY,True,correct,,0.2865999995265156,1.0
+transient,C16,failure,FAILURE,0,0,,False,error,RuntimeError: deterministic transient failure,0.15759999951114878,1.0
+transient,C16,failure,FAILURE,0,1,,False,error,RuntimeError: deterministic transient failure,0.1788000008673407,1.0
+transient,C16,failure,FAILURE,0,2,FAILURE,True,correct,,0.16080000204965472,1.0
+transient,C16,failure,FAILURE,1,0,,False,error,RuntimeError: deterministic transient failure,0.14509999891743064,1.0
+transient,C16,failure,FAILURE,1,1,FAILURE,True,correct,,0.14709999959450215,1.0
+transient,C16,failure,FAILURE,2,0,FAILURE,True,correct,,0.2930999980890192,1.0
+transient,C16,failure,FAILURE,3,0,FAILURE,True,correct,,0.14309999824035913,1.0
+transient,C16,failure,FAILURE,4,0,FAILURE,True,correct,,0.15330000314861536,1.0
+transient,C17,cost,COST,0,0,,False,error,RuntimeError: deterministic transient failure,0.149500003317371,1.0
+transient,C17,cost,COST,0,1,COST,True,correct,,0.14039999950909987,1.0
+transient,C17,cost,COST,1,0,COST,True,correct,,0.14930000179447234,1.0
+transient,C17,cost,COST,2,0,COST,True,correct,,0.1460999992559664,1.0
+transient,C17,cost,COST,3,0,COST,True,correct,,0.1508999994257465,1.0
+transient,C17,cost,COST,4,0,COST,True,correct,,0.17440000374335796,1.0
+transient,C18,evaluation,EVALUATION,0,0,EVALUATION,True,correct,,0.1740000006975606,1.0
+transient,C18,evaluation,EVALUATION,1,0,,False,error,RuntimeError: deterministic transient failure,0.15750000602565706,1.0
+transient,C18,evaluation,EVALUATION,1,1,EVALUATION,True,correct,,0.15919999714242294,1.0
+transient,C18,evaluation,EVALUATION,2,0,EVALUATION,True,correct,,0.15050000365590677,1.0
+transient,C18,evaluation,EVALUATION,3,0,,False,error,RuntimeError: deterministic transient failure,0.16950000281212851,1.0
+transient,C18,evaluation,EVALUATION,3,1,EVALUATION,True,correct,,0.167800004419405,1.0
+transient,C18,evaluation,EVALUATION,4,0,EVALUATION,True,correct,,0.14899999951012433,1.0
+transient,C19,reproducible,REPRODUCIBLE,0,0,REPRODUCIBLE,True,correct,,0.14589999773306772,1.0
+transient,C19,reproducible,REPRODUCIBLE,1,0,REPRODUCIBLE,True,correct,,0.16209999739658087,1.0
+transient,C19,reproducible,REPRODUCIBLE,2,0,,False,error,RuntimeError: deterministic transient failure,0.15390000044135377,1.0
+transient,C19,reproducible,REPRODUCIBLE,2,1,REPRODUCIBLE,True,correct,,0.18490000366000459,1.0
+transient,C19,reproducible,REPRODUCIBLE,3,0,REPRODUCIBLE,True,correct,,0.16990000585792586,1.0
+transient,C19,reproducible,REPRODUCIBLE,4,0,,False,error,RuntimeError: deterministic transient failure,0.14509999891743064,1.0
+transient,C19,reproducible,REPRODUCIBLE,4,1,,False,error,RuntimeError: deterministic transient failure,0.1503000021330081,1.0
+transient,C19,reproducible,REPRODUCIBLE,4,2,REPRODUCIBLE,True,correct,,0.14589999773306772,1.0
+transient,C20,hello world,HELLO WORLD,0,0,,False,error,RuntimeError: deterministic transient failure,0.15010000061010942,1.0
+transient,C20,hello world,HELLO WORLD,0,1,,False,error,RuntimeError: deterministic transient failure,0.1438000035705045,1.0
+transient,C20,hello world,HELLO WORLD,0,2,HELLO WORLD,True,correct,,0.3867999985232018,1.0
+transient,C20,hello world,HELLO WORLD,1,0,HELLO WORLD,True,correct,,0.16400000458816066,1.0
+transient,C20,hello world,HELLO WORLD,2,0,HELLO WORLD,True,correct,,0.1646999953663908,1.0
+transient,C20,hello world,HELLO WORLD,3,0,,False,error,RuntimeError: deterministic transient failure,0.16039999900385737,1.0
+transient,C20,hello world,HELLO WORLD,3,1,HELLO WORLD,True,correct,,0.14990000636316836,1.0
+transient,C20,hello world,HELLO WORLD,4,0,HELLO WORLD,True,correct,,0.3128000025753863,1.0
+transient,C21,tiny model,TINY MODEL,0,0,,False,error,RuntimeError: deterministic transient failure,0.2583999958005734,1.0
+transient,C21,tiny model,TINY MODEL,0,1,TINY MODEL,True,correct,,0.23669999791309237,1.0
+transient,C21,tiny model,TINY MODEL,1,0,TINY MODEL,True,correct,,0.1520000005257316,1.0
+transient,C21,tiny model,TINY MODEL,2,0,TINY MODEL,True,correct,,0.1486000037402846,1.0
+transient,C21,tiny model,TINY MODEL,3,0,TINY MODEL,True,correct,,0.14279999595601112,1.0
+transient,C21,tiny model,TINY MODEL,4,0,TINY MODEL,True,correct,,0.14899999951012433,1.0
+transient,C22,evaluation runner,EVALUATION RUNNER,0,0,,False,error,RuntimeError: deterministic transient failure,0.15309999434975907,1.0
+transient,C22,evaluation runner,EVALUATION RUNNER,0,1,,False,error,RuntimeError: deterministic transient failure,0.14670000382466242,1.0
+transient,C22,evaluation runner,EVALUATION RUNNER,0,2,EVALUATION RUNNER,True,correct,,0.14579999697161838,1.0
+transient,C22,evaluation runner,EVALUATION RUNNER,1,0,EVALUATION RUNNER,True,correct,,0.21189999824855477,1.0
+transient,C22,evaluation runner,EVALUATION RUNNER,2,0,,False,error,RuntimeError: deterministic transient failure,0.4842999987886287,1.0
+transient,C22,evaluation runner,EVALUATION RUNNER,2,1,EVALUATION RUNNER,True,correct,,0.16399999731220305,1.0
+transient,C22,evaluation runner,EVALUATION RUNNER,3,0,EVALUATION RUNNER,True,correct,,0.1812999980757013,1.0
+transient,C22,evaluation runner,EVALUATION RUNNER,4,0,,False,error,RuntimeError: deterministic transient failure,0.2249000026495196,1.0
+transient,C22,evaluation runner,EVALUATION RUNNER,4,1,EVALUATION RUNNER,True,correct,,0.1773000039975159,1.0
+transient,C23,adapter ranking,ADAPTER RANKING,0,0,ADAPTER RANKING,True,correct,,0.167800004419405,1.0
+transient,C23,adapter ranking,ADAPTER RANKING,1,0,ADAPTER RANKING,True,correct,,0.16150000010384247,1.0
+transient,C23,adapter ranking,ADAPTER RANKING,2,0,ADAPTER RANKING,True,correct,,0.22570000146515667,1.0
+transient,C23,adapter ranking,ADAPTER RANKING,3,0,ADAPTER RANKING,True,correct,,0.16320000577252358,1.0
+transient,C23,adapter ranking,ADAPTER RANKING,4,0,ADAPTER RANKING,True,correct,,0.15920000441838056,1.0
+transient,C24,keep failures visible,KEEP FAILURES VISIBLE,0,0,KEEP FAILURES VISIBLE,True,correct,,0.1568000006955117,1.0
+transient,C24,keep failures visible,KEEP FAILURES VISIBLE,1,0,KEEP FAILURES VISIBLE,True,correct,,0.1536999989184551,1.0
+transient,C24,keep failures visible,KEEP FAILURES VISIBLE,2,0,KEEP FAILURES VISIBLE,True,correct,,0.16119999781949446,1.0
+transient,C24,keep failures visible,KEEP FAILURES VISIBLE,3,0,,False,error,RuntimeError: deterministic transient failure,0.1514999967184849,1.0
+transient,C24,keep failures visible,KEEP FAILURES VISIBLE,3,1,KEEP FAILURES VISIBLE,True,correct,,0.14480000390904024,1.0
+transient,C24,keep failures visible,KEEP FAILURES VISIBLE,4,0,,False,error,RuntimeError: deterministic transient failure,0.1601999974809587,1.0
+transient,C24,keep failures visible,KEEP FAILURES VISIBLE,4,1,KEEP FAILURES VISIBLE,True,correct,,0.1548000000184402,1.0
+transient,C25,straße,STRASSE,0,0,,False,error,RuntimeError: deterministic transient failure,0.15520000306423753,1.0
+transient,C25,straße,STRASSE,0,1,,False,error,RuntimeError: deterministic transient failure,0.18180000188294798,1.0
+transient,C25,straße,STRASSE,0,2,STRASSE,True,correct,,0.17040000238921493,1.0
+transient,C25,straße,STRASSE,1,0,,False,error,RuntimeError: deterministic transient failure,0.15049999637994915,1.0
+transient,C25,straße,STRASSE,1,1,STRASSE,True,correct,,0.16320000577252358,1.0
+transient,C25,straße,STRASSE,2,0,STRASSE,True,correct,,0.1607999947736971,1.0
+transient,C25,straße,STRASSE,3,0,,False,error,RuntimeError: deterministic transient failure,0.1644000003580004,1.0
+transient,C25,straße,STRASSE,3,1,STRASSE,True,correct,,0.1584999990882352,1.0
+transient,C25,straße,STRASSE,4,0,,False,error,RuntimeError: deterministic transient failure,0.1857999959611334,1.0
+transient,C25,straße,STRASSE,4,1,STRASSE,True,correct,,0.18229999841423705,1.0
+transient,C26,mañana,MAÑANA,0,0,MAÑANA,True,correct,,0.1564999984111637,1.0
+transient,C26,mañana,MAÑANA,1,0,,False,error,RuntimeError: deterministic transient failure,0.1469000053475611,1.0
+transient,C26,mañana,MAÑANA,1,1,,False,error,RuntimeError: deterministic transient failure,0.16030000551836565,1.0
+transient,C26,mañana,MAÑANA,1,2,,False,error,RuntimeError: deterministic transient failure,0.14820000069448724,1.0
+transient,C26,mañana,MAÑANA,1,3,MAÑANA,True,correct,,0.14450000162469223,1.0
+transient,C26,mañana,MAÑANA,2,0,MAÑANA,True,correct,,0.14170000213198364,1.0
+transient,C26,mañana,MAÑANA,3,0,MAÑANA,True,correct,,0.14210000517778099,1.0
+transient,C26,mañana,MAÑANA,4,0,,False,error,RuntimeError: deterministic transient failure,0.14430000010179356,1.0
+transient,C26,mañana,MAÑANA,4,1,MAÑANA,True,correct,,0.1435999947716482,1.0
+transient,C27,café,CAFÉ,0,0,CAFÉ,True,correct,,0.16200000391108915,1.0
+transient,C27,café,CAFÉ,1,0,,False,error,RuntimeError: deterministic transient failure,0.1714000027277507,1.0
+transient,C27,café,CAFÉ,1,1,CAFÉ,True,correct,,0.21130000095581636,1.0
+transient,C27,café,CAFÉ,2,0,,False,error,RuntimeError: deterministic transient failure,0.1860999982454814,1.0
+transient,C27,café,CAFÉ,2,1,,False,error,RuntimeError: deterministic transient failure,0.15159999747993425,1.0
+transient,C27,café,CAFÉ,2,2,CAFÉ,True,correct,,0.1508999994257465,1.0
+transient,C27,café,CAFÉ,3,0,CAFÉ,True,correct,,0.16090000281110406,1.0
+transient,C27,café,CAFÉ,4,0,CAFÉ,True,correct,,0.15609999536536634,1.0
+transient,C28,naïve,NAÏVE,0,0,NAÏVE,True,correct,,0.1751000017975457,1.0
+transient,C28,naïve,NAÏVE,1,0,NAÏVE,True,correct,,0.15449999773409218,1.0
+transient,C28,naïve,NAÏVE,2,0,,False,error,RuntimeError: deterministic transient failure,0.15210000128718093,1.0
+transient,C28,naïve,NAÏVE,2,1,NAÏVE,True,correct,,0.14450000162469223,1.0
+transient,C28,naïve,NAÏVE,3,0,NAÏVE,True,correct,,0.1432999997632578,1.0
+transient,C28,naïve,NAÏVE,4,0,NAÏVE,True,correct,,0.14709999959450215,1.0
+transient,C29,Ångström,ÅNGSTRÖM,0,0,ÅNGSTRÖM,True,correct,,0.22399999579647556,1.0
+transient,C29,Ångström,ÅNGSTRÖM,1,0,ÅNGSTRÖM,True,correct,,0.152299995534122,1.0
+transient,C29,Ångström,ÅNGSTRÖM,2,0,,False,error,RuntimeError: deterministic transient failure,0.16260000120382756,1.0
+transient,C29,Ångström,ÅNGSTRÖM,2,1,ÅNGSTRÖM,True,correct,,0.1607999947736971,1.0
+transient,C29,Ångström,ÅNGSTRÖM,3,0,,False,error,RuntimeError: deterministic transient failure,0.16450000111944973,1.0
+transient,C29,Ångström,ÅNGSTRÖM,3,1,,False,error,RuntimeError: deterministic transient failure,0.15690000145696104,1.0
+transient,C29,Ångström,ÅNGSTRÖM,3,2,,False,error,RuntimeError: deterministic transient failure,0.3749999959836714,1.0
+transient,C29,Ångström,ÅNGSTRÖM,3,3,,False,error,RuntimeError: deterministic transient failure,0.17069999739760533,1.0
+transient,C29,Ångström,ÅNGSTRÖM,4,0,ÅNGSTRÖM,True,correct,,0.5262999984552152,1.0
+transient,C30,a b c,A B C,0,0,A B C,True,correct,,0.18559999443823472,1.0
+transient,C30,a b c,A B C,1,0,A B C,True,correct,,0.17720000323606655,1.0
+transient,C30,a b c,A B C,2,0,A B C,True,correct,,0.16239999968092889,1.0
+transient,C30,a b c,A B C,3,0,A B C,True,correct,,0.17590000061318278,1.0
+transient,C30,a b c,A B C,4,0,,False,error,RuntimeError: deterministic transient failure,0.15410000196425244,1.0
+transient,C30,a b c,A B C,4,1,A B C,True,correct,,0.14689999807160348,1.0
+transient,C31,  spaced  ,  SPACED  ,0,0,,False,error,RuntimeError: deterministic transient failure,0.15549999807262793,1.0
+transient,C31,  spaced  ,  SPACED  ,0,1,  SPACED  ,True,correct,,0.1587999940966256,1.0
+transient,C31,  spaced  ,  SPACED  ,1,0,  SPACED  ,True,correct,,0.1514999967184849,1.0
+transient,C31,  spaced  ,  SPACED  ,2,0,,False,error,RuntimeError: deterministic transient failure,0.15530000382568687,1.0
+transient,C31,  spaced  ,  SPACED  ,2,1,  SPACED  ,True,correct,,0.14479999663308263,1.0
+transient,C31,  spaced  ,  SPACED  ,3,0,  SPACED  ,True,correct,,0.14630000077886507,1.0
+transient,C31,  spaced  ,  SPACED  ,4,0,,False,error,RuntimeError: deterministic transient failure,0.14650000230176374,1.0
+transient,C31,  spaced  ,  SPACED  ,4,1,  SPACED  ,True,correct,,0.14700000610901043,1.0
+transient,C32,12345,12345,0,0,,False,error,RuntimeError: deterministic transient failure,0.1523000028100796,1.0
+transient,C32,12345,12345,0,1,12345,True,correct,,0.17949999892152846,1.0
+transient,C32,12345,12345,1,0,,False,error,RuntimeError: deterministic transient failure,0.17239999579032883,1.0
+transient,C32,12345,12345,1,1,12345,True,correct,,0.1612999985809438,1.0
+transient,C32,12345,12345,2,0,,False,error,RuntimeError: deterministic transient failure,0.15590000111842528,1.0
+transient,C32,12345,12345,2,1,,False,error,RuntimeError: deterministic transient failure,0.15449999773409218,1.0
+transient,C32,12345,12345,2,2,,False,error,RuntimeError: deterministic transient failure,0.170899998920504,1.0
+transient,C32,12345,12345,2,3,12345,True,correct,,0.20620000577764586,1.0
+transient,C32,12345,12345,3,0,12345,True,correct,,0.15269999857991934,1.0
+transient,C32,12345,12345,4,0,12345,True,correct,,0.16930000128922984,1.0
+transient,C33,mixedCase 42,MIXEDCASE 42,0,0,MIXEDCASE 42,True,correct,,0.1512000017100945,1.0
+transient,C33,mixedCase 42,MIXEDCASE 42,1,0,MIXEDCASE 42,True,correct,,0.1697999978205189,1.0
+transient,C33,mixedCase 42,MIXEDCASE 42,2,0,,False,error,RuntimeError: deterministic transient failure,0.14460000238614157,1.0
+transient,C33,mixedCase 42,MIXEDCASE 42,2,1,MIXEDCASE 42,True,correct,,0.14709999959450215,1.0
+transient,C33,mixedCase 42,MIXEDCASE 42,3,0,MIXEDCASE 42,True,correct,,0.1477999976486899,1.0
+transient,C33,mixedCase 42,MIXEDCASE 42,4,0,MIXEDCASE 42,True,correct,,0.14569999621016905,1.0
+transient,C34,xxxxxxxxxx,XXXXXXXXXX,0,0,XXXXXXXXXX,True,correct,,0.1483999949414283,1.0
+transient,C34,xxxxxxxxxx,XXXXXXXXXX,1,0,XXXXXXXXXX,True,correct,,0.15980000171111897,1.0
+transient,C34,xxxxxxxxxx,XXXXXXXXXX,2,0,XXXXXXXXXX,True,correct,,0.1486000037402846,1.0
+transient,C34,xxxxxxxxxx,XXXXXXXXXX,3,0,,False,error,RuntimeError: deterministic transient failure,0.14899999951012433,1.0
+transient,C34,xxxxxxxxxx,XXXXXXXXXX,3,1,XXXXXXXXXX,True,correct,,0.1464000015403144,1.0
+transient,C34,xxxxxxxxxx,XXXXXXXXXX,4,0,XXXXXXXXXX,True,correct,,0.17579999985173345,1.0
+transient,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,0,0,YYYYYYYYYYYY,True,correct,,0.20089999452466145,1.0
+transient,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,1,0,YYYYYYYYYYYY,True,correct,,0.16099999629659578,1.0
+transient,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,2,0,YYYYYYYYYYYY,True,correct,,0.17409999418305233,1.0
+transient,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,3,0,,False,error,RuntimeError: deterministic transient failure,0.37339999835239723,1.0
+transient,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,3,1,,False,error,RuntimeError: deterministic transient failure,0.17379999917466193,1.0
+transient,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,3,2,YYYYYYYYYYYY,True,correct,,0.2632000032463111,1.0
+transient,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,4,0,YYYYYYYYYYYY,True,correct,,0.16529999993508682,1.0
+transient,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,0,0,ZZZZZZZZZZZZZZZZ,True,correct,,0.18249999993713573,1.0
+transient,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,0,,False,error,RuntimeError: deterministic transient failure,0.20480000239331275,1.0
+transient,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,1,,False,error,RuntimeError: deterministic transient failure,0.28480000037234277,1.0
+transient,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,2,ZZZZZZZZZZZZZZZZ,True,correct,,0.174299995705951,1.0
+transient,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,2,0,ZZZZZZZZZZZZZZZZ,True,correct,,0.19289999909233302,1.0
+transient,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,3,0,ZZZZZZZZZZZZZZZZ,True,correct,,0.1644000003580004,1.0
+transient,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,0,ZZZZZZZZZZZZZZZZ,True,correct,,0.1570999957039021,1.0
+transient,C37,abababababababababab,ABABABABABABABABABAB,0,0,,False,error,RuntimeError: deterministic transient failure,0.16089999553514645,1.0
+transient,C37,abababababababababab,ABABABABABABABABABAB,0,1,,False,error,RuntimeError: deterministic transient failure,0.4020000051241368,1.0
+transient,C37,abababababababababab,ABABABABABABABABABAB,0,2,ABABABABABABABABABAB,True,correct,,0.16119999781949446,1.0
+transient,C37,abababababababababab,ABABABABABABABABABAB,1,0,ABABABABABABABABABAB,True,correct,,0.16960000357357785,1.0
+transient,C37,abababababababababab,ABABABABABABABABABAB,2,0,,False,error,RuntimeError: deterministic transient failure,0.15640000492567196,1.0
+transient,C37,abababababababababab,ABABABABABABABABABAB,2,1,,False,error,RuntimeError: deterministic transient failure,0.1677999971434474,1.0
+transient,C37,abababababababababab,ABABABABABABABABABAB,2,2,ABABABABABABABABABAB,True,correct,,0.15669999993406236,1.0
+transient,C37,abababababababababab,ABABABABABABABABABAB,3,0,,False,error,RuntimeError: deterministic transient failure,0.15970000094966963,1.0
+transient,C37,abababababababababab,ABABABABABABABABABAB,3,1,ABABABABABABABABABAB,True,correct,,0.16529999993508682,1.0
+transient,C37,abababababababababab,ABABABABABABABABABAB,4,0,ABABABABABABABABABAB,True,correct,,0.1497999983257614,1.0
+transient,C38,short,SHORT,0,0,SHORT,True,correct,,0.16099999629659578,1.0
+transient,C38,short,SHORT,1,0,SHORT,True,correct,,0.14599999849451706,1.0
+transient,C38,short,SHORT,2,0,SHORT,True,correct,,0.14309999824035913,1.0
+transient,C38,short,SHORT,3,0,,False,error,RuntimeError: deterministic transient failure,0.14989999908721074,1.0
+transient,C38,short,SHORT,3,1,SHORT,True,correct,,0.14229999942472205,1.0
+transient,C38,short,SHORT,4,0,,False,error,RuntimeError: deterministic transient failure,0.16150000010384247,1.0
+transient,C38,short,SHORT,4,1,,False,error,RuntimeError: deterministic transient failure,0.15859999984968454,1.0
+transient,C38,short,SHORT,4,2,SHORT,True,correct,,0.15100000018719584,1.0
+transient,C39,longer phrase here,LONGER PHRASE HERE,0,0,LONGER PHRASE HERE,True,correct,,0.14660000306321308,1.0
+transient,C39,longer phrase here,LONGER PHRASE HERE,1,0,LONGER PHRASE HERE,True,correct,,0.1570999957039021,1.0
+transient,C39,longer phrase here,LONGER PHRASE HERE,2,0,LONGER PHRASE HERE,True,correct,,0.16450000111944973,1.0
+transient,C39,longer phrase here,LONGER PHRASE HERE,3,0,,False,error,RuntimeError: deterministic transient failure,0.8463999984087422,1.0
+transient,C39,longer phrase here,LONGER PHRASE HERE,3,1,,False,error,RuntimeError: deterministic transient failure,0.5680000031134114,1.0
+transient,C39,longer phrase here,LONGER PHRASE HERE,3,2,,False,error,RuntimeError: deterministic transient failure,0.5441999965114519,1.0
+transient,C39,longer phrase here,LONGER PHRASE HERE,3,3,,False,error,RuntimeError: deterministic transient failure,0.23820000205887482,1.0
+transient,C39,longer phrase here,LONGER PHRASE HERE,4,0,,False,error,RuntimeError: deterministic transient failure,0.25269999605370685,1.0
+transient,C39,longer phrase here,LONGER PHRASE HERE,4,1,LONGER PHRASE HERE,True,correct,,0.32759999885456637,1.0
+slow,C00,hello,HELLO,0,0,HELLO,True,correct,,10.93140000011772,1.0
+slow,C00,hello,HELLO,1,0,HELLO,True,correct,,10.903200003667735,1.0
+slow,C00,hello,HELLO,2,0,HELLO,True,correct,,10.767499996291008,1.0
+slow,C00,hello,HELLO,3,0,HELLO,True,correct,,10.99189999513328,1.0
+slow,C00,hello,HELLO,4,0,HELLO,True,correct,,10.688099995604716,1.0
+slow,C01,world,WORLD,0,0,WORLD,True,correct,,10.927700001047924,1.0
+slow,C01,world,WORLD,1,0,WORLD,True,correct,,10.835900000529364,1.0
+slow,C01,world,WORLD,2,0,WORLD,True,correct,,10.847199999261647,1.0
+slow,C01,world,WORLD,3,0,WORLD,True,correct,,11.002199993527029,1.0
+slow,C01,world,WORLD,4,0,WORLD,True,correct,,11.228499999560881,1.0
+slow,C02,test,TEST,0,0,TEST,True,correct,,10.743599996203557,1.0
+slow,C02,test,TEST,1,0,TEST,True,correct,,10.78830000187736,1.0
+slow,C02,test,TEST,2,0,TEST,True,correct,,10.648499999660999,1.0
+slow,C02,test,TEST,3,0,TEST,True,correct,,10.784700003569014,1.0
+slow,C02,test,TEST,4,0,TEST,True,correct,,10.4938999938895,1.0
+slow,C03,a,A,0,0,A,True,correct,,10.324800001399126,1.0
+slow,C03,a,A,1,0,A,True,correct,,10.966599998937454,1.0
+slow,C03,a,A,2,0,A,True,correct,,10.808300001372118,1.0
+slow,C03,a,A,3,0,A,True,correct,,10.824299999512732,1.0
+slow,C03,a,A,4,0,A,True,correct,,10.80799999908777,1.0
+slow,C04,,,0,0,,True,correct,,11.523699999088421,1.0
+slow,C04,,,1,0,,True,correct,,11.20459999947343,1.0
+slow,C04,,,2,0,,True,correct,,10.43999999819789,1.0
+slow,C04,,,3,0,,True,correct,,11.989400001766626,1.0
+slow,C04,,,4,0,,True,correct,,11.182499998540152,1.0
+slow,C05,go,GO,0,0,GO,True,correct,,10.461199999554083,1.0
+slow,C05,go,GO,1,0,GO,True,correct,,10.981300001731142,1.0
+slow,C05,go,GO,2,0,GO,True,correct,,11.219600004551467,1.0
+slow,C05,go,GO,3,0,GO,True,correct,,11.071499997342471,1.0
+slow,C05,go,GO,4,0,GO,True,correct,,10.975000004691537,1.0
+slow,C06,run,RUN,0,0,RUN,True,correct,,10.94559999910416,1.0
+slow,C06,run,RUN,1,0,RUN,True,correct,,10.675800003809854,1.0
+slow,C06,run,RUN,2,0,RUN,True,correct,,10.884100003750063,1.0
+slow,C06,run,RUN,3,0,RUN,True,correct,,10.409900001832284,1.0
+slow,C06,run,RUN,4,0,RUN,True,correct,,10.898000000452157,1.0
+slow,C07,model,MODEL,0,0,MODEL,True,correct,,10.865299998840783,1.0
+slow,C07,model,MODEL,1,0,MODEL,True,correct,,10.339000000385568,1.0
+slow,C07,model,MODEL,2,0,MODEL,True,correct,,10.894200000620913,1.0
+slow,C07,model,MODEL,3,0,MODEL,True,correct,,10.880800000450108,1.0
+slow,C07,model,MODEL,4,0,MODEL,True,correct,,10.841199997230433,1.0
+slow,C08,tiny,TINY,0,0,TINY,True,correct,,10.478799995325971,1.0
+slow,C08,tiny,TINY,1,0,TINY,True,correct,,10.5972000019392,1.0
+slow,C08,tiny,TINY,2,0,TINY,True,correct,,10.76640000246698,1.0
+slow,C08,tiny,TINY,3,0,TINY,True,correct,,10.879900000873022,1.0
+slow,C08,tiny,TINY,4,0,TINY,True,correct,,10.98939999792492,1.0
+slow,C09,data,DATA,0,0,DATA,True,correct,,10.781400000269059,1.0
+slow,C09,data,DATA,1,0,DATA,True,correct,,10.412399999040645,1.0
+slow,C09,data,DATA,2,0,DATA,True,correct,,11.110899999039248,1.0
+slow,C09,data,DATA,3,0,DATA,True,correct,,10.792200002470054,1.0
+slow,C09,data,DATA,4,0,DATA,True,correct,,10.658899998816196,1.0
+slow,C10,python,PYTHON,0,0,PYTHON,True,correct,,10.93830000172602,1.0
+slow,C10,python,PYTHON,1,0,PYTHON,True,correct,,11.588499997742474,1.0
+slow,C10,python,PYTHON,2,0,PYTHON,True,correct,,11.080899996159133,1.0
+slow,C10,python,PYTHON,3,0,PYTHON,True,correct,,10.940400003164541,1.0
+slow,C10,python,PYTHON,4,0,PYTHON,True,correct,,10.749599998234771,1.0
+slow,C11,runner,RUNNER,0,0,RUNNER,True,correct,,11.089899999205954,1.0
+slow,C11,runner,RUNNER,1,0,RUNNER,True,correct,,10.880800000450108,1.0
+slow,C11,runner,RUNNER,2,0,RUNNER,True,correct,,10.689599999750499,1.0
+slow,C11,runner,RUNNER,3,0,RUNNER,True,correct,,10.785800004669,1.0
+slow,C11,runner,RUNNER,4,0,RUNNER,True,correct,,10.837200003152248,1.0
+slow,C12,adapter,ADAPTER,0,0,ADAPTER,True,correct,,10.844899996300228,1.0
+slow,C12,adapter,ADAPTER,1,0,ADAPTER,True,correct,,10.647099996276665,1.0
+slow,C12,adapter,ADAPTER,2,0,ADAPTER,True,correct,,10.651799995684996,1.0
+slow,C12,adapter,ADAPTER,3,0,ADAPTER,True,correct,,10.873500003071968,1.0
+slow,C12,adapter,ADAPTER,4,0,ADAPTER,True,correct,,10.930099997494835,1.0
+slow,C13,latency,LATENCY,0,0,LATENCY,True,correct,,11.108099999546539,1.0
+slow,C13,latency,LATENCY,1,0,LATENCY,True,correct,,10.582499999145512,1.0
+slow,C13,latency,LATENCY,2,0,LATENCY,True,correct,,10.911900004430208,1.0
+slow,C13,latency,LATENCY,3,0,LATENCY,True,correct,,10.840499999176245,1.0
+slow,C13,latency,LATENCY,4,0,LATENCY,True,correct,,10.99679999606451,1.0
+slow,C14,timeout,TIMEOUT,0,0,TIMEOUT,True,correct,,11.035900002752896,1.0
+slow,C14,timeout,TIMEOUT,1,0,TIMEOUT,True,correct,,10.956500002066605,1.0
+slow,C14,timeout,TIMEOUT,2,0,TIMEOUT,True,correct,,10.543300006247591,1.0
+slow,C14,timeout,TIMEOUT,3,0,TIMEOUT,True,correct,,11.222900000575464,1.0
+slow,C14,timeout,TIMEOUT,4,0,TIMEOUT,True,correct,,10.84600000467617,1.0
+slow,C15,retry,RETRY,0,0,RETRY,True,correct,,10.940100000880193,1.0
+slow,C15,retry,RETRY,1,0,RETRY,True,correct,,10.701400002290029,1.0
+slow,C15,retry,RETRY,2,0,RETRY,True,correct,,10.809200000949204,1.0
+slow,C15,retry,RETRY,3,0,RETRY,True,correct,,10.892999998759478,1.0
+slow,C15,retry,RETRY,4,0,RETRY,True,correct,,10.872900005779229,1.0
+slow,C16,failure,FAILURE,0,0,FAILURE,True,correct,,10.876799999095965,1.0
+slow,C16,failure,FAILURE,1,0,FAILURE,True,correct,,10.88980000349693,1.0
+slow,C16,failure,FAILURE,2,0,FAILURE,True,correct,,11.129999998956919,1.0
+slow,C16,failure,FAILURE,3,0,FAILURE,True,correct,,10.596099993563257,1.0
+slow,C16,failure,FAILURE,4,0,FAILURE,True,correct,,10.895899999013636,1.0
+slow,C17,cost,COST,0,0,COST,True,correct,,10.93379999656463,1.0
+slow,C17,cost,COST,1,0,COST,True,correct,,10.937099999864586,1.0
+slow,C17,cost,COST,2,0,COST,True,correct,,10.809100000187755,1.0
+slow,C17,cost,COST,3,0,COST,True,correct,,10.883499999181367,1.0
+slow,C17,cost,COST,4,0,COST,True,correct,,10.911799996392801,1.0
+slow,C18,evaluation,EVALUATION,0,0,,False,timeout,exceeded 50 ms,64.38940000225557,1.5
+slow,C18,evaluation,EVALUATION,0,1,,False,timeout,exceeded 50 ms,63.105900000664406,1.5
+slow,C18,evaluation,EVALUATION,0,2,,False,timeout,exceeded 50 ms,62.45800000033341,1.5
+slow,C18,evaluation,EVALUATION,0,3,,False,timeout,exceeded 50 ms,61.736399999062996,1.5
+slow,C18,evaluation,EVALUATION,1,0,,False,timeout,exceeded 50 ms,62.67910000315169,1.5
+slow,C18,evaluation,EVALUATION,1,1,,False,timeout,exceeded 50 ms,62.1197000000393,1.5
+slow,C18,evaluation,EVALUATION,1,2,,False,timeout,exceeded 50 ms,63.88109999534208,1.5
+slow,C18,evaluation,EVALUATION,1,3,,False,timeout,exceeded 50 ms,63.80009999702452,1.5
+slow,C18,evaluation,EVALUATION,2,0,,False,timeout,exceeded 50 ms,63.26989999797661,1.5
+slow,C18,evaluation,EVALUATION,2,1,,False,timeout,exceeded 50 ms,62.69389999943087,1.5
+slow,C18,evaluation,EVALUATION,2,2,,False,timeout,exceeded 50 ms,63.9283999989857,1.5
+slow,C18,evaluation,EVALUATION,2,3,,False,timeout,exceeded 50 ms,63.31610000052024,1.5
+slow,C18,evaluation,EVALUATION,3,0,,False,timeout,exceeded 50 ms,62.237199999799486,1.5
+slow,C18,evaluation,EVALUATION,3,1,,False,timeout,exceeded 50 ms,62.80770000012126,1.5
+slow,C18,evaluation,EVALUATION,3,2,,False,timeout,exceeded 50 ms,60.197600003448315,1.5
+slow,C18,evaluation,EVALUATION,3,3,,False,timeout,exceeded 50 ms,63.10490000032587,1.5
+slow,C18,evaluation,EVALUATION,4,0,,False,timeout,exceeded 50 ms,62.755400002060924,1.5
+slow,C18,evaluation,EVALUATION,4,1,,False,timeout,exceeded 50 ms,63.57610000122804,1.5
+slow,C18,evaluation,EVALUATION,4,2,,False,timeout,exceeded 50 ms,60.68399999639951,1.5
+slow,C18,evaluation,EVALUATION,4,3,,False,timeout,exceeded 50 ms,62.97149999591056,1.5
+slow,C19,reproducible,REPRODUCIBLE,0,0,,False,timeout,exceeded 50 ms,61.47169999894686,1.5
+slow,C19,reproducible,REPRODUCIBLE,0,1,,False,timeout,exceeded 50 ms,63.570999998773914,1.5
+slow,C19,reproducible,REPRODUCIBLE,0,2,,False,timeout,exceeded 50 ms,61.76620000042021,1.5
+slow,C19,reproducible,REPRODUCIBLE,0,3,,False,timeout,exceeded 50 ms,62.49270000262186,1.5
+slow,C19,reproducible,REPRODUCIBLE,1,0,,False,timeout,exceeded 50 ms,62.61329999688314,1.5
+slow,C19,reproducible,REPRODUCIBLE,1,1,,False,timeout,exceeded 50 ms,62.060600001132116,1.5
+slow,C19,reproducible,REPRODUCIBLE,1,2,,False,timeout,exceeded 50 ms,63.06400000175927,1.5
+slow,C19,reproducible,REPRODUCIBLE,1,3,,False,timeout,exceeded 50 ms,62.864599996828474,1.5
+slow,C19,reproducible,REPRODUCIBLE,2,0,,False,timeout,exceeded 50 ms,63.88410000363365,1.5
+slow,C19,reproducible,REPRODUCIBLE,2,1,,False,timeout,exceeded 50 ms,62.65150000399444,1.5
+slow,C19,reproducible,REPRODUCIBLE,2,2,,False,timeout,exceeded 50 ms,63.78449999465374,1.5
+slow,C19,reproducible,REPRODUCIBLE,2,3,,False,timeout,exceeded 50 ms,63.07099999685306,1.5
+slow,C19,reproducible,REPRODUCIBLE,3,0,,False,timeout,exceeded 50 ms,62.56440000288421,1.5
+slow,C19,reproducible,REPRODUCIBLE,3,1,,False,timeout,exceeded 50 ms,62.62840000272263,1.5
+slow,C19,reproducible,REPRODUCIBLE,3,2,,False,timeout,exceeded 50 ms,61.49379999988014,1.5
+slow,C19,reproducible,REPRODUCIBLE,3,3,,False,timeout,exceeded 50 ms,62.13890000071842,1.5
+slow,C19,reproducible,REPRODUCIBLE,4,0,,False,timeout,exceeded 50 ms,61.69389999558916,1.5
+slow,C19,reproducible,REPRODUCIBLE,4,1,,False,timeout,exceeded 50 ms,62.76179999986198,1.5
+slow,C19,reproducible,REPRODUCIBLE,4,2,,False,timeout,exceeded 50 ms,62.76929999876302,1.5
+slow,C19,reproducible,REPRODUCIBLE,4,3,,False,timeout,exceeded 50 ms,62.653499997395556,1.5
+slow,C20,hello world,HELLO WORLD,0,0,,False,timeout,exceeded 50 ms,61.95039999875007,1.5
+slow,C20,hello world,HELLO WORLD,0,1,,False,timeout,exceeded 50 ms,62.438599998131394,1.5
+slow,C20,hello world,HELLO WORLD,0,2,,False,timeout,exceeded 50 ms,62.30610000056913,1.5
+slow,C20,hello world,HELLO WORLD,0,3,,False,timeout,exceeded 50 ms,61.4346000002115,1.5
+slow,C20,hello world,HELLO WORLD,1,0,,False,timeout,exceeded 50 ms,62.26590000005672,1.5
+slow,C20,hello world,HELLO WORLD,1,1,,False,timeout,exceeded 50 ms,63.46839999605436,1.5
+slow,C20,hello world,HELLO WORLD,1,2,,False,timeout,exceeded 50 ms,63.09950000286335,1.5
+slow,C20,hello world,HELLO WORLD,1,3,,False,timeout,exceeded 50 ms,67.0412999970722,1.5
+slow,C20,hello world,HELLO WORLD,2,0,,False,timeout,exceeded 50 ms,59.07440000009956,1.5
+slow,C20,hello world,HELLO WORLD,2,1,,False,timeout,exceeded 50 ms,62.65970000094967,1.5
+slow,C20,hello world,HELLO WORLD,2,2,,False,timeout,exceeded 50 ms,62.83889999758685,1.5
+slow,C20,hello world,HELLO WORLD,2,3,,False,timeout,exceeded 50 ms,63.47339999774704,1.5
+slow,C20,hello world,HELLO WORLD,3,0,,False,timeout,exceeded 50 ms,59.47279999963939,1.5
+slow,C20,hello world,HELLO WORLD,3,1,,False,timeout,exceeded 50 ms,66.1482000068645,1.5
+slow,C20,hello world,HELLO WORLD,3,2,,False,timeout,exceeded 50 ms,61.136399999668356,1.5
+slow,C20,hello world,HELLO WORLD,3,3,,False,timeout,exceeded 50 ms,62.994300002173986,1.5
+slow,C20,hello world,HELLO WORLD,4,0,,False,timeout,exceeded 50 ms,61.975900003744755,1.5
+slow,C20,hello world,HELLO WORLD,4,1,,False,timeout,exceeded 50 ms,62.54600000102073,1.5
+slow,C20,hello world,HELLO WORLD,4,2,,False,timeout,exceeded 50 ms,60.73900000046706,1.5
+slow,C20,hello world,HELLO WORLD,4,3,,False,timeout,exceeded 50 ms,63.781599994399585,1.5
+slow,C21,tiny model,TINY MODEL,0,0,,False,timeout,exceeded 50 ms,63.650000003690366,1.5
+slow,C21,tiny model,TINY MODEL,0,1,,False,timeout,exceeded 50 ms,64.58089999796357,1.5
+slow,C21,tiny model,TINY MODEL,0,2,,False,timeout,exceeded 50 ms,63.31440000212751,1.5
+slow,C21,tiny model,TINY MODEL,0,3,,False,timeout,exceeded 50 ms,60.81599999743048,1.5
+slow,C21,tiny model,TINY MODEL,1,0,,False,timeout,exceeded 50 ms,61.72090000472963,1.5
+slow,C21,tiny model,TINY MODEL,1,1,,False,timeout,exceeded 50 ms,63.885499999742024,1.5
+slow,C21,tiny model,TINY MODEL,1,2,,False,timeout,exceeded 50 ms,61.298300002817996,1.5
+slow,C21,tiny model,TINY MODEL,1,3,,False,timeout,exceeded 50 ms,64.10150000010617,1.5
+slow,C21,tiny model,TINY MODEL,2,0,,False,timeout,exceeded 50 ms,61.666499997954816,1.5
+slow,C21,tiny model,TINY MODEL,2,1,,False,timeout,exceeded 50 ms,62.59130000398727,1.5
+slow,C21,tiny model,TINY MODEL,2,2,,False,timeout,exceeded 50 ms,64.03690000297502,1.5
+slow,C21,tiny model,TINY MODEL,2,3,,False,timeout,exceeded 50 ms,61.194699999759905,1.5
+slow,C21,tiny model,TINY MODEL,3,0,,False,timeout,exceeded 50 ms,60.7324999946286,1.5
+slow,C21,tiny model,TINY MODEL,3,1,,False,timeout,exceeded 50 ms,63.88080000033369,1.5
+slow,C21,tiny model,TINY MODEL,3,2,,False,timeout,exceeded 50 ms,62.6981999957934,1.5
+slow,C21,tiny model,TINY MODEL,3,3,,False,timeout,exceeded 50 ms,62.16410000342876,1.5
+slow,C21,tiny model,TINY MODEL,4,0,,False,timeout,exceeded 50 ms,62.81219999800669,1.5
+slow,C21,tiny model,TINY MODEL,4,1,,False,timeout,exceeded 50 ms,66.60939999710536,1.5
+slow,C21,tiny model,TINY MODEL,4,2,,False,timeout,exceeded 50 ms,60.7428000002983,1.5
+slow,C21,tiny model,TINY MODEL,4,3,,False,timeout,exceeded 50 ms,61.826399993151426,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,0,0,,False,timeout,exceeded 50 ms,63.15819999872474,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,0,1,,False,timeout,exceeded 50 ms,62.85539999953471,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,0,2,,False,timeout,exceeded 50 ms,63.59050000173738,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,0,3,,False,timeout,exceeded 50 ms,60.85159999929601,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,1,0,,False,timeout,exceeded 50 ms,62.43640000320738,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,1,1,,False,timeout,exceeded 50 ms,61.990599999262486,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,1,2,,False,timeout,exceeded 50 ms,63.71390000276733,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,1,3,,False,timeout,exceeded 50 ms,63.875500003632624,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,2,0,,False,timeout,exceeded 50 ms,61.47849999979371,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,2,1,,False,timeout,exceeded 50 ms,63.53990000206977,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,2,2,,False,timeout,exceeded 50 ms,62.50239999644691,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,2,3,,False,timeout,exceeded 50 ms,62.54790000093635,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,3,0,,False,timeout,exceeded 50 ms,63.53110000054585,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,3,1,,False,timeout,exceeded 50 ms,63.17880000278819,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,3,2,,False,timeout,exceeded 50 ms,61.647399998037145,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,3,3,,False,timeout,exceeded 50 ms,62.857099997927435,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,4,0,,False,timeout,exceeded 50 ms,64.28919999598293,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,4,1,,False,timeout,exceeded 50 ms,61.843299998145085,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,4,2,,False,timeout,exceeded 50 ms,61.48880000546342,1.5
+slow,C22,evaluation runner,EVALUATION RUNNER,4,3,,False,timeout,exceeded 50 ms,63.73129999701632,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,0,0,,False,timeout,exceeded 50 ms,63.51649999851361,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,0,1,,False,timeout,exceeded 50 ms,63.14679999923101,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,0,2,,False,timeout,exceeded 50 ms,62.60440000187373,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,0,3,,False,timeout,exceeded 50 ms,62.247499998193234,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,1,0,,False,timeout,exceeded 50 ms,63.54519999877084,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,1,1,,False,timeout,exceeded 50 ms,63.62059999810299,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,1,2,,False,timeout,exceeded 50 ms,62.85659999412019,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,1,3,,False,timeout,exceeded 50 ms,62.75150000146823,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,2,0,,False,timeout,exceeded 50 ms,61.18340000102762,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,2,1,,False,timeout,exceeded 50 ms,63.83790000109002,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,2,2,,False,timeout,exceeded 50 ms,62.75190000451403,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,2,3,,False,timeout,exceeded 50 ms,62.00280000484781,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,3,0,,False,timeout,exceeded 50 ms,63.86719999863999,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,3,1,,False,timeout,exceeded 50 ms,63.77020000218181,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,3,2,,False,timeout,exceeded 50 ms,62.789099996734876,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,3,3,,False,timeout,exceeded 50 ms,63.15999999787891,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,4,0,,False,timeout,exceeded 50 ms,62.77119999867864,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,4,1,,False,timeout,exceeded 50 ms,61.523700001998805,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,4,2,,False,timeout,exceeded 50 ms,62.87119999615243,1.5
+slow,C23,adapter ranking,ADAPTER RANKING,4,3,,False,timeout,exceeded 50 ms,62.99939999735216,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,0,0,,False,timeout,exceeded 50 ms,62.79469999572029,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,0,1,,False,timeout,exceeded 50 ms,62.95200000022305,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,0,2,,False,timeout,exceeded 50 ms,64.1925000018091,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,0,3,,False,timeout,exceeded 50 ms,62.67180000577355,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,1,0,,False,timeout,exceeded 50 ms,64.59719999838853,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,1,1,,False,timeout,exceeded 50 ms,62.51079999492504,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,1,2,,False,timeout,exceeded 50 ms,62.39639999694191,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,1,3,,False,timeout,exceeded 50 ms,62.810700001136865,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,2,0,,False,timeout,exceeded 50 ms,62.946899997768924,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,2,1,,False,timeout,exceeded 50 ms,59.62620000354946,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,2,2,,False,timeout,exceeded 50 ms,61.89989999984391,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,2,3,,False,timeout,exceeded 50 ms,62.98070000048028,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,3,0,,False,timeout,exceeded 50 ms,63.260999995691236,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,3,1,,False,timeout,exceeded 50 ms,62.748299998929724,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,3,2,,False,timeout,exceeded 50 ms,62.31399999524001,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,3,3,,False,timeout,exceeded 50 ms,63.19149999762885,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,4,0,,False,timeout,exceeded 50 ms,61.97019999672193,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,4,1,,False,timeout,exceeded 50 ms,62.52800000220304,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,4,2,,False,timeout,exceeded 50 ms,61.751199995342176,1.5
+slow,C24,keep failures visible,KEEP FAILURES VISIBLE,4,3,,False,timeout,exceeded 50 ms,60.73130000004312,1.5
+slow,C25,straße,STRASSE,0,0,STRASSE,True,correct,,10.78830000187736,1.0
+slow,C25,straße,STRASSE,1,0,STRASSE,True,correct,,10.672999997041188,1.0
+slow,C25,straße,STRASSE,2,0,STRASSE,True,correct,,10.596200001600664,1.0
+slow,C25,straße,STRASSE,3,0,STRASSE,True,correct,,10.933199999271892,1.0
+slow,C25,straße,STRASSE,4,0,STRASSE,True,correct,,10.900900000706315,1.0
+slow,C26,mañana,MAÑANA,0,0,MAÑANA,True,correct,,10.86300000315532,1.0
+slow,C26,mañana,MAÑANA,1,0,MAÑANA,True,correct,,10.925900001893751,1.0
+slow,C26,mañana,MAÑANA,2,0,MAÑANA,True,correct,,10.839199996553361,1.0
+slow,C26,mañana,MAÑANA,3,0,MAÑANA,True,correct,,10.902200003329199,1.0
+slow,C26,mañana,MAÑANA,4,0,MAÑANA,True,correct,,10.914099999354221,1.0
+slow,C27,café,CAFÉ,0,0,CAFÉ,True,correct,,10.84929999342421,1.0
+slow,C27,café,CAFÉ,1,0,CAFÉ,True,correct,,10.934300000371877,1.0
+slow,C27,café,CAFÉ,2,0,CAFÉ,True,correct,,10.45239999803016,1.0
+slow,C27,café,CAFÉ,3,0,CAFÉ,True,correct,,10.85600000078557,1.0
+slow,C27,café,CAFÉ,4,0,CAFÉ,True,correct,,10.46719999430934,1.0
+slow,C28,naïve,NAÏVE,0,0,NAÏVE,True,correct,,10.56580000295071,1.0
+slow,C28,naïve,NAÏVE,1,0,NAÏVE,True,correct,,10.837399997399189,1.0
+slow,C28,naïve,NAÏVE,2,0,NAÏVE,True,correct,,10.681299994757865,1.0
+slow,C28,naïve,NAÏVE,3,0,NAÏVE,True,correct,,10.673800003132783,1.0
+slow,C28,naïve,NAÏVE,4,0,NAÏVE,True,correct,,11.2578999978723,1.0
+slow,C29,Ångström,ÅNGSTRÖM,0,0,ÅNGSTRÖM,True,correct,,10.864299998502247,1.0
+slow,C29,Ångström,ÅNGSTRÖM,1,0,ÅNGSTRÖM,True,correct,,10.829200000443961,1.0
+slow,C29,Ångström,ÅNGSTRÖM,2,0,ÅNGSTRÖM,True,correct,,10.86609999765642,1.0
+slow,C29,Ångström,ÅNGSTRÖM,3,0,ÅNGSTRÖM,True,correct,,10.451999994984362,1.0
+slow,C29,Ångström,ÅNGSTRÖM,4,0,ÅNGSTRÖM,True,correct,,10.736799995356705,1.0
+slow,C30,a b c,A B C,0,0,A B C,True,correct,,11.50430000416236,1.0
+slow,C30,a b c,A B C,1,0,A B C,True,correct,,10.754299997643102,1.0
+slow,C30,a b c,A B C,2,0,A B C,True,correct,,10.745799998403527,1.0
+slow,C30,a b c,A B C,3,0,A B C,True,correct,,10.82250000035856,1.0
+slow,C30,a b c,A B C,4,0,A B C,True,correct,,10.8708999978262,1.0
+slow,C31,  spaced  ,  SPACED  ,0,0,,False,timeout,exceeded 50 ms,56.51759999454953,1.5
+slow,C31,  spaced  ,  SPACED  ,0,1,,False,timeout,exceeded 50 ms,61.044499998388346,1.5
+slow,C31,  spaced  ,  SPACED  ,0,2,,False,timeout,exceeded 50 ms,64.11150000349153,1.5
+slow,C31,  spaced  ,  SPACED  ,0,3,,False,timeout,exceeded 50 ms,62.660900002811104,1.5
+slow,C31,  spaced  ,  SPACED  ,1,0,,False,timeout,exceeded 50 ms,62.95760000648443,1.5
+slow,C31,  spaced  ,  SPACED  ,1,1,,False,timeout,exceeded 50 ms,63.76499999896623,1.5
+slow,C31,  spaced  ,  SPACED  ,1,2,,False,timeout,exceeded 50 ms,62.40270000125747,1.5
+slow,C31,  spaced  ,  SPACED  ,1,3,,False,timeout,exceeded 50 ms,61.67480000294745,1.5
+slow,C31,  spaced  ,  SPACED  ,2,0,,False,timeout,exceeded 50 ms,63.771799999813084,1.5
+slow,C31,  spaced  ,  SPACED  ,2,1,,False,timeout,exceeded 50 ms,62.84349999623373,1.5
+slow,C31,  spaced  ,  SPACED  ,2,2,,False,timeout,exceeded 50 ms,62.42049999855226,1.5
+slow,C31,  spaced  ,  SPACED  ,2,3,,False,timeout,exceeded 50 ms,61.3870000015595,1.5
+slow,C31,  spaced  ,  SPACED  ,3,0,,False,timeout,exceeded 50 ms,60.90589999803342,1.5
+slow,C31,  spaced  ,  SPACED  ,3,1,,False,timeout,exceeded 50 ms,62.9934000025969,1.5
+slow,C31,  spaced  ,  SPACED  ,3,2,,False,timeout,exceeded 50 ms,63.17230000422569,1.5
+slow,C31,  spaced  ,  SPACED  ,3,3,,False,timeout,exceeded 50 ms,60.5301999967196,1.5
+slow,C31,  spaced  ,  SPACED  ,4,0,,False,timeout,exceeded 50 ms,60.127500000817236,1.5
+slow,C31,  spaced  ,  SPACED  ,4,1,,False,timeout,exceeded 50 ms,62.81899999885354,1.5
+slow,C31,  spaced  ,  SPACED  ,4,2,,False,timeout,exceeded 50 ms,61.74849999661092,1.5
+slow,C31,  spaced  ,  SPACED  ,4,3,,False,timeout,exceeded 50 ms,61.942100001033396,1.5
+slow,C32,12345,12345,0,0,12345,True,correct,,10.968700000375975,1.0
+slow,C32,12345,12345,1,0,12345,True,correct,,10.372099997766782,1.0
+slow,C32,12345,12345,2,0,12345,True,correct,,10.912300000200048,1.0
+slow,C32,12345,12345,3,0,12345,True,correct,,10.834400003659539,1.0
+slow,C32,12345,12345,4,0,12345,True,correct,,10.8780000009574,1.0
+slow,C33,mixedCase 42,MIXEDCASE 42,0,0,,False,timeout,exceeded 50 ms,54.67540000245208,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,0,1,,False,timeout,exceeded 50 ms,64.04299999849172,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,0,2,,False,timeout,exceeded 50 ms,62.6544000042486,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,0,3,,False,timeout,exceeded 50 ms,60.362000003806315,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,1,0,,False,timeout,exceeded 50 ms,62.291099995491095,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,1,1,,False,timeout,exceeded 50 ms,62.89660000038566,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,1,2,,False,timeout,exceeded 50 ms,63.80800000624731,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,1,3,,False,timeout,exceeded 50 ms,62.883400001737755,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,2,0,,False,timeout,exceeded 50 ms,62.44320000405423,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,2,1,,False,timeout,exceeded 50 ms,62.27109999599634,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,2,2,,False,timeout,exceeded 50 ms,62.39260000438662,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,2,3,,False,timeout,exceeded 50 ms,63.210100001015235,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,3,0,,False,timeout,exceeded 50 ms,61.63119999837363,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,3,1,,False,timeout,exceeded 50 ms,63.604399998439476,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,3,2,,False,timeout,exceeded 50 ms,63.030600002093706,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,3,3,,False,timeout,exceeded 50 ms,63.73210000310792,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,4,0,,False,timeout,exceeded 50 ms,63.328500000352506,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,4,1,,False,timeout,exceeded 50 ms,62.27930000022752,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,4,2,,False,timeout,exceeded 50 ms,62.81719999969937,1.5
+slow,C33,mixedCase 42,MIXEDCASE 42,4,3,,False,timeout,exceeded 50 ms,63.432700000703335,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,0,0,,False,timeout,exceeded 50 ms,62.63790000230074,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,0,1,,False,timeout,exceeded 50 ms,64.05269999959273,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,0,2,,False,timeout,exceeded 50 ms,62.551800001529045,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,0,3,,False,timeout,exceeded 50 ms,64.10420000611339,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,1,0,,False,timeout,exceeded 50 ms,63.3834999971441,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,1,1,,False,timeout,exceeded 50 ms,62.80719999631401,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,1,2,,False,timeout,exceeded 50 ms,63.541899995470885,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,1,3,,False,timeout,exceeded 50 ms,63.703699997859076,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,2,0,,False,timeout,exceeded 50 ms,63.97049999941373,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,2,1,,False,timeout,exceeded 50 ms,62.20200000097975,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,2,2,,False,timeout,exceeded 50 ms,62.22219999472145,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,2,3,,False,timeout,exceeded 50 ms,62.34379999659723,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,3,0,,False,timeout,exceeded 50 ms,61.43029999657301,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,3,1,,False,timeout,exceeded 50 ms,63.87130000075558,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,3,2,,False,timeout,exceeded 50 ms,62.22690000140574,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,3,3,,False,timeout,exceeded 50 ms,61.695999997027684,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,4,0,,False,timeout,exceeded 50 ms,63.18750000355067,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,4,1,,False,timeout,exceeded 50 ms,63.23069999780273,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,4,2,,False,timeout,exceeded 50 ms,63.31359999603592,1.5
+slow,C34,xxxxxxxxxx,XXXXXXXXXX,4,3,,False,timeout,exceeded 50 ms,63.01670000539161,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,0,0,,False,timeout,exceeded 50 ms,62.508299997716676,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,0,1,,False,timeout,exceeded 50 ms,62.53400000423426,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,0,2,,False,timeout,exceeded 50 ms,62.343600002350286,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,0,3,,False,timeout,exceeded 50 ms,62.78710000333376,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,1,0,,False,timeout,exceeded 50 ms,63.836300003458746,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,1,1,,False,timeout,exceeded 50 ms,63.61959999776445,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,1,2,,False,timeout,exceeded 50 ms,62.50230000296142,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,1,3,,False,timeout,exceeded 50 ms,62.659099996380974,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,2,0,,False,timeout,exceeded 50 ms,60.62799999926938,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,2,1,,False,timeout,exceeded 50 ms,63.57240000215825,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,2,2,,False,timeout,exceeded 50 ms,61.93579999671783,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,2,3,,False,timeout,exceeded 50 ms,63.79949999973178,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,3,0,,False,timeout,exceeded 50 ms,62.861700003850274,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,3,1,,False,timeout,exceeded 50 ms,62.51949999568751,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,3,2,,False,timeout,exceeded 50 ms,62.73360000341199,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,3,3,,False,timeout,exceeded 50 ms,62.49499999830732,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,4,0,,False,timeout,exceeded 50 ms,63.466899999184534,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,4,1,,False,timeout,exceeded 50 ms,62.542699997720774,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,4,2,,False,timeout,exceeded 50 ms,62.03710000409046,1.5
+slow,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,4,3,,False,timeout,exceeded 50 ms,61.894399994343985,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,0,0,,False,timeout,exceeded 50 ms,64.16619999799877,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,0,1,,False,timeout,exceeded 50 ms,62.999800000397954,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,0,2,,False,timeout,exceeded 50 ms,61.91039999976056,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,0,3,,False,timeout,exceeded 50 ms,61.85230000119191,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,0,,False,timeout,exceeded 50 ms,63.27210000017658,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,1,,False,timeout,exceeded 50 ms,63.41750000137836,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,2,,False,timeout,exceeded 50 ms,63.33920000179205,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,3,,False,timeout,exceeded 50 ms,62.72190000163391,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,2,0,,False,timeout,exceeded 50 ms,62.90859999717213,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,2,1,,False,timeout,exceeded 50 ms,62.76079999952344,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,2,2,,False,timeout,exceeded 50 ms,61.871999998402316,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,2,3,,False,timeout,exceeded 50 ms,63.72350000310689,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,3,0,,False,timeout,exceeded 50 ms,62.50019999424694,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,3,1,,False,timeout,exceeded 50 ms,62.81740000122227,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,3,2,,False,timeout,exceeded 50 ms,61.72779999906197,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,3,3,,False,timeout,exceeded 50 ms,62.73380000493489,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,0,,False,timeout,exceeded 50 ms,62.23329999920679,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,1,,False,timeout,exceeded 50 ms,62.1813999969163,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,2,,False,timeout,exceeded 50 ms,62.77119999867864,1.5
+slow,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,3,,False,timeout,exceeded 50 ms,63.8429000027827,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,0,0,,False,timeout,exceeded 50 ms,63.14610000117682,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,0,1,,False,timeout,exceeded 50 ms,62.307799998961855,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,0,2,,False,timeout,exceeded 50 ms,63.8939999989816,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,0,3,,False,timeout,exceeded 50 ms,62.91549999878043,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,1,0,,False,timeout,exceeded 50 ms,62.56759999814676,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,1,1,,False,timeout,exceeded 50 ms,62.66660000255797,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,1,2,,False,timeout,exceeded 50 ms,64.01309999637306,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,1,3,,False,timeout,exceeded 50 ms,64.1883999996935,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,2,0,,False,timeout,exceeded 50 ms,62.6542000027257,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,2,1,,False,timeout,exceeded 50 ms,63.517000002320856,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,2,2,,False,timeout,exceeded 50 ms,63.59100000554463,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,2,3,,False,timeout,exceeded 50 ms,63.60149999818532,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,3,0,,False,timeout,exceeded 50 ms,61.093199998140335,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,3,1,,False,timeout,exceeded 50 ms,63.047900002857205,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,3,2,,False,timeout,exceeded 50 ms,63.37280000298051,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,3,3,,False,timeout,exceeded 50 ms,63.449499997659586,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,4,0,,False,timeout,exceeded 50 ms,63.771699999051634,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,4,1,,False,timeout,exceeded 50 ms,62.329799999133684,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,4,2,,False,timeout,exceeded 50 ms,63.63459999556653,1.5
+slow,C37,abababababababababab,ABABABABABABABABABAB,4,3,,False,timeout,exceeded 50 ms,62.67739999748301,1.5
+slow,C38,short,SHORT,0,0,SHORT,True,correct,,10.774700000183657,1.0
+slow,C38,short,SHORT,1,0,SHORT,True,correct,,10.868099998333491,1.0
+slow,C38,short,SHORT,2,0,SHORT,True,correct,,10.829999999259599,1.0
+slow,C38,short,SHORT,3,0,SHORT,True,correct,,10.910900004091673,1.0
+slow,C38,short,SHORT,4,0,SHORT,True,correct,,10.91650000307709,1.0
+slow,C39,longer phrase here,LONGER PHRASE HERE,0,0,,False,timeout,exceeded 50 ms,52.57320000237087,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,0,1,,False,timeout,exceeded 50 ms,62.39140000252519,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,0,2,,False,timeout,exceeded 50 ms,63.18769999779761,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,0,3,,False,timeout,exceeded 50 ms,62.718699999095406,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,1,0,,False,timeout,exceeded 50 ms,62.13980000029551,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,1,1,,False,timeout,exceeded 50 ms,62.38650000159396,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,1,2,,False,timeout,exceeded 50 ms,63.39789999765344,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,1,3,,False,timeout,exceeded 50 ms,63.69750000158092,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,2,0,,False,timeout,exceeded 50 ms,62.42190000193659,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,2,1,,False,timeout,exceeded 50 ms,63.75480000133393,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,2,2,,False,timeout,exceeded 50 ms,64.14110000332585,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,2,3,,False,timeout,exceeded 50 ms,61.705000000074506,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,3,0,,False,timeout,exceeded 50 ms,61.54160000005504,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,3,1,,False,timeout,exceeded 50 ms,62.90599999920232,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,3,2,,False,timeout,exceeded 50 ms,63.52740000147605,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,3,3,,False,timeout,exceeded 50 ms,63.13580000278307,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,4,0,,False,timeout,exceeded 50 ms,63.8353999966057,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,4,1,,False,timeout,exceeded 50 ms,61.40099999902304,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,4,2,,False,timeout,exceeded 50 ms,61.474900001485366,1.5
+slow,C39,longer phrase here,LONGER PHRASE HERE,4,3,,False,timeout,exceeded 50 ms,63.42710000171792,1.5
+truncating,C00,hello,HELLO,0,0,HELLO,True,correct,,0.28139999631093815,1.0
+truncating,C00,hello,HELLO,1,0,HELLO,True,correct,,0.16830000095069408,1.0
+truncating,C00,hello,HELLO,2,0,HELLO,True,correct,,0.15799999528098851,1.0
+truncating,C00,hello,HELLO,3,0,HELLO,True,correct,,0.14489999739453197,1.0
+truncating,C00,hello,HELLO,4,0,HELLO,True,correct,,0.13549999857787043,1.0
+truncating,C01,world,WORLD,0,0,WORLD,True,correct,,0.14789999841013923,1.0
+truncating,C01,world,WORLD,1,0,WORLD,True,correct,,0.12840000272262841,1.0
+truncating,C01,world,WORLD,2,0,WORLD,True,correct,,0.1314999972237274,1.0
+truncating,C01,world,WORLD,3,0,WORLD,True,correct,,0.13279999984661117,1.0
+truncating,C01,world,WORLD,4,0,WORLD,True,correct,,0.12740000238409266,1.0
+truncating,C02,test,TEST,0,0,TEST,True,correct,,0.12870000500697643,1.0
+truncating,C02,test,TEST,1,0,TEST,True,correct,,0.12960000458406284,1.0
+truncating,C02,test,TEST,2,0,TEST,True,correct,,0.1303000026382506,1.0
+truncating,C02,test,TEST,3,0,TEST,True,correct,,0.13349999790079892,1.0
+truncating,C02,test,TEST,4,0,TEST,True,correct,,0.13780000153928995,1.0
+truncating,C03,a,A,0,0,A,True,correct,,0.14110000483924523,1.0
+truncating,C03,a,A,1,0,A,True,correct,,0.1294999965466559,1.0
+truncating,C03,a,A,2,0,A,True,correct,,0.1303000026382506,1.0
+truncating,C03,a,A,3,0,A,True,correct,,0.14119999832473695,1.0
+truncating,C03,a,A,4,0,A,True,correct,,0.130899999930989,1.0
+truncating,C04,,,0,0,,True,correct,,0.131200002215337,1.0
+truncating,C04,,,1,0,,True,correct,,0.1416000013705343,1.0
+truncating,C04,,,2,0,,True,correct,,0.1326000055996701,1.0
+truncating,C04,,,3,0,,True,correct,,0.13199999375501648,1.0
+truncating,C04,,,4,0,,True,correct,,0.12969999806955457,1.0
+truncating,C05,go,GO,0,0,GO,True,correct,,0.15069999790284783,1.0
+truncating,C05,go,GO,1,0,GO,True,correct,,0.1329000006080605,1.0
+truncating,C05,go,GO,2,0,GO,True,correct,,0.1329000006080605,1.0
+truncating,C05,go,GO,3,0,GO,True,correct,,0.13240000407677144,1.0
+truncating,C05,go,GO,4,0,GO,True,correct,,0.1379000023007393,1.0
+truncating,C06,run,RUN,0,0,RUN,True,correct,,0.13220000255387276,1.0
+truncating,C06,run,RUN,1,0,RUN,True,correct,,0.13320000289240852,1.0
+truncating,C06,run,RUN,2,0,RUN,True,correct,,0.13380000018514693,1.0
+truncating,C06,run,RUN,3,0,RUN,True,correct,,0.12840000272262841,1.0
+truncating,C06,run,RUN,4,0,RUN,True,correct,,0.13249999756226316,1.0
+truncating,C07,model,MODEL,0,0,MODEL,True,correct,,0.13640000543091446,1.0
+truncating,C07,model,MODEL,1,0,MODEL,True,correct,,0.13899999612476677,1.0
+truncating,C07,model,MODEL,2,0,MODEL,True,correct,,0.13360000593820587,1.0
+truncating,C07,model,MODEL,3,0,MODEL,True,correct,,0.13469999976223335,1.0
+truncating,C07,model,MODEL,4,0,MODEL,True,correct,,0.13139999646227807,1.0
+truncating,C08,tiny,TINY,0,0,TINY,True,correct,,0.13069999840809032,1.0
+truncating,C08,tiny,TINY,1,0,TINY,True,correct,,0.12850000348407775,1.0
+truncating,C08,tiny,TINY,2,0,TINY,True,correct,,0.12759999663103372,1.0
+truncating,C08,tiny,TINY,3,0,TINY,True,correct,,0.130599997646641,1.0
+truncating,C08,tiny,TINY,4,0,TINY,True,correct,,0.1266999970539473,1.0
+truncating,C09,data,DATA,0,0,DATA,True,correct,,0.12720000086119398,1.0
+truncating,C09,data,DATA,1,0,DATA,True,correct,,0.1429999974789098,1.0
+truncating,C09,data,DATA,2,0,DATA,True,correct,,0.15780000103404745,1.0
+truncating,C09,data,DATA,3,0,DATA,True,correct,,0.16519999917363748,1.0
+truncating,C09,data,DATA,4,0,DATA,True,correct,,0.1512000017100945,1.0
+truncating,C10,python,PYTHON,0,0,PYTHON,True,correct,,0.14910000027157366,1.0
+truncating,C10,python,PYTHON,1,0,PYTHON,True,correct,,0.1373999984934926,1.0
+truncating,C10,python,PYTHON,2,0,PYTHON,True,correct,,0.14590000500902534,1.0
+truncating,C10,python,PYTHON,3,0,PYTHON,True,correct,,0.14309999824035913,1.0
+truncating,C10,python,PYTHON,4,0,PYTHON,True,correct,,0.18889999773819,1.0
+truncating,C11,runner,RUNNER,0,0,RUNNER,True,correct,,0.1745000045048073,1.0
+truncating,C11,runner,RUNNER,1,0,RUNNER,True,correct,,0.1405000002705492,1.0
+truncating,C11,runner,RUNNER,2,0,RUNNER,True,correct,,0.13110000145388767,1.0
+truncating,C11,runner,RUNNER,3,0,RUNNER,True,correct,,0.13359999866224825,1.0
+truncating,C11,runner,RUNNER,4,0,RUNNER,True,correct,,0.12989999959245324,1.0
+truncating,C12,adapter,ADAPTER,0,0,ADAPTER,True,correct,,0.1281000004382804,1.0
+truncating,C12,adapter,ADAPTER,1,0,ADAPTER,True,correct,,0.14109999756328762,1.0
+truncating,C12,adapter,ADAPTER,2,0,ADAPTER,True,correct,,0.13020000187680125,1.0
+truncating,C12,adapter,ADAPTER,3,0,ADAPTER,True,correct,,0.12749999586958438,1.0
+truncating,C12,adapter,ADAPTER,4,0,ADAPTER,True,correct,,0.13049999688519165,1.0
+truncating,C13,latency,LATENCY,0,0,LATENCY,True,correct,,0.13469999976223335,1.0
+truncating,C13,latency,LATENCY,1,0,LATENCY,True,correct,,0.130899999930989,1.0
+truncating,C13,latency,LATENCY,2,0,LATENCY,True,correct,,0.28480000037234277,1.0
+truncating,C13,latency,LATENCY,3,0,LATENCY,True,correct,,0.1325999983237125,1.0
+truncating,C13,latency,LATENCY,4,0,LATENCY,True,correct,,0.13079999916953966,1.0
+truncating,C14,timeout,TIMEOUT,0,0,TIMEOUT,True,correct,,0.1323000033153221,1.0
+truncating,C14,timeout,TIMEOUT,1,0,TIMEOUT,True,correct,,0.5213999975239858,1.0
+truncating,C14,timeout,TIMEOUT,2,0,TIMEOUT,True,correct,,0.13210000179242343,1.0
+truncating,C14,timeout,TIMEOUT,3,0,TIMEOUT,True,correct,,0.12340000102994964,1.0
+truncating,C14,timeout,TIMEOUT,4,0,TIMEOUT,True,correct,,0.15590000111842528,1.0
+truncating,C15,retry,RETRY,0,0,RETRY,True,correct,,0.13000000035390258,1.0
+truncating,C15,retry,RETRY,1,0,RETRY,True,correct,,0.12710000009974465,1.0
+truncating,C15,retry,RETRY,2,0,RETRY,True,correct,,0.12879999849246815,1.0
+truncating,C15,retry,RETRY,3,0,RETRY,True,correct,,0.1264000020455569,1.0
+truncating,C15,retry,RETRY,4,0,RETRY,True,correct,,0.12910000077681616,1.0
+truncating,C16,failure,FAILURE,0,0,FAILURE,True,correct,,0.32590000046184286,1.0
+truncating,C16,failure,FAILURE,1,0,FAILURE,True,correct,,0.21149999520275742,1.0
+truncating,C16,failure,FAILURE,2,0,FAILURE,True,correct,,0.13939999917056412,1.0
+truncating,C16,failure,FAILURE,3,0,FAILURE,True,correct,,0.1480999999330379,1.0
+truncating,C16,failure,FAILURE,4,0,FAILURE,True,correct,,0.15770000027259812,1.0
+truncating,C17,cost,COST,0,0,COST,True,correct,,0.1362999973935075,1.0
+truncating,C17,cost,COST,1,0,COST,True,correct,,0.12789999891538173,1.0
+truncating,C17,cost,COST,2,0,COST,True,correct,,0.12730000162264332,1.0
+truncating,C17,cost,COST,3,0,COST,True,correct,,0.13389999367063865,1.0
+truncating,C17,cost,COST,4,0,COST,True,correct,,0.16170000162674114,1.0
+truncating,C18,evaluation,EVALUATION,0,0,EVALUATI,False,wrong,,0.14319999900180846,1.0
+truncating,C18,evaluation,EVALUATION,1,0,EVALUATI,False,wrong,,0.13210000179242343,1.0
+truncating,C18,evaluation,EVALUATION,2,0,EVALUATI,False,wrong,,0.15100000018719584,1.0
+truncating,C18,evaluation,EVALUATION,3,0,EVALUATI,False,wrong,,0.12959999730810523,1.0
+truncating,C18,evaluation,EVALUATION,4,0,EVALUATI,False,wrong,,0.12849999620812014,1.0
+truncating,C19,reproducible,REPRODUCIBLE,0,0,REPRODUC,False,wrong,,0.15079999866429716,1.0
+truncating,C19,reproducible,REPRODUCIBLE,1,0,REPRODUC,False,wrong,,0.1520000005257316,1.0
+truncating,C19,reproducible,REPRODUCIBLE,2,0,REPRODUC,False,wrong,,0.13899999612476677,1.0
+truncating,C19,reproducible,REPRODUCIBLE,3,0,REPRODUC,False,wrong,,0.1294999965466559,1.0
+truncating,C19,reproducible,REPRODUCIBLE,4,0,REPRODUC,False,wrong,,0.13420000323094428,1.0
+truncating,C20,hello world,HELLO WORLD,0,0,HELLO WO,False,wrong,,0.14229999942472205,1.0
+truncating,C20,hello world,HELLO WORLD,1,0,HELLO WO,False,wrong,,0.14419999934034422,1.0
+truncating,C20,hello world,HELLO WORLD,2,0,HELLO WO,False,wrong,,0.1384999995934777,1.0
+truncating,C20,hello world,HELLO WORLD,3,0,HELLO WO,False,wrong,,0.12870000500697643,1.0
+truncating,C20,hello world,HELLO WORLD,4,0,HELLO WO,False,wrong,,0.12799999967683107,1.0
+truncating,C21,tiny model,TINY MODEL,0,0,TINY MOD,False,wrong,,0.1353999978164211,1.0
+truncating,C21,tiny model,TINY MODEL,1,0,TINY MOD,False,wrong,,0.1370999962091446,1.0
+truncating,C21,tiny model,TINY MODEL,2,0,TINY MOD,False,wrong,,0.13079999916953966,1.0
+truncating,C21,tiny model,TINY MODEL,3,0,TINY MOD,False,wrong,,0.1269999993382953,1.0
+truncating,C21,tiny model,TINY MODEL,4,0,TINY MOD,False,wrong,,0.12930000229971483,1.0
+truncating,C22,evaluation runner,EVALUATION RUNNER,0,0,EVALUATI,False,wrong,,0.12990000686841086,1.0
+truncating,C22,evaluation runner,EVALUATION RUNNER,1,0,EVALUATI,False,wrong,,0.1320999945164658,1.0
+truncating,C22,evaluation runner,EVALUATION RUNNER,2,0,EVALUATI,False,wrong,,0.13079999916953966,1.0
+truncating,C22,evaluation runner,EVALUATION RUNNER,3,0,EVALUATI,False,wrong,,0.12820000119972974,1.0
+truncating,C22,evaluation runner,EVALUATION RUNNER,4,0,EVALUATI,False,wrong,,0.4996999996365048,1.0
+truncating,C23,adapter ranking,ADAPTER RANKING,0,0,ADAPTER ,False,wrong,,0.14179999561747536,1.0
+truncating,C23,adapter ranking,ADAPTER RANKING,1,0,ADAPTER ,False,wrong,,0.13410000246949494,1.0
+truncating,C23,adapter ranking,ADAPTER RANKING,2,0,ADAPTER ,False,wrong,,0.13329999637790024,1.0
+truncating,C23,adapter ranking,ADAPTER RANKING,3,0,ADAPTER ,False,wrong,,0.1292000015382655,1.0
+truncating,C23,adapter ranking,ADAPTER RANKING,4,0,ADAPTER ,False,wrong,,0.14399999781744555,1.0
+truncating,C24,keep failures visible,KEEP FAILURES VISIBLE,0,0,KEEP FAI,False,wrong,,0.14339999324874952,1.0
+truncating,C24,keep failures visible,KEEP FAILURES VISIBLE,1,0,KEEP FAI,False,wrong,,0.1336999994236976,1.0
+truncating,C24,keep failures visible,KEEP FAILURES VISIBLE,2,0,KEEP FAI,False,wrong,,0.13029999536229298,1.0
+truncating,C24,keep failures visible,KEEP FAILURES VISIBLE,3,0,KEEP FAI,False,wrong,,0.12930000229971483,1.0
+truncating,C24,keep failures visible,KEEP FAILURES VISIBLE,4,0,KEEP FAI,False,wrong,,0.12599999899975955,1.0
+truncating,C25,straße,STRASSE,0,0,STRASSE,True,correct,,0.12759999663103372,1.0
+truncating,C25,straße,STRASSE,1,0,STRASSE,True,correct,,0.13159999798517674,1.0
+truncating,C25,straße,STRASSE,2,0,STRASSE,True,correct,,0.12820000119972974,1.0
+truncating,C25,straße,STRASSE,3,0,STRASSE,True,correct,,0.12930000229971483,1.0
+truncating,C25,straße,STRASSE,4,0,STRASSE,True,correct,,0.12799999967683107,1.0
+truncating,C26,mañana,MAÑANA,0,0,MAÑANA,True,correct,,0.130599997646641,1.0
+truncating,C26,mañana,MAÑANA,1,0,MAÑANA,True,correct,,0.1384999995934777,1.0
+truncating,C26,mañana,MAÑANA,2,0,MAÑANA,True,correct,,0.1340000017080456,1.0
+truncating,C26,mañana,MAÑANA,3,0,MAÑANA,True,correct,,0.13020000187680125,1.0
+truncating,C26,mañana,MAÑANA,4,0,MAÑANA,True,correct,,0.13339999713934958,1.0
+truncating,C27,café,CAFÉ,0,0,CAFÉ,True,correct,,0.12739999510813504,1.0
+truncating,C27,café,CAFÉ,1,0,CAFÉ,True,correct,,0.12620000052265823,1.0
+truncating,C27,café,CAFÉ,2,0,CAFÉ,True,correct,,0.12660000356845558,1.0
+truncating,C27,café,CAFÉ,3,0,CAFÉ,True,correct,,0.12840000272262841,1.0
+truncating,C27,café,CAFÉ,4,0,CAFÉ,True,correct,,0.1266999970539473,1.0
+truncating,C28,naïve,NAÏVE,0,0,NAÏVE,True,correct,,0.13870000111637637,1.0
+truncating,C28,naïve,NAÏVE,1,0,NAÏVE,True,correct,,0.12940000306116417,1.0
+truncating,C28,naïve,NAÏVE,2,0,NAÏVE,True,correct,,0.13029999536229298,1.0
+truncating,C28,naïve,NAÏVE,3,0,NAÏVE,True,correct,,0.12850000348407775,1.0
+truncating,C28,naïve,NAÏVE,4,0,NAÏVE,True,correct,,0.14370000280905515,1.0
+truncating,C29,Ångström,ÅNGSTRÖM,0,0,ÅNGSTRÖM,True,correct,,0.1373999984934926,1.0
+truncating,C29,Ångström,ÅNGSTRÖM,1,0,ÅNGSTRÖM,True,correct,,0.1351000028080307,1.0
+truncating,C29,Ångström,ÅNGSTRÖM,2,0,ÅNGSTRÖM,True,correct,,0.12900000001536682,1.0
+truncating,C29,Ångström,ÅNGSTRÖM,3,0,ÅNGSTRÖM,True,correct,,0.13179999950807542,1.0
+truncating,C29,Ångström,ÅNGSTRÖM,4,0,ÅNGSTRÖM,True,correct,,0.12710000009974465,1.0
+truncating,C30,a b c,A B C,0,0,A B C,True,correct,,0.13380000018514693,1.0
+truncating,C30,a b c,A B C,1,0,A B C,True,correct,,0.13300000136950985,1.0
+truncating,C30,a b c,A B C,2,0,A B C,True,correct,,0.12820000119972974,1.0
+truncating,C30,a b c,A B C,3,0,A B C,True,correct,,0.1269999993382953,1.0
+truncating,C30,a b c,A B C,4,0,A B C,True,correct,,0.13939999917056412,1.0
+truncating,C31,  spaced  ,  SPACED  ,0,0,  SPACED,False,wrong,,0.12930000229971483,1.0
+truncating,C31,  spaced  ,  SPACED  ,1,0,  SPACED,False,wrong,,0.13330000365385786,1.0
+truncating,C31,  spaced  ,  SPACED  ,2,0,  SPACED,False,wrong,,0.1323000033153221,1.0
+truncating,C31,  spaced  ,  SPACED  ,3,0,  SPACED,False,wrong,,0.1286000042455271,1.0
+truncating,C31,  spaced  ,  SPACED  ,4,0,  SPACED,False,wrong,,0.1272999943466857,1.0
+truncating,C32,12345,12345,0,0,12345,True,correct,,0.13440000475384295,1.0
+truncating,C32,12345,12345,1,0,12345,True,correct,,0.12679999781539664,1.0
+truncating,C32,12345,12345,2,0,12345,True,correct,,0.12789999891538173,1.0
+truncating,C32,12345,12345,3,0,12345,True,correct,,0.1266999970539473,1.0
+truncating,C32,12345,12345,4,0,12345,True,correct,,0.1294999965466559,1.0
+truncating,C33,mixedCase 42,MIXEDCASE 42,0,0,MIXEDCAS,False,wrong,,0.13069999840809032,1.0
+truncating,C33,mixedCase 42,MIXEDCASE 42,1,0,MIXEDCAS,False,wrong,,0.3059999944525771,1.0
+truncating,C33,mixedCase 42,MIXEDCASE 42,2,0,MIXEDCAS,False,wrong,,0.41870000131893903,1.0
+truncating,C33,mixedCase 42,MIXEDCASE 42,3,0,MIXEDCAS,False,wrong,,0.1779000012902543,1.0
+truncating,C33,mixedCase 42,MIXEDCASE 42,4,0,MIXEDCAS,False,wrong,,0.16630000027362257,1.0
+truncating,C34,xxxxxxxxxx,XXXXXXXXXX,0,0,XXXXXXXX,False,wrong,,0.16259999392786995,1.0
+truncating,C34,xxxxxxxxxx,XXXXXXXXXX,1,0,XXXXXXXX,False,wrong,,0.15839999832678586,1.0
+truncating,C34,xxxxxxxxxx,XXXXXXXXXX,2,0,XXXXXXXX,False,wrong,,0.1478000049246475,1.0
+truncating,C34,xxxxxxxxxx,XXXXXXXXXX,3,0,XXXXXXXX,False,wrong,,0.15619999612681568,1.0
+truncating,C34,xxxxxxxxxx,XXXXXXXXXX,4,0,XXXXXXXX,False,wrong,,0.14139999984763563,1.0
+truncating,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,0,0,YYYYYYYY,False,wrong,,0.15430000348715112,1.0
+truncating,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,1,0,YYYYYYYY,False,wrong,,0.1508999994257465,1.0
+truncating,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,2,0,YYYYYYYY,False,wrong,,0.1536999989184551,1.0
+truncating,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,3,0,YYYYYYYY,False,wrong,,0.13970000145491213,1.0
+truncating,C35,yyyyyyyyyyyy,YYYYYYYYYYYY,4,0,YYYYYYYY,False,wrong,,0.1286000042455271,1.0
+truncating,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,0,0,ZZZZZZZZ,False,wrong,,0.13630000466946512,1.0
+truncating,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,0,ZZZZZZZZ,False,wrong,,0.14209999790182337,1.0
+truncating,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,2,0,ZZZZZZZZ,False,wrong,,0.16099999629659578,1.0
+truncating,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,3,0,ZZZZZZZZ,False,wrong,,0.14200000441633165,1.0
+truncating,C36,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,0,ZZZZZZZZ,False,wrong,,0.13749999925494194,1.0
+truncating,C37,abababababababababab,ABABABABABABABABABAB,0,0,ABABABAB,False,wrong,,0.13130000297678635,1.0
+truncating,C37,abababababababababab,ABABABABABABABABABAB,1,0,ABABABAB,False,wrong,,0.13339999713934958,1.0
+truncating,C37,abababababababababab,ABABABABABABABABABAB,2,0,ABABABAB,False,wrong,,0.1401999979862012,1.0
+truncating,C37,abababababababababab,ABABABABABABABABABAB,3,0,ABABABAB,False,wrong,,0.16229999891947955,1.0
+truncating,C37,abababababababababab,ABABABABABABABABABAB,4,0,ABABABAB,False,wrong,,0.1598999951966107,1.0
+truncating,C38,short,SHORT,0,0,SHORT,True,correct,,0.14680000458611175,1.0
+truncating,C38,short,SHORT,1,0,SHORT,True,correct,,0.14509999891743064,1.0
+truncating,C38,short,SHORT,2,0,SHORT,True,correct,,0.14240000018617138,1.0
+truncating,C38,short,SHORT,3,0,SHORT,True,correct,,0.3728000010596588,1.0
+truncating,C38,short,SHORT,4,0,SHORT,True,correct,,0.15759999951114878,1.0
+truncating,C39,longer phrase here,LONGER PHRASE HERE,0,0,LONGER P,False,wrong,,0.16309999773511663,1.0
+truncating,C39,longer phrase here,LONGER PHRASE HERE,1,0,LONGER P,False,wrong,,0.15359999815700576,1.0
+truncating,C39,longer phrase here,LONGER PHRASE HERE,2,0,LONGER P,False,wrong,,0.14200000441633165,1.0
+truncating,C39,longer phrase here,LONGER PHRASE HERE,3,0,LONGER P,False,wrong,,0.13000000035390258,1.0
+truncating,C39,longer phrase here,LONGER PHRASE HERE,4,0,LONGER P,False,wrong,,0.13870000111637637,1.0

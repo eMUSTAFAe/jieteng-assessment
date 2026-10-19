@@ -1,0 +1,801 @@
+adapter,case_id,repeat,input_text,expected,attempts_used,first_attempt_correct,final_correct,final_outcome,final_detail,attempts_to_success,total_cost,total_latency_ms
+fast,C00,0,hello,HELLO,1,True,True,correct,,1.0,1.0,0.13870000111637637
+fast,C00,1,hello,HELLO,1,True,True,correct,,1.0,1.0,0.14029999874765053
+fast,C00,2,hello,HELLO,1,True,True,correct,,1.0,1.0,0.17759999900590628
+fast,C00,3,hello,HELLO,1,True,True,correct,,1.0,1.0,0.15439999697264284
+fast,C00,4,hello,HELLO,1,True,True,correct,,1.0,1.0,0.14940000255592167
+fast,C01,0,world,WORLD,1,True,True,correct,,1.0,1.0,0.13749999925494194
+fast,C01,1,world,WORLD,1,True,True,correct,,1.0,1.0,0.4650999981095083
+fast,C01,2,world,WORLD,1,True,True,correct,,1.0,1.0,0.1688999982434325
+fast,C01,3,world,WORLD,1,True,True,correct,,1.0,1.0,0.15729999722680077
+fast,C01,4,world,WORLD,1,True,True,correct,,1.0,1.0,0.15780000103404745
+fast,C02,0,test,TEST,1,True,True,correct,,1.0,1.0,0.1520000005257316
+fast,C02,1,test,TEST,1,True,True,correct,,1.0,1.0,0.14620000001741573
+fast,C02,2,test,TEST,1,True,True,correct,,1.0,1.0,0.16250000044237822
+fast,C02,3,test,TEST,1,True,True,correct,,1.0,1.0,0.15269999857991934
+fast,C02,4,test,TEST,1,True,True,correct,,1.0,1.0,0.1568000006955117
+fast,C03,0,a,A,1,True,True,correct,,1.0,1.0,0.1871999993454665
+fast,C03,1,a,A,1,True,True,correct,,1.0,1.0,0.2356000040890649
+fast,C03,2,a,A,1,True,True,correct,,1.0,1.0,0.14319999900180846
+fast,C03,3,a,A,1,True,True,correct,,1.0,1.0,0.16169999435078353
+fast,C03,4,a,A,1,True,True,correct,,1.0,1.0,0.13829999807057902
+fast,C04,0,,,1,True,True,correct,,1.0,1.0,0.14059999375604093
+fast,C04,1,,,1,True,True,correct,,1.0,1.0,0.13559999933931977
+fast,C04,2,,,1,True,True,correct,,1.0,1.0,0.1353999978164211
+fast,C04,3,,,1,True,True,correct,,1.0,1.0,0.13179999950807542
+fast,C04,4,,,1,True,True,correct,,1.0,1.0,0.13529999705497175
+fast,C05,0,go,GO,1,True,True,correct,,1.0,1.0,0.14789999841013923
+fast,C05,1,go,GO,1,True,True,correct,,1.0,1.0,0.15870000061113387
+fast,C05,2,go,GO,1,True,True,correct,,1.0,1.0,0.14969999756431207
+fast,C05,3,go,GO,1,True,True,correct,,1.0,1.0,0.14370000280905515
+fast,C05,4,go,GO,1,True,True,correct,,1.0,1.0,0.14980000560171902
+fast,C06,0,run,RUN,1,True,True,correct,,1.0,1.0,0.1613000058569014
+fast,C06,1,run,RUN,1,True,True,correct,,1.0,1.0,0.14139999984763563
+fast,C06,2,run,RUN,1,True,True,correct,,1.0,1.0,0.1412999990861863
+fast,C06,3,run,RUN,1,True,True,correct,,1.0,1.0,0.13700000272365287
+fast,C06,4,run,RUN,1,True,True,correct,,1.0,1.0,0.13419999595498666
+fast,C07,0,model,MODEL,1,True,True,correct,,1.0,1.0,0.1362999973935075
+fast,C07,1,model,MODEL,1,True,True,correct,,1.0,1.0,0.13480000052368268
+fast,C07,2,model,MODEL,1,True,True,correct,,1.0,1.0,0.1604999997653067
+fast,C07,3,model,MODEL,1,True,True,correct,,1.0,1.0,0.134299996716436
+fast,C07,4,model,MODEL,1,True,True,correct,,1.0,1.0,0.12970000534551218
+fast,C08,0,tiny,TINY,1,True,True,correct,,1.0,1.0,0.13670000043930486
+fast,C08,1,tiny,TINY,1,True,True,correct,,1.0,1.0,0.12849999620812014
+fast,C08,2,tiny,TINY,1,True,True,correct,,1.0,1.0,0.12879999849246815
+fast,C08,3,tiny,TINY,1,True,True,correct,,1.0,1.0,0.12469999637687579
+fast,C08,4,tiny,TINY,1,True,True,correct,,1.0,1.0,0.12799999967683107
+fast,C09,0,data,DATA,1,True,True,correct,,1.0,1.0,0.1286999977310188
+fast,C09,1,data,DATA,1,True,True,correct,,1.0,1.0,0.3440000000409782
+fast,C09,2,data,DATA,1,True,True,correct,,1.0,1.0,0.1373999984934926
+fast,C09,3,data,DATA,1,True,True,correct,,1.0,1.0,0.13249999756226316
+fast,C09,4,data,DATA,1,True,True,correct,,1.0,1.0,0.13139999646227807
+fast,C10,0,python,PYTHON,1,True,True,correct,,1.0,1.0,0.14080000255489722
+fast,C10,1,python,PYTHON,1,True,True,correct,,1.0,1.0,0.13160000526113436
+fast,C10,2,python,PYTHON,1,True,True,correct,,1.0,1.0,0.14509999891743064
+fast,C10,3,python,PYTHON,1,True,True,correct,,1.0,1.0,0.14369999553309754
+fast,C10,4,python,PYTHON,1,True,True,correct,,1.0,1.0,0.13349999790079892
+fast,C11,0,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.19640000391518697
+fast,C11,1,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.14930000179447234
+fast,C11,2,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.14419999934034422
+fast,C11,3,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.1384999995934777
+fast,C11,4,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.13330000365385786
+fast,C12,0,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.15069999790284783
+fast,C12,1,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.13150000449968502
+fast,C12,2,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.13649999891640618
+fast,C12,3,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.13419999595498666
+fast,C12,4,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.13329999637790024
+fast,C13,0,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.13079999916953966
+fast,C13,1,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.13480000052368268
+fast,C13,2,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.13659999967785552
+fast,C13,3,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.16940000205067918
+fast,C13,4,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.15490000077988952
+fast,C14,0,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.1508999994257465
+fast,C14,1,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.258100000792183
+fast,C14,2,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.16650000179652125
+fast,C14,3,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.14549999468727037
+fast,C14,4,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.15169999824138358
+fast,C15,0,retry,RETRY,1,True,True,correct,,1.0,1.0,0.14000000373926014
+fast,C15,1,retry,RETRY,1,True,True,correct,,1.0,1.0,0.1336999994236976
+fast,C15,2,retry,RETRY,1,True,True,correct,,1.0,1.0,0.13780000153928995
+fast,C15,3,retry,RETRY,1,True,True,correct,,1.0,1.0,0.17079999815905467
+fast,C15,4,retry,RETRY,1,True,True,correct,,1.0,1.0,0.14430000010179356
+fast,C16,0,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.14679999731015414
+fast,C16,1,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.13530000433092937
+fast,C16,2,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.13309999485500157
+fast,C16,3,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.149200001033023
+fast,C16,4,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.1320999945164658
+fast,C17,0,cost,COST,1,True,True,correct,,1.0,1.0,0.14840000221738592
+fast,C17,1,cost,COST,1,True,True,correct,,1.0,1.0,0.13130000297678635
+fast,C17,2,cost,COST,1,True,True,correct,,1.0,1.0,0.3223000021534972
+fast,C17,3,cost,COST,1,True,True,correct,,1.0,1.0,0.15130000247154385
+fast,C17,4,cost,COST,1,True,True,correct,,1.0,1.0,0.14409999857889488
+fast,C18,0,evaluation,EVALUATION,1,True,True,correct,,1.0,1.0,0.1649999976507388
+fast,C18,1,evaluation,EVALUATION,1,True,True,correct,,1.0,1.0,0.14830000145593658
+fast,C18,2,evaluation,EVALUATION,1,True,True,correct,,1.0,1.0,0.16659999528201297
+fast,C18,3,evaluation,EVALUATION,1,True,True,correct,,1.0,1.0,0.16659999528201297
+fast,C18,4,evaluation,EVALUATION,1,True,True,correct,,1.0,1.0,0.1674999948590994
+fast,C19,0,reproducible,REPRODUCIBLE,1,True,True,correct,,1.0,1.0,0.15619999612681568
+fast,C19,1,reproducible,REPRODUCIBLE,1,True,True,correct,,1.0,1.0,0.30669999978272244
+fast,C19,2,reproducible,REPRODUCIBLE,1,True,True,correct,,1.0,1.0,0.15639999764971435
+fast,C19,3,reproducible,REPRODUCIBLE,1,True,True,correct,,1.0,1.0,0.15100000018719584
+fast,C19,4,reproducible,REPRODUCIBLE,1,True,True,correct,,1.0,1.0,0.15490000077988952
+fast,C20,0,hello world,HELLO WORLD,1,True,True,correct,,1.0,1.0,0.16500000492669642
+fast,C20,1,hello world,HELLO WORLD,1,True,True,correct,,1.0,1.0,0.14139999984763563
+fast,C20,2,hello world,HELLO WORLD,1,True,True,correct,,1.0,1.0,0.14630000077886507
+fast,C20,3,hello world,HELLO WORLD,1,True,True,correct,,1.0,1.0,0.1351000028080307
+fast,C20,4,hello world,HELLO WORLD,1,True,True,correct,,1.0,1.0,0.14090000331634656
+fast,C21,0,tiny model,TINY MODEL,1,True,True,correct,,1.0,1.0,0.13679999392479658
+fast,C21,1,tiny model,TINY MODEL,1,True,True,correct,,1.0,1.0,0.1562000034027733
+fast,C21,2,tiny model,TINY MODEL,1,True,True,correct,,1.0,1.0,0.15020000137155876
+fast,C21,3,tiny model,TINY MODEL,1,True,True,correct,,1.0,1.0,0.15189999976428226
+fast,C21,4,tiny model,TINY MODEL,1,True,True,correct,,1.0,1.0,0.14709999959450215
+fast,C22,0,evaluation runner,EVALUATION RUNNER,1,True,True,correct,,1.0,1.0,0.14220000593923032
+fast,C22,1,evaluation runner,EVALUATION RUNNER,1,True,True,correct,,1.0,1.0,0.18979999731527641
+fast,C22,2,evaluation runner,EVALUATION RUNNER,1,True,True,correct,,1.0,1.0,0.15949999942677096
+fast,C22,3,evaluation runner,EVALUATION RUNNER,1,True,True,correct,,1.0,1.0,0.15279999934136868
+fast,C22,4,evaluation runner,EVALUATION RUNNER,1,True,True,correct,,1.0,1.0,0.14340000052470714
+fast,C23,0,adapter ranking,ADAPTER RANKING,1,True,True,correct,,1.0,1.0,0.1393000056850724
+fast,C23,1,adapter ranking,ADAPTER RANKING,1,True,True,correct,,1.0,1.0,0.13649999891640618
+fast,C23,2,adapter ranking,ADAPTER RANKING,1,True,True,correct,,1.0,1.0,0.2674999996088445
+fast,C23,3,adapter ranking,ADAPTER RANKING,1,True,True,correct,,1.0,1.0,0.13349999790079892
+fast,C23,4,adapter ranking,ADAPTER RANKING,1,True,True,correct,,1.0,1.0,0.13390000094659626
+fast,C24,0,keep failures visible,KEEP FAILURES VISIBLE,1,True,True,correct,,1.0,1.0,0.13699999544769526
+fast,C24,1,keep failures visible,KEEP FAILURES VISIBLE,1,True,True,correct,,1.0,1.0,0.1402000052621588
+fast,C24,2,keep failures visible,KEEP FAILURES VISIBLE,1,True,True,correct,,1.0,1.0,0.1979000007850118
+fast,C24,3,keep failures visible,KEEP FAILURES VISIBLE,1,True,True,correct,,1.0,1.0,0.21949999791104347
+fast,C24,4,keep failures visible,KEEP FAILURES VISIBLE,1,True,True,correct,,1.0,1.0,0.13800000306218863
+fast,C25,0,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.6800999981351197
+fast,C25,1,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.20560000120894983
+fast,C25,2,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.17040000238921493
+fast,C25,3,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.16180000238819048
+fast,C25,4,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.16010000399546698
+fast,C26,0,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.156299996888265
+fast,C26,1,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.16069999401224777
+fast,C26,2,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.14799999917158857
+fast,C26,3,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.13999999646330252
+fast,C26,4,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.1517000055173412
+fast,C27,0,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.13749999925494194
+fast,C27,1,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.14510000619338825
+fast,C27,2,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.14090000331634656
+fast,C27,3,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.15700000221841037
+fast,C27,4,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.14309999824035913
+fast,C28,0,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.14460000238614157
+fast,C28,1,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.15720000374130905
+fast,C28,2,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.5500999977812171
+fast,C28,3,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.18390000332146883
+fast,C28,4,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.16200000391108915
+fast,C29,0,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.17409999418305233
+fast,C29,1,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.16829999367473647
+fast,C29,2,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.15890000213403255
+fast,C29,3,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.17139999545179307
+fast,C29,4,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.15939999866532162
+fast,C30,0,a b c,A B C,1,True,True,correct,,1.0,1.0,0.1472000003559515
+fast,C30,1,a b c,A B C,1,True,True,correct,,1.0,1.0,0.1430000047548674
+fast,C30,2,a b c,A B C,1,True,True,correct,,1.0,1.0,0.1427000024705194
+fast,C30,3,a b c,A B C,1,True,True,correct,,1.0,1.0,0.14009999722475186
+fast,C30,4,a b c,A B C,1,True,True,correct,,1.0,1.0,0.15079999866429716
+fast,C31,0,  spaced  ,  SPACED  ,1,True,True,correct,,1.0,1.0,0.14250000094762072
+fast,C31,1,  spaced  ,  SPACED  ,1,True,True,correct,,1.0,1.0,0.13870000111637637
+fast,C31,2,  spaced  ,  SPACED  ,1,True,True,correct,,1.0,1.0,0.185800003237091
+fast,C31,3,  spaced  ,  SPACED  ,1,True,True,correct,,1.0,1.0,0.13390000094659626
+fast,C31,4,  spaced  ,  SPACED  ,1,True,True,correct,,1.0,1.0,0.1551000023027882
+fast,C32,0,12345,12345,1,True,True,correct,,1.0,1.0,0.17549999756738544
+fast,C32,1,12345,12345,1,True,True,correct,,1.0,1.0,0.17359999765176326
+fast,C32,2,12345,12345,1,True,True,correct,,1.0,1.0,0.15970000094966963
+fast,C32,3,12345,12345,1,True,True,correct,,1.0,1.0,0.15520000306423753
+fast,C32,4,12345,12345,1,True,True,correct,,1.0,1.0,0.1506000044173561
+fast,C33,0,mixedCase 42,MIXEDCASE 42,1,True,True,correct,,1.0,1.0,0.14660000306321308
+fast,C33,1,mixedCase 42,MIXEDCASE 42,1,True,True,correct,,1.0,1.0,0.1612999985809438
+fast,C33,2,mixedCase 42,MIXEDCASE 42,1,True,True,correct,,1.0,1.0,0.15390000044135377
+fast,C33,3,mixedCase 42,MIXEDCASE 42,1,True,True,correct,,1.0,1.0,0.15949999942677096
+fast,C33,4,mixedCase 42,MIXEDCASE 42,1,True,True,correct,,1.0,1.0,0.19270000484539196
+fast,C34,0,xxxxxxxxxx,XXXXXXXXXX,1,True,True,correct,,1.0,1.0,0.17210000078193843
+fast,C34,1,xxxxxxxxxx,XXXXXXXXXX,1,True,True,correct,,1.0,1.0,0.1477999976486899
+fast,C34,2,xxxxxxxxxx,XXXXXXXXXX,1,True,True,correct,,1.0,1.0,0.15580000035697594
+fast,C34,3,xxxxxxxxxx,XXXXXXXXXX,1,True,True,correct,,1.0,1.0,0.14679999731015414
+fast,C34,4,xxxxxxxxxx,XXXXXXXXXX,1,True,True,correct,,1.0,1.0,0.13310000213095918
+fast,C35,0,yyyyyyyyyyyy,YYYYYYYYYYYY,1,True,True,correct,,1.0,1.0,0.13439999747788534
+fast,C35,1,yyyyyyyyyyyy,YYYYYYYYYYYY,1,True,True,correct,,1.0,1.0,0.13770000077784061
+fast,C35,2,yyyyyyyyyyyy,YYYYYYYYYYYY,1,True,True,correct,,1.0,1.0,0.1436000020476058
+fast,C35,3,yyyyyyyyyyyy,YYYYYYYYYYYY,1,True,True,correct,,1.0,1.0,0.15010000061010942
+fast,C35,4,yyyyyyyyyyyy,YYYYYYYYYYYY,1,True,True,correct,,1.0,1.0,0.4870000047958456
+fast,C36,0,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,True,True,correct,,1.0,1.0,0.1655000014579855
+fast,C36,1,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,True,True,correct,,1.0,1.0,0.17389999993611127
+fast,C36,2,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,True,True,correct,,1.0,1.0,0.1692000005277805
+fast,C36,3,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,True,True,correct,,1.0,1.0,0.16400000458816066
+fast,C36,4,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,True,True,correct,,1.0,1.0,0.1554000045871362
+fast,C37,0,abababababababababab,ABABABABABABABABABAB,1,True,True,correct,,1.0,1.0,0.1357000001007691
+fast,C37,1,abababababababababab,ABABABABABABABABABAB,1,True,True,correct,,1.0,1.0,0.16090000281110406
+fast,C37,2,abababababababababab,ABABABABABABABABABAB,1,True,True,correct,,1.0,1.0,0.15980000171111897
+fast,C37,3,abababababababababab,ABABABABABABABABABAB,1,True,True,correct,,1.0,1.0,0.1632999992580153
+fast,C37,4,abababababababababab,ABABABABABABABABABAB,1,True,True,correct,,1.0,1.0,0.1571000029798597
+fast,C38,0,short,SHORT,1,True,True,correct,,1.0,1.0,0.16340000001946464
+fast,C38,1,short,SHORT,1,True,True,correct,,1.0,1.0,0.13939999917056412
+fast,C38,2,short,SHORT,1,True,True,correct,,1.0,1.0,0.15659999917261302
+fast,C38,3,short,SHORT,1,True,True,correct,,1.0,1.0,0.15420000272570178
+fast,C38,4,short,SHORT,1,True,True,correct,,1.0,1.0,0.16310000501107424
+fast,C39,0,longer phrase here,LONGER PHRASE HERE,1,True,True,correct,,1.0,1.0,0.15659999917261302
+fast,C39,1,longer phrase here,LONGER PHRASE HERE,1,True,True,correct,,1.0,1.0,0.1588000013725832
+fast,C39,2,longer phrase here,LONGER PHRASE HERE,1,True,True,correct,,1.0,1.0,0.1540000012028031
+fast,C39,3,longer phrase here,LONGER PHRASE HERE,1,True,True,correct,,1.0,1.0,0.2625999986776151
+fast,C39,4,longer phrase here,LONGER PHRASE HERE,1,True,True,correct,,1.0,1.0,0.20419999782461673
+transient,C00,0,hello,HELLO,2,False,True,correct,,2.0,2.0,0.6342000051517971
+transient,C00,1,hello,HELLO,4,False,True,correct,,4.0,4.0,1.5896999975666404
+transient,C00,2,hello,HELLO,2,False,True,correct,,2.0,2.0,0.4697999975178391
+transient,C00,3,hello,HELLO,1,True,True,correct,,1.0,1.0,0.18149999959859997
+transient,C00,4,hello,HELLO,1,True,True,correct,,1.0,1.0,0.16489999688928947
+transient,C01,0,world,WORLD,1,True,True,correct,,1.0,1.0,0.33940000139409676
+transient,C01,1,world,WORLD,1,True,True,correct,,1.0,1.0,0.18900000577559695
+transient,C01,2,world,WORLD,1,True,True,correct,,1.0,1.0,0.170899998920504
+transient,C01,3,world,WORLD,2,False,True,correct,,2.0,2.0,0.3423999951337464
+transient,C01,4,world,WORLD,1,True,True,correct,,1.0,1.0,0.167199999850709
+transient,C02,0,test,TEST,1,True,True,correct,,1.0,1.0,0.15439999697264284
+transient,C02,1,test,TEST,1,True,True,correct,,1.0,1.0,0.1551000023027882
+transient,C02,2,test,TEST,1,True,True,correct,,1.0,1.0,0.1472000003559515
+transient,C02,3,test,TEST,1,True,True,correct,,1.0,1.0,0.1720000000204891
+transient,C02,4,test,TEST,2,False,True,correct,,2.0,2.0,0.3040000010514632
+transient,C03,0,a,A,1,True,True,correct,,1.0,1.0,0.1731000011204742
+transient,C03,1,a,A,2,False,True,correct,,2.0,2.0,0.3040000010514632
+transient,C03,2,a,A,2,False,True,correct,,2.0,2.0,0.3308000013930723
+transient,C03,3,a,A,1,True,True,correct,,1.0,1.0,0.14409999857889488
+transient,C03,4,a,A,2,False,True,correct,,2.0,2.0,0.35039999784203246
+transient,C04,0,,,1,True,True,correct,,1.0,1.0,0.16999999934341758
+transient,C04,1,,,1,True,True,correct,,1.0,1.0,0.145500001963228
+transient,C04,2,,,2,False,True,correct,,2.0,2.0,0.3108999953838065
+transient,C04,3,,,1,True,True,correct,,1.0,1.0,0.15419999544974416
+transient,C04,4,,,1,True,True,correct,,1.0,1.0,0.15409999468829483
+transient,C05,0,go,GO,1,True,True,correct,,1.0,1.0,0.14569999621016905
+transient,C05,1,go,GO,1,True,True,correct,,1.0,1.0,0.14569999621016905
+transient,C05,2,go,GO,1,True,True,correct,,1.0,1.0,0.1412999990861863
+transient,C05,3,go,GO,1,True,True,correct,,1.0,1.0,0.14899999951012433
+transient,C05,4,go,GO,1,True,True,correct,,1.0,1.0,0.14599999849451706
+transient,C06,0,run,RUN,1,True,True,correct,,1.0,1.0,0.16350000078091398
+transient,C06,1,run,RUN,1,True,True,correct,,1.0,1.0,0.1412999990861863
+transient,C06,2,run,RUN,4,False,True,correct,,4.0,4.0,0.6076999998185784
+transient,C06,3,run,RUN,3,False,True,correct,,3.0,3.0,0.49980000767391175
+transient,C06,4,run,RUN,2,False,True,correct,,2.0,2.0,0.3315999929327518
+transient,C07,0,model,MODEL,3,False,True,correct,,3.0,3.0,0.4668000037781894
+transient,C07,1,model,MODEL,2,False,True,correct,,2.0,2.0,0.3094000057899393
+transient,C07,2,model,MODEL,1,True,True,correct,,1.0,1.0,0.15100000018719584
+transient,C07,3,model,MODEL,1,True,True,correct,,1.0,1.0,0.1579000017954968
+transient,C07,4,model,MODEL,1,True,True,correct,,1.0,1.0,0.13819999730912969
+transient,C08,0,tiny,TINY,1,True,True,correct,,1.0,1.0,0.1463999942643568
+transient,C08,1,tiny,TINY,1,True,True,correct,,1.0,1.0,0.13819999730912969
+transient,C08,2,tiny,TINY,3,False,True,correct,,3.0,3.0,0.4239999980200082
+transient,C08,3,tiny,TINY,1,True,True,correct,,1.0,1.0,0.13050000416114926
+transient,C08,4,tiny,TINY,1,True,True,correct,,1.0,1.0,0.13670000043930486
+transient,C09,0,data,DATA,1,True,True,correct,,1.0,1.0,0.1390999968862161
+transient,C09,1,data,DATA,1,True,True,correct,,1.0,1.0,0.13970000145491213
+transient,C09,2,data,DATA,1,True,True,correct,,1.0,1.0,0.3938000008929521
+transient,C09,3,data,DATA,1,True,True,correct,,1.0,1.0,0.15130000247154385
+transient,C09,4,data,DATA,2,False,True,correct,,2.0,2.0,0.2955999952973798
+transient,C10,0,python,PYTHON,1,True,True,correct,,1.0,1.0,0.15050000365590677
+transient,C10,1,python,PYTHON,2,False,True,correct,,2.0,2.0,0.30840000545140356
+transient,C10,2,python,PYTHON,1,True,True,correct,,1.0,1.0,0.1857999959611334
+transient,C10,3,python,PYTHON,1,True,True,correct,,1.0,1.0,0.14689999807160348
+transient,C10,4,python,PYTHON,1,True,True,correct,,1.0,1.0,0.4182999982731417
+transient,C11,0,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.15549999807262793
+transient,C11,1,runner,RUNNER,3,False,True,correct,,3.0,3.0,0.43900000309804454
+transient,C11,2,runner,RUNNER,2,False,True,correct,,2.0,2.0,0.27599999884841964
+transient,C11,3,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.13939999917056412
+transient,C11,4,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.14579999697161838
+transient,C12,0,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.13939999917056412
+transient,C12,1,adapter,ADAPTER,2,False,True,correct,,2.0,2.0,0.5087000026833266
+transient,C12,2,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.1664000010350719
+transient,C12,3,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.17010000010486692
+transient,C12,4,adapter,ADAPTER,2,False,True,correct,,2.0,2.0,0.34019999293377623
+transient,C13,0,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.14250000094762072
+transient,C13,1,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.13720000424655154
+transient,C13,2,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.19809999503195286
+transient,C13,3,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.15010000061010942
+transient,C13,4,latency,LATENCY,3,False,True,correct,,3.0,3.0,0.4243000003043562
+transient,C14,0,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.1362999973935075
+transient,C14,1,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.14980000560171902
+transient,C14,2,timeout,TIMEOUT,2,False,True,correct,,2.0,2.0,0.28620000375667587
+transient,C14,3,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.13469999976223335
+transient,C14,4,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.1523000028100796
+transient,C15,0,retry,RETRY,1,True,True,correct,,1.0,1.0,0.14029999874765053
+transient,C15,1,retry,RETRY,2,False,True,correct,,2.0,2.0,0.5460000029415824
+transient,C15,2,retry,RETRY,1,True,True,correct,,1.0,1.0,0.14480000390904024
+transient,C15,3,retry,RETRY,1,True,True,correct,,1.0,1.0,0.16560000221943483
+transient,C15,4,retry,RETRY,2,False,True,correct,,2.0,2.0,0.43200000072829425
+transient,C16,0,failure,FAILURE,3,False,True,correct,,3.0,3.0,0.4972000024281442
+transient,C16,1,failure,FAILURE,2,False,True,correct,,2.0,2.0,0.2921999985119328
+transient,C16,2,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.2930999980890192
+transient,C16,3,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.14309999824035913
+transient,C16,4,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.15330000314861536
+transient,C17,0,cost,COST,2,False,True,correct,,2.0,2.0,0.2899000028264709
+transient,C17,1,cost,COST,1,True,True,correct,,1.0,1.0,0.14930000179447234
+transient,C17,2,cost,COST,1,True,True,correct,,1.0,1.0,0.1460999992559664
+transient,C17,3,cost,COST,1,True,True,correct,,1.0,1.0,0.1508999994257465
+transient,C17,4,cost,COST,1,True,True,correct,,1.0,1.0,0.17440000374335796
+transient,C18,0,evaluation,EVALUATION,1,True,True,correct,,1.0,1.0,0.1740000006975606
+transient,C18,1,evaluation,EVALUATION,2,False,True,correct,,2.0,2.0,0.31670000316808
+transient,C18,2,evaluation,EVALUATION,1,True,True,correct,,1.0,1.0,0.15050000365590677
+transient,C18,3,evaluation,EVALUATION,2,False,True,correct,,2.0,2.0,0.3373000072315335
+transient,C18,4,evaluation,EVALUATION,1,True,True,correct,,1.0,1.0,0.14899999951012433
+transient,C19,0,reproducible,REPRODUCIBLE,1,True,True,correct,,1.0,1.0,0.14589999773306772
+transient,C19,1,reproducible,REPRODUCIBLE,1,True,True,correct,,1.0,1.0,0.16209999739658087
+transient,C19,2,reproducible,REPRODUCIBLE,2,False,True,correct,,2.0,2.0,0.33880000410135835
+transient,C19,3,reproducible,REPRODUCIBLE,1,True,True,correct,,1.0,1.0,0.16990000585792586
+transient,C19,4,reproducible,REPRODUCIBLE,3,False,True,correct,,3.0,3.0,0.44129999878350645
+transient,C20,0,hello world,HELLO WORLD,3,False,True,correct,,3.0,3.0,0.6807000027038157
+transient,C20,1,hello world,HELLO WORLD,1,True,True,correct,,1.0,1.0,0.16400000458816066
+transient,C20,2,hello world,HELLO WORLD,1,True,True,correct,,1.0,1.0,0.1646999953663908
+transient,C20,3,hello world,HELLO WORLD,2,False,True,correct,,2.0,2.0,0.31030000536702573
+transient,C20,4,hello world,HELLO WORLD,1,True,True,correct,,1.0,1.0,0.3128000025753863
+transient,C21,0,tiny model,TINY MODEL,2,False,True,correct,,2.0,2.0,0.49509999371366575
+transient,C21,1,tiny model,TINY MODEL,1,True,True,correct,,1.0,1.0,0.1520000005257316
+transient,C21,2,tiny model,TINY MODEL,1,True,True,correct,,1.0,1.0,0.1486000037402846
+transient,C21,3,tiny model,TINY MODEL,1,True,True,correct,,1.0,1.0,0.14279999595601112
+transient,C21,4,tiny model,TINY MODEL,1,True,True,correct,,1.0,1.0,0.14899999951012433
+transient,C22,0,evaluation runner,EVALUATION RUNNER,3,False,True,correct,,3.0,3.0,0.4455999951460399
+transient,C22,1,evaluation runner,EVALUATION RUNNER,1,True,True,correct,,1.0,1.0,0.21189999824855477
+transient,C22,2,evaluation runner,EVALUATION RUNNER,2,False,True,correct,,2.0,2.0,0.6482999961008318
+transient,C22,3,evaluation runner,EVALUATION RUNNER,1,True,True,correct,,1.0,1.0,0.1812999980757013
+transient,C22,4,evaluation runner,EVALUATION RUNNER,2,False,True,correct,,2.0,2.0,0.4022000066470355
+transient,C23,0,adapter ranking,ADAPTER RANKING,1,True,True,correct,,1.0,1.0,0.167800004419405
+transient,C23,1,adapter ranking,ADAPTER RANKING,1,True,True,correct,,1.0,1.0,0.16150000010384247
+transient,C23,2,adapter ranking,ADAPTER RANKING,1,True,True,correct,,1.0,1.0,0.22570000146515667
+transient,C23,3,adapter ranking,ADAPTER RANKING,1,True,True,correct,,1.0,1.0,0.16320000577252358
+transient,C23,4,adapter ranking,ADAPTER RANKING,1,True,True,correct,,1.0,1.0,0.15920000441838056
+transient,C24,0,keep failures visible,KEEP FAILURES VISIBLE,1,True,True,correct,,1.0,1.0,0.1568000006955117
+transient,C24,1,keep failures visible,KEEP FAILURES VISIBLE,1,True,True,correct,,1.0,1.0,0.1536999989184551
+transient,C24,2,keep failures visible,KEEP FAILURES VISIBLE,1,True,True,correct,,1.0,1.0,0.16119999781949446
+transient,C24,3,keep failures visible,KEEP FAILURES VISIBLE,2,False,True,correct,,2.0,2.0,0.29630000062752515
+transient,C24,4,keep failures visible,KEEP FAILURES VISIBLE,2,False,True,correct,,2.0,2.0,0.3149999974993989
+transient,C25,0,straße,STRASSE,3,False,True,correct,,3.0,3.0,0.5074000073364004
+transient,C25,1,straße,STRASSE,2,False,True,correct,,2.0,2.0,0.31370000215247273
+transient,C25,2,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.1607999947736971
+transient,C25,3,straße,STRASSE,2,False,True,correct,,2.0,2.0,0.3228999994462356
+transient,C25,4,straße,STRASSE,2,False,True,correct,,2.0,2.0,0.36809999437537044
+transient,C26,0,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.1564999984111637
+transient,C26,1,mañana,MAÑANA,4,False,True,correct,,4.0,4.0,0.5999000131851062
+transient,C26,2,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.14170000213198364
+transient,C26,3,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.14210000517778099
+transient,C26,4,mañana,MAÑANA,2,False,True,correct,,2.0,2.0,0.28789999487344176
+transient,C27,0,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.16200000391108915
+transient,C27,1,café,CAFÉ,2,False,True,correct,,2.0,2.0,0.38270000368356705
+transient,C27,2,café,CAFÉ,3,False,True,correct,,3.0,3.0,0.48859999515116215
+transient,C27,3,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.16090000281110406
+transient,C27,4,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.15609999536536634
+transient,C28,0,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.1751000017975457
+transient,C28,1,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.15449999773409218
+transient,C28,2,naïve,NAÏVE,2,False,True,correct,,2.0,2.0,0.29660000291187316
+transient,C28,3,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.1432999997632578
+transient,C28,4,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.14709999959450215
+transient,C29,0,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.22399999579647556
+transient,C29,1,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.152299995534122
+transient,C29,2,Ångström,ÅNGSTRÖM,2,False,True,correct,,2.0,2.0,0.32339999597752467
+transient,C29,3,Ångström,ÅNGSTRÖM,4,False,False,error,RuntimeError: deterministic transient failure,,4.0,0.8670999959576875
+transient,C29,4,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.5262999984552152
+transient,C30,0,a b c,A B C,1,True,True,correct,,1.0,1.0,0.18559999443823472
+transient,C30,1,a b c,A B C,1,True,True,correct,,1.0,1.0,0.17720000323606655
+transient,C30,2,a b c,A B C,1,True,True,correct,,1.0,1.0,0.16239999968092889
+transient,C30,3,a b c,A B C,1,True,True,correct,,1.0,1.0,0.17590000061318278
+transient,C30,4,a b c,A B C,2,False,True,correct,,2.0,2.0,0.3010000000358559
+transient,C31,0,  spaced  ,  SPACED  ,2,False,True,correct,,2.0,2.0,0.31429999216925353
+transient,C31,1,  spaced  ,  SPACED  ,1,True,True,correct,,1.0,1.0,0.1514999967184849
+transient,C31,2,  spaced  ,  SPACED  ,2,False,True,correct,,2.0,2.0,0.3001000004587695
+transient,C31,3,  spaced  ,  SPACED  ,1,True,True,correct,,1.0,1.0,0.14630000077886507
+transient,C31,4,  spaced  ,  SPACED  ,2,False,True,correct,,2.0,2.0,0.29350000841077417
+transient,C32,0,12345,12345,2,False,True,correct,,2.0,2.0,0.33180000173160806
+transient,C32,1,12345,12345,2,False,True,correct,,2.0,2.0,0.3336999943712726
+transient,C32,2,12345,12345,4,False,True,correct,,4.0,4.0,0.6875000035506673
+transient,C32,3,12345,12345,1,True,True,correct,,1.0,1.0,0.15269999857991934
+transient,C32,4,12345,12345,1,True,True,correct,,1.0,1.0,0.16930000128922984
+transient,C33,0,mixedCase 42,MIXEDCASE 42,1,True,True,correct,,1.0,1.0,0.1512000017100945
+transient,C33,1,mixedCase 42,MIXEDCASE 42,1,True,True,correct,,1.0,1.0,0.1697999978205189
+transient,C33,2,mixedCase 42,MIXEDCASE 42,2,False,True,correct,,2.0,2.0,0.2917000019806437
+transient,C33,3,mixedCase 42,MIXEDCASE 42,1,True,True,correct,,1.0,1.0,0.1477999976486899
+transient,C33,4,mixedCase 42,MIXEDCASE 42,1,True,True,correct,,1.0,1.0,0.14569999621016905
+transient,C34,0,xxxxxxxxxx,XXXXXXXXXX,1,True,True,correct,,1.0,1.0,0.1483999949414283
+transient,C34,1,xxxxxxxxxx,XXXXXXXXXX,1,True,True,correct,,1.0,1.0,0.15980000171111897
+transient,C34,2,xxxxxxxxxx,XXXXXXXXXX,1,True,True,correct,,1.0,1.0,0.1486000037402846
+transient,C34,3,xxxxxxxxxx,XXXXXXXXXX,2,False,True,correct,,2.0,2.0,0.29540000105043873
+transient,C34,4,xxxxxxxxxx,XXXXXXXXXX,1,True,True,correct,,1.0,1.0,0.17579999985173345
+transient,C35,0,yyyyyyyyyyyy,YYYYYYYYYYYY,1,True,True,correct,,1.0,1.0,0.20089999452466145
+transient,C35,1,yyyyyyyyyyyy,YYYYYYYYYYYY,1,True,True,correct,,1.0,1.0,0.16099999629659578
+transient,C35,2,yyyyyyyyyyyy,YYYYYYYYYYYY,1,True,True,correct,,1.0,1.0,0.17409999418305233
+transient,C35,3,yyyyyyyyyyyy,YYYYYYYYYYYY,3,False,True,correct,,3.0,3.0,0.8104000007733703
+transient,C35,4,yyyyyyyyyyyy,YYYYYYYYYYYY,1,True,True,correct,,1.0,1.0,0.16529999993508682
+transient,C36,0,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,True,True,correct,,1.0,1.0,0.18249999993713573
+transient,C36,1,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,3,False,True,correct,,3.0,3.0,0.6638999984716065
+transient,C36,2,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,True,True,correct,,1.0,1.0,0.19289999909233302
+transient,C36,3,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,True,True,correct,,1.0,1.0,0.1644000003580004
+transient,C36,4,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,True,True,correct,,1.0,1.0,0.1570999957039021
+transient,C37,0,abababababababababab,ABABABABABABABABABAB,3,False,True,correct,,3.0,3.0,0.7240999984787777
+transient,C37,1,abababababababababab,ABABABABABABABABABAB,1,True,True,correct,,1.0,1.0,0.16960000357357785
+transient,C37,2,abababababababababab,ABABABABABABABABABAB,3,False,True,correct,,3.0,3.0,0.4809000020031817
+transient,C37,3,abababababababababab,ABABABABABABABABABAB,2,False,True,correct,,2.0,2.0,0.32500000088475645
+transient,C37,4,abababababababababab,ABABABABABABABABABAB,1,True,True,correct,,1.0,1.0,0.1497999983257614
+transient,C38,0,short,SHORT,1,True,True,correct,,1.0,1.0,0.16099999629659578
+transient,C38,1,short,SHORT,1,True,True,correct,,1.0,1.0,0.14599999849451706
+transient,C38,2,short,SHORT,1,True,True,correct,,1.0,1.0,0.14309999824035913
+transient,C38,3,short,SHORT,2,False,True,correct,,2.0,2.0,0.2921999985119328
+transient,C38,4,short,SHORT,3,False,True,correct,,3.0,3.0,0.47110000014072284
+transient,C39,0,longer phrase here,LONGER PHRASE HERE,1,True,True,correct,,1.0,1.0,0.14660000306321308
+transient,C39,1,longer phrase here,LONGER PHRASE HERE,1,True,True,correct,,1.0,1.0,0.1570999957039021
+transient,C39,2,longer phrase here,LONGER PHRASE HERE,1,True,True,correct,,1.0,1.0,0.16450000111944973
+transient,C39,3,longer phrase here,LONGER PHRASE HERE,4,False,False,error,RuntimeError: deterministic transient failure,,4.0,2.1968000000924803
+transient,C39,4,longer phrase here,LONGER PHRASE HERE,2,False,True,correct,,2.0,2.0,0.5802999949082732
+slow,C00,0,hello,HELLO,1,True,True,correct,,1.0,1.0,10.93140000011772
+slow,C00,1,hello,HELLO,1,True,True,correct,,1.0,1.0,10.903200003667735
+slow,C00,2,hello,HELLO,1,True,True,correct,,1.0,1.0,10.767499996291008
+slow,C00,3,hello,HELLO,1,True,True,correct,,1.0,1.0,10.99189999513328
+slow,C00,4,hello,HELLO,1,True,True,correct,,1.0,1.0,10.688099995604716
+slow,C01,0,world,WORLD,1,True,True,correct,,1.0,1.0,10.927700001047924
+slow,C01,1,world,WORLD,1,True,True,correct,,1.0,1.0,10.835900000529364
+slow,C01,2,world,WORLD,1,True,True,correct,,1.0,1.0,10.847199999261647
+slow,C01,3,world,WORLD,1,True,True,correct,,1.0,1.0,11.002199993527029
+slow,C01,4,world,WORLD,1,True,True,correct,,1.0,1.0,11.228499999560881
+slow,C02,0,test,TEST,1,True,True,correct,,1.0,1.0,10.743599996203557
+slow,C02,1,test,TEST,1,True,True,correct,,1.0,1.0,10.78830000187736
+slow,C02,2,test,TEST,1,True,True,correct,,1.0,1.0,10.648499999660999
+slow,C02,3,test,TEST,1,True,True,correct,,1.0,1.0,10.784700003569014
+slow,C02,4,test,TEST,1,True,True,correct,,1.0,1.0,10.4938999938895
+slow,C03,0,a,A,1,True,True,correct,,1.0,1.0,10.324800001399126
+slow,C03,1,a,A,1,True,True,correct,,1.0,1.0,10.966599998937454
+slow,C03,2,a,A,1,True,True,correct,,1.0,1.0,10.808300001372118
+slow,C03,3,a,A,1,True,True,correct,,1.0,1.0,10.824299999512732
+slow,C03,4,a,A,1,True,True,correct,,1.0,1.0,10.80799999908777
+slow,C04,0,,,1,True,True,correct,,1.0,1.0,11.523699999088421
+slow,C04,1,,,1,True,True,correct,,1.0,1.0,11.20459999947343
+slow,C04,2,,,1,True,True,correct,,1.0,1.0,10.43999999819789
+slow,C04,3,,,1,True,True,correct,,1.0,1.0,11.989400001766626
+slow,C04,4,,,1,True,True,correct,,1.0,1.0,11.182499998540152
+slow,C05,0,go,GO,1,True,True,correct,,1.0,1.0,10.461199999554083
+slow,C05,1,go,GO,1,True,True,correct,,1.0,1.0,10.981300001731142
+slow,C05,2,go,GO,1,True,True,correct,,1.0,1.0,11.219600004551467
+slow,C05,3,go,GO,1,True,True,correct,,1.0,1.0,11.071499997342471
+slow,C05,4,go,GO,1,True,True,correct,,1.0,1.0,10.975000004691537
+slow,C06,0,run,RUN,1,True,True,correct,,1.0,1.0,10.94559999910416
+slow,C06,1,run,RUN,1,True,True,correct,,1.0,1.0,10.675800003809854
+slow,C06,2,run,RUN,1,True,True,correct,,1.0,1.0,10.884100003750063
+slow,C06,3,run,RUN,1,True,True,correct,,1.0,1.0,10.409900001832284
+slow,C06,4,run,RUN,1,True,True,correct,,1.0,1.0,10.898000000452157
+slow,C07,0,model,MODEL,1,True,True,correct,,1.0,1.0,10.865299998840783
+slow,C07,1,model,MODEL,1,True,True,correct,,1.0,1.0,10.339000000385568
+slow,C07,2,model,MODEL,1,True,True,correct,,1.0,1.0,10.894200000620913
+slow,C07,3,model,MODEL,1,True,True,correct,,1.0,1.0,10.880800000450108
+slow,C07,4,model,MODEL,1,True,True,correct,,1.0,1.0,10.841199997230433
+slow,C08,0,tiny,TINY,1,True,True,correct,,1.0,1.0,10.478799995325971
+slow,C08,1,tiny,TINY,1,True,True,correct,,1.0,1.0,10.5972000019392
+slow,C08,2,tiny,TINY,1,True,True,correct,,1.0,1.0,10.76640000246698
+slow,C08,3,tiny,TINY,1,True,True,correct,,1.0,1.0,10.879900000873022
+slow,C08,4,tiny,TINY,1,True,True,correct,,1.0,1.0,10.98939999792492
+slow,C09,0,data,DATA,1,True,True,correct,,1.0,1.0,10.781400000269059
+slow,C09,1,data,DATA,1,True,True,correct,,1.0,1.0,10.412399999040645
+slow,C09,2,data,DATA,1,True,True,correct,,1.0,1.0,11.110899999039248
+slow,C09,3,data,DATA,1,True,True,correct,,1.0,1.0,10.792200002470054
+slow,C09,4,data,DATA,1,True,True,correct,,1.0,1.0,10.658899998816196
+slow,C10,0,python,PYTHON,1,True,True,correct,,1.0,1.0,10.93830000172602
+slow,C10,1,python,PYTHON,1,True,True,correct,,1.0,1.0,11.588499997742474
+slow,C10,2,python,PYTHON,1,True,True,correct,,1.0,1.0,11.080899996159133
+slow,C10,3,python,PYTHON,1,True,True,correct,,1.0,1.0,10.940400003164541
+slow,C10,4,python,PYTHON,1,True,True,correct,,1.0,1.0,10.749599998234771
+slow,C11,0,runner,RUNNER,1,True,True,correct,,1.0,1.0,11.089899999205954
+slow,C11,1,runner,RUNNER,1,True,True,correct,,1.0,1.0,10.880800000450108
+slow,C11,2,runner,RUNNER,1,True,True,correct,,1.0,1.0,10.689599999750499
+slow,C11,3,runner,RUNNER,1,True,True,correct,,1.0,1.0,10.785800004669
+slow,C11,4,runner,RUNNER,1,True,True,correct,,1.0,1.0,10.837200003152248
+slow,C12,0,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,10.844899996300228
+slow,C12,1,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,10.647099996276665
+slow,C12,2,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,10.651799995684996
+slow,C12,3,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,10.873500003071968
+slow,C12,4,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,10.930099997494835
+slow,C13,0,latency,LATENCY,1,True,True,correct,,1.0,1.0,11.108099999546539
+slow,C13,1,latency,LATENCY,1,True,True,correct,,1.0,1.0,10.582499999145512
+slow,C13,2,latency,LATENCY,1,True,True,correct,,1.0,1.0,10.911900004430208
+slow,C13,3,latency,LATENCY,1,True,True,correct,,1.0,1.0,10.840499999176245
+slow,C13,4,latency,LATENCY,1,True,True,correct,,1.0,1.0,10.99679999606451
+slow,C14,0,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,11.035900002752896
+slow,C14,1,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,10.956500002066605
+slow,C14,2,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,10.543300006247591
+slow,C14,3,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,11.222900000575464
+slow,C14,4,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,10.84600000467617
+slow,C15,0,retry,RETRY,1,True,True,correct,,1.0,1.0,10.940100000880193
+slow,C15,1,retry,RETRY,1,True,True,correct,,1.0,1.0,10.701400002290029
+slow,C15,2,retry,RETRY,1,True,True,correct,,1.0,1.0,10.809200000949204
+slow,C15,3,retry,RETRY,1,True,True,correct,,1.0,1.0,10.892999998759478
+slow,C15,4,retry,RETRY,1,True,True,correct,,1.0,1.0,10.872900005779229
+slow,C16,0,failure,FAILURE,1,True,True,correct,,1.0,1.0,10.876799999095965
+slow,C16,1,failure,FAILURE,1,True,True,correct,,1.0,1.0,10.88980000349693
+slow,C16,2,failure,FAILURE,1,True,True,correct,,1.0,1.0,11.129999998956919
+slow,C16,3,failure,FAILURE,1,True,True,correct,,1.0,1.0,10.596099993563257
+slow,C16,4,failure,FAILURE,1,True,True,correct,,1.0,1.0,10.895899999013636
+slow,C17,0,cost,COST,1,True,True,correct,,1.0,1.0,10.93379999656463
+slow,C17,1,cost,COST,1,True,True,correct,,1.0,1.0,10.937099999864586
+slow,C17,2,cost,COST,1,True,True,correct,,1.0,1.0,10.809100000187755
+slow,C17,3,cost,COST,1,True,True,correct,,1.0,1.0,10.883499999181367
+slow,C17,4,cost,COST,1,True,True,correct,,1.0,1.0,10.911799996392801
+slow,C18,0,evaluation,EVALUATION,4,False,False,timeout,exceeded 50 ms,,6.0,251.68970000231639
+slow,C18,1,evaluation,EVALUATION,4,False,False,timeout,exceeded 50 ms,,6.0,252.4799999955576
+slow,C18,2,evaluation,EVALUATION,4,False,False,timeout,exceeded 50 ms,,6.0,253.2082999969134
+slow,C18,3,evaluation,EVALUATION,4,False,False,timeout,exceeded 50 ms,,6.0,248.34740000369493
+slow,C18,4,evaluation,EVALUATION,4,False,False,timeout,exceeded 50 ms,,6.0,249.98699999559904
+slow,C19,0,reproducible,REPRODUCIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,249.30160000076285
+slow,C19,1,reproducible,REPRODUCIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,250.602499996603
+slow,C19,2,reproducible,REPRODUCIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,253.3910999991349
+slow,C19,3,reproducible,REPRODUCIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,248.8255000062054
+slow,C19,4,reproducible,REPRODUCIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,249.87849999160971
+slow,C20,0,hello world,HELLO WORLD,4,False,False,timeout,exceeded 50 ms,,6.0,248.1296999976621
+slow,C20,1,hello world,HELLO WORLD,4,False,False,timeout,exceeded 50 ms,,6.0,255.87509999604663
+slow,C20,2,hello world,HELLO WORLD,4,False,False,timeout,exceeded 50 ms,,6.0,248.04639999638312
+slow,C20,3,hello world,HELLO WORLD,4,False,False,timeout,exceeded 50 ms,,6.0,249.75170000834623
+slow,C20,4,hello world,HELLO WORLD,4,False,False,timeout,exceeded 50 ms,,6.0,249.04249999963213
+slow,C21,0,tiny model,TINY MODEL,4,False,False,timeout,exceeded 50 ms,,6.0,252.36130000121193
+slow,C21,1,tiny model,TINY MODEL,4,False,False,timeout,exceeded 50 ms,,6.0,251.00620000739582
+slow,C21,2,tiny model,TINY MODEL,4,False,False,timeout,exceeded 50 ms,,6.0,249.489400004677
+slow,C21,3,tiny model,TINY MODEL,4,False,False,timeout,exceeded 50 ms,,6.0,249.47559999418445
+slow,C21,4,tiny model,TINY MODEL,4,False,False,timeout,exceeded 50 ms,,6.0,251.99079998856178
+slow,C22,0,evaluation runner,EVALUATION RUNNER,4,False,False,timeout,exceeded 50 ms,,6.0,250.45569999929285
+slow,C22,1,evaluation runner,EVALUATION RUNNER,4,False,False,timeout,exceeded 50 ms,,6.0,252.01640000886982
+slow,C22,2,evaluation runner,EVALUATION RUNNER,4,False,False,timeout,exceeded 50 ms,,6.0,250.06869999924675
+slow,C22,3,evaluation runner,EVALUATION RUNNER,4,False,False,timeout,exceeded 50 ms,,6.0,251.21439999929862
+slow,C22,4,evaluation runner,EVALUATION RUNNER,4,False,False,timeout,exceeded 50 ms,,6.0,251.35259999660775
+slow,C23,0,adapter ranking,ADAPTER RANKING,4,False,False,timeout,exceeded 50 ms,,6.0,251.51519999781158
+slow,C23,1,adapter ranking,ADAPTER RANKING,4,False,False,timeout,exceeded 50 ms,,6.0,252.77389999246225
+slow,C23,2,adapter ranking,ADAPTER RANKING,4,False,False,timeout,exceeded 50 ms,,6.0,249.77600001147948
+slow,C23,3,adapter ranking,ADAPTER RANKING,4,False,False,timeout,exceeded 50 ms,,6.0,253.5864999954356
+slow,C23,4,adapter ranking,ADAPTER RANKING,4,False,False,timeout,exceeded 50 ms,,6.0,250.16549999418203
+slow,C24,0,keep failures visible,KEEP FAILURES VISIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,252.611000003526
+slow,C24,1,keep failures visible,KEEP FAILURES VISIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,252.31509999139234
+slow,C24,2,keep failures visible,KEEP FAILURES VISIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,247.45370000164257
+slow,C24,3,keep failures visible,KEEP FAILURES VISIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,251.51479998748982
+slow,C24,4,keep failures visible,KEEP FAILURES VISIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,246.98069999431027
+slow,C25,0,straße,STRASSE,1,True,True,correct,,1.0,1.0,10.78830000187736
+slow,C25,1,straße,STRASSE,1,True,True,correct,,1.0,1.0,10.672999997041188
+slow,C25,2,straße,STRASSE,1,True,True,correct,,1.0,1.0,10.596200001600664
+slow,C25,3,straße,STRASSE,1,True,True,correct,,1.0,1.0,10.933199999271892
+slow,C25,4,straße,STRASSE,1,True,True,correct,,1.0,1.0,10.900900000706315
+slow,C26,0,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,10.86300000315532
+slow,C26,1,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,10.925900001893751
+slow,C26,2,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,10.839199996553361
+slow,C26,3,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,10.902200003329199
+slow,C26,4,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,10.914099999354221
+slow,C27,0,café,CAFÉ,1,True,True,correct,,1.0,1.0,10.84929999342421
+slow,C27,1,café,CAFÉ,1,True,True,correct,,1.0,1.0,10.934300000371877
+slow,C27,2,café,CAFÉ,1,True,True,correct,,1.0,1.0,10.45239999803016
+slow,C27,3,café,CAFÉ,1,True,True,correct,,1.0,1.0,10.85600000078557
+slow,C27,4,café,CAFÉ,1,True,True,correct,,1.0,1.0,10.46719999430934
+slow,C28,0,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,10.56580000295071
+slow,C28,1,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,10.837399997399189
+slow,C28,2,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,10.681299994757865
+slow,C28,3,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,10.673800003132783
+slow,C28,4,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,11.2578999978723
+slow,C29,0,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,10.864299998502247
+slow,C29,1,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,10.829200000443961
+slow,C29,2,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,10.86609999765642
+slow,C29,3,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,10.451999994984362
+slow,C29,4,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,10.736799995356705
+slow,C30,0,a b c,A B C,1,True,True,correct,,1.0,1.0,11.50430000416236
+slow,C30,1,a b c,A B C,1,True,True,correct,,1.0,1.0,10.754299997643102
+slow,C30,2,a b c,A B C,1,True,True,correct,,1.0,1.0,10.745799998403527
+slow,C30,3,a b c,A B C,1,True,True,correct,,1.0,1.0,10.82250000035856
+slow,C30,4,a b c,A B C,1,True,True,correct,,1.0,1.0,10.8708999978262
+slow,C31,0,  spaced  ,  SPACED  ,4,False,False,timeout,exceeded 50 ms,,6.0,244.3344999992405
+slow,C31,1,  spaced  ,  SPACED  ,4,False,False,timeout,exceeded 50 ms,,6.0,250.80010000965558
+slow,C31,2,  spaced  ,  SPACED  ,4,False,False,timeout,exceeded 50 ms,,6.0,250.42279999615857
+slow,C31,3,  spaced  ,  SPACED  ,4,False,False,timeout,exceeded 50 ms,,6.0,247.6018000015756
+slow,C31,4,  spaced  ,  SPACED  ,4,False,False,timeout,exceeded 50 ms,,6.0,246.6370999973151
+slow,C32,0,12345,12345,1,True,True,correct,,1.0,1.0,10.968700000375975
+slow,C32,1,12345,12345,1,True,True,correct,,1.0,1.0,10.372099997766782
+slow,C32,2,12345,12345,1,True,True,correct,,1.0,1.0,10.912300000200048
+slow,C32,3,12345,12345,1,True,True,correct,,1.0,1.0,10.834400003659539
+slow,C32,4,12345,12345,1,True,True,correct,,1.0,1.0,10.8780000009574
+slow,C33,0,mixedCase 42,MIXEDCASE 42,4,False,False,timeout,exceeded 50 ms,,6.0,241.73480000899872
+slow,C33,1,mixedCase 42,MIXEDCASE 42,4,False,False,timeout,exceeded 50 ms,,6.0,251.87910000386182
+slow,C33,2,mixedCase 42,MIXEDCASE 42,4,False,False,timeout,exceeded 50 ms,,6.0,250.31700000545243
+slow,C33,3,mixedCase 42,MIXEDCASE 42,4,False,False,timeout,exceeded 50 ms,,6.0,251.99830000201473
+slow,C33,4,mixedCase 42,MIXEDCASE 42,4,False,False,timeout,exceeded 50 ms,,6.0,251.85770000098273
+slow,C34,0,xxxxxxxxxx,XXXXXXXXXX,4,False,False,timeout,exceeded 50 ms,,6.0,253.3466000095359
+slow,C34,1,xxxxxxxxxx,XXXXXXXXXX,4,False,False,timeout,exceeded 50 ms,,6.0,253.43629998678807
+slow,C34,2,xxxxxxxxxx,XXXXXXXXXX,4,False,False,timeout,exceeded 50 ms,,6.0,250.73849999171216
+slow,C34,3,xxxxxxxxxx,XXXXXXXXXX,4,False,False,timeout,exceeded 50 ms,,6.0,249.22449999576202
+slow,C34,4,xxxxxxxxxx,XXXXXXXXXX,4,False,False,timeout,exceeded 50 ms,,6.0,252.74850000278093
+slow,C35,0,yyyyyyyyyyyy,YYYYYYYYYYYY,4,False,False,timeout,exceeded 50 ms,,6.0,250.17300000763498
+slow,C35,1,yyyyyyyyyyyy,YYYYYYYYYYYY,4,False,False,timeout,exceeded 50 ms,,6.0,252.6173000005656
+slow,C35,2,yyyyyyyyyyyy,YYYYYYYYYYYY,4,False,False,timeout,exceeded 50 ms,,6.0,249.93569999787724
+slow,C35,3,yyyyyyyyyyyy,YYYYYYYYYYYY,4,False,False,timeout,exceeded 50 ms,,6.0,250.6098000012571
+slow,C35,4,yyyyyyyyyyyy,YYYYYYYYYYYY,4,False,False,timeout,exceeded 50 ms,,6.0,249.94109999533975
+slow,C36,0,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,False,False,timeout,exceeded 50 ms,,6.0,250.9286999993492
+slow,C36,1,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,False,False,timeout,exceeded 50 ms,,6.0,252.7507000049809
+slow,C36,2,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,False,False,timeout,exceeded 50 ms,,6.0,251.26489999820478
+slow,C36,3,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,False,False,timeout,exceeded 50 ms,,6.0,249.77919999946607
+slow,C36,4,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,False,False,timeout,exceeded 50 ms,,6.0,251.02879999758443
+slow,C37,0,abababababababababab,ABABABABABABABABABAB,4,False,False,timeout,exceeded 50 ms,,6.0,252.2633999979007
+slow,C37,1,abababababababababab,ABABABABABABABABABAB,4,False,False,timeout,exceeded 50 ms,,6.0,253.4356999967713
+slow,C37,2,abababababababababab,ABABABABABABABABABAB,4,False,False,timeout,exceeded 50 ms,,6.0,253.3637000087765
+slow,C37,3,abababababababababab,ABABABABABABABABABAB,4,False,False,timeout,exceeded 50 ms,,6.0,250.96340000163764
+slow,C37,4,abababababababababab,ABABABABABABABABABAB,4,False,False,timeout,exceeded 50 ms,,6.0,252.41349999123486
+slow,C38,0,short,SHORT,1,True,True,correct,,1.0,1.0,10.774700000183657
+slow,C38,1,short,SHORT,1,True,True,correct,,1.0,1.0,10.868099998333491
+slow,C38,2,short,SHORT,1,True,True,correct,,1.0,1.0,10.829999999259599
+slow,C38,3,short,SHORT,1,True,True,correct,,1.0,1.0,10.910900004091673
+slow,C38,4,short,SHORT,1,True,True,correct,,1.0,1.0,10.91650000307709
+slow,C39,0,longer phrase here,LONGER PHRASE HERE,4,False,False,timeout,exceeded 50 ms,,6.0,240.87100000178907
+slow,C39,1,longer phrase here,LONGER PHRASE HERE,4,False,False,timeout,exceeded 50 ms,,6.0,251.62170000112383
+slow,C39,2,longer phrase here,LONGER PHRASE HERE,4,False,False,timeout,exceeded 50 ms,,6.0,252.02280000667088
+slow,C39,3,longer phrase here,LONGER PHRASE HERE,4,False,False,timeout,exceeded 50 ms,,6.0,251.1108000035165
+slow,C39,4,longer phrase here,LONGER PHRASE HERE,4,False,False,timeout,exceeded 50 ms,,6.0,250.13839999883203
+truncating,C00,0,hello,HELLO,1,True,True,correct,,1.0,1.0,0.28139999631093815
+truncating,C00,1,hello,HELLO,1,True,True,correct,,1.0,1.0,0.16830000095069408
+truncating,C00,2,hello,HELLO,1,True,True,correct,,1.0,1.0,0.15799999528098851
+truncating,C00,3,hello,HELLO,1,True,True,correct,,1.0,1.0,0.14489999739453197
+truncating,C00,4,hello,HELLO,1,True,True,correct,,1.0,1.0,0.13549999857787043
+truncating,C01,0,world,WORLD,1,True,True,correct,,1.0,1.0,0.14789999841013923
+truncating,C01,1,world,WORLD,1,True,True,correct,,1.0,1.0,0.12840000272262841
+truncating,C01,2,world,WORLD,1,True,True,correct,,1.0,1.0,0.1314999972237274
+truncating,C01,3,world,WORLD,1,True,True,correct,,1.0,1.0,0.13279999984661117
+truncating,C01,4,world,WORLD,1,True,True,correct,,1.0,1.0,0.12740000238409266
+truncating,C02,0,test,TEST,1,True,True,correct,,1.0,1.0,0.12870000500697643
+truncating,C02,1,test,TEST,1,True,True,correct,,1.0,1.0,0.12960000458406284
+truncating,C02,2,test,TEST,1,True,True,correct,,1.0,1.0,0.1303000026382506
+truncating,C02,3,test,TEST,1,True,True,correct,,1.0,1.0,0.13349999790079892
+truncating,C02,4,test,TEST,1,True,True,correct,,1.0,1.0,0.13780000153928995
+truncating,C03,0,a,A,1,True,True,correct,,1.0,1.0,0.14110000483924523
+truncating,C03,1,a,A,1,True,True,correct,,1.0,1.0,0.1294999965466559
+truncating,C03,2,a,A,1,True,True,correct,,1.0,1.0,0.1303000026382506
+truncating,C03,3,a,A,1,True,True,correct,,1.0,1.0,0.14119999832473695
+truncating,C03,4,a,A,1,True,True,correct,,1.0,1.0,0.130899999930989
+truncating,C04,0,,,1,True,True,correct,,1.0,1.0,0.131200002215337
+truncating,C04,1,,,1,True,True,correct,,1.0,1.0,0.1416000013705343
+truncating,C04,2,,,1,True,True,correct,,1.0,1.0,0.1326000055996701
+truncating,C04,3,,,1,True,True,correct,,1.0,1.0,0.13199999375501648
+truncating,C04,4,,,1,True,True,correct,,1.0,1.0,0.12969999806955457
+truncating,C05,0,go,GO,1,True,True,correct,,1.0,1.0,0.15069999790284783
+truncating,C05,1,go,GO,1,True,True,correct,,1.0,1.0,0.1329000006080605
+truncating,C05,2,go,GO,1,True,True,correct,,1.0,1.0,0.1329000006080605
+truncating,C05,3,go,GO,1,True,True,correct,,1.0,1.0,0.13240000407677144
+truncating,C05,4,go,GO,1,True,True,correct,,1.0,1.0,0.1379000023007393
+truncating,C06,0,run,RUN,1,True,True,correct,,1.0,1.0,0.13220000255387276
+truncating,C06,1,run,RUN,1,True,True,correct,,1.0,1.0,0.13320000289240852
+truncating,C06,2,run,RUN,1,True,True,correct,,1.0,1.0,0.13380000018514693
+truncating,C06,3,run,RUN,1,True,True,correct,,1.0,1.0,0.12840000272262841
+truncating,C06,4,run,RUN,1,True,True,correct,,1.0,1.0,0.13249999756226316
+truncating,C07,0,model,MODEL,1,True,True,correct,,1.0,1.0,0.13640000543091446
+truncating,C07,1,model,MODEL,1,True,True,correct,,1.0,1.0,0.13899999612476677
+truncating,C07,2,model,MODEL,1,True,True,correct,,1.0,1.0,0.13360000593820587
+truncating,C07,3,model,MODEL,1,True,True,correct,,1.0,1.0,0.13469999976223335
+truncating,C07,4,model,MODEL,1,True,True,correct,,1.0,1.0,0.13139999646227807
+truncating,C08,0,tiny,TINY,1,True,True,correct,,1.0,1.0,0.13069999840809032
+truncating,C08,1,tiny,TINY,1,True,True,correct,,1.0,1.0,0.12850000348407775
+truncating,C08,2,tiny,TINY,1,True,True,correct,,1.0,1.0,0.12759999663103372
+truncating,C08,3,tiny,TINY,1,True,True,correct,,1.0,1.0,0.130599997646641
+truncating,C08,4,tiny,TINY,1,True,True,correct,,1.0,1.0,0.1266999970539473
+truncating,C09,0,data,DATA,1,True,True,correct,,1.0,1.0,0.12720000086119398
+truncating,C09,1,data,DATA,1,True,True,correct,,1.0,1.0,0.1429999974789098
+truncating,C09,2,data,DATA,1,True,True,correct,,1.0,1.0,0.15780000103404745
+truncating,C09,3,data,DATA,1,True,True,correct,,1.0,1.0,0.16519999917363748
+truncating,C09,4,data,DATA,1,True,True,correct,,1.0,1.0,0.1512000017100945
+truncating,C10,0,python,PYTHON,1,True,True,correct,,1.0,1.0,0.14910000027157366
+truncating,C10,1,python,PYTHON,1,True,True,correct,,1.0,1.0,0.1373999984934926
+truncating,C10,2,python,PYTHON,1,True,True,correct,,1.0,1.0,0.14590000500902534
+truncating,C10,3,python,PYTHON,1,True,True,correct,,1.0,1.0,0.14309999824035913
+truncating,C10,4,python,PYTHON,1,True,True,correct,,1.0,1.0,0.18889999773819
+truncating,C11,0,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.1745000045048073
+truncating,C11,1,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.1405000002705492
+truncating,C11,2,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.13110000145388767
+truncating,C11,3,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.13359999866224825
+truncating,C11,4,runner,RUNNER,1,True,True,correct,,1.0,1.0,0.12989999959245324
+truncating,C12,0,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.1281000004382804
+truncating,C12,1,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.14109999756328762
+truncating,C12,2,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.13020000187680125
+truncating,C12,3,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.12749999586958438
+truncating,C12,4,adapter,ADAPTER,1,True,True,correct,,1.0,1.0,0.13049999688519165
+truncating,C13,0,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.13469999976223335
+truncating,C13,1,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.130899999930989
+truncating,C13,2,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.28480000037234277
+truncating,C13,3,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.1325999983237125
+truncating,C13,4,latency,LATENCY,1,True,True,correct,,1.0,1.0,0.13079999916953966
+truncating,C14,0,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.1323000033153221
+truncating,C14,1,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.5213999975239858
+truncating,C14,2,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.13210000179242343
+truncating,C14,3,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.12340000102994964
+truncating,C14,4,timeout,TIMEOUT,1,True,True,correct,,1.0,1.0,0.15590000111842528
+truncating,C15,0,retry,RETRY,1,True,True,correct,,1.0,1.0,0.13000000035390258
+truncating,C15,1,retry,RETRY,1,True,True,correct,,1.0,1.0,0.12710000009974465
+truncating,C15,2,retry,RETRY,1,True,True,correct,,1.0,1.0,0.12879999849246815
+truncating,C15,3,retry,RETRY,1,True,True,correct,,1.0,1.0,0.1264000020455569
+truncating,C15,4,retry,RETRY,1,True,True,correct,,1.0,1.0,0.12910000077681616
+truncating,C16,0,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.32590000046184286
+truncating,C16,1,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.21149999520275742
+truncating,C16,2,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.13939999917056412
+truncating,C16,3,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.1480999999330379
+truncating,C16,4,failure,FAILURE,1,True,True,correct,,1.0,1.0,0.15770000027259812
+truncating,C17,0,cost,COST,1,True,True,correct,,1.0,1.0,0.1362999973935075
+truncating,C17,1,cost,COST,1,True,True,correct,,1.0,1.0,0.12789999891538173
+truncating,C17,2,cost,COST,1,True,True,correct,,1.0,1.0,0.12730000162264332
+truncating,C17,3,cost,COST,1,True,True,correct,,1.0,1.0,0.13389999367063865
+truncating,C17,4,cost,COST,1,True,True,correct,,1.0,1.0,0.16170000162674114
+truncating,C18,0,evaluation,EVALUATION,1,False,False,wrong,,,1.0,0.14319999900180846
+truncating,C18,1,evaluation,EVALUATION,1,False,False,wrong,,,1.0,0.13210000179242343
+truncating,C18,2,evaluation,EVALUATION,1,False,False,wrong,,,1.0,0.15100000018719584
+truncating,C18,3,evaluation,EVALUATION,1,False,False,wrong,,,1.0,0.12959999730810523
+truncating,C18,4,evaluation,EVALUATION,1,False,False,wrong,,,1.0,0.12849999620812014
+truncating,C19,0,reproducible,REPRODUCIBLE,1,False,False,wrong,,,1.0,0.15079999866429716
+truncating,C19,1,reproducible,REPRODUCIBLE,1,False,False,wrong,,,1.0,0.1520000005257316
+truncating,C19,2,reproducible,REPRODUCIBLE,1,False,False,wrong,,,1.0,0.13899999612476677
+truncating,C19,3,reproducible,REPRODUCIBLE,1,False,False,wrong,,,1.0,0.1294999965466559
+truncating,C19,4,reproducible,REPRODUCIBLE,1,False,False,wrong,,,1.0,0.13420000323094428
+truncating,C20,0,hello world,HELLO WORLD,1,False,False,wrong,,,1.0,0.14229999942472205
+truncating,C20,1,hello world,HELLO WORLD,1,False,False,wrong,,,1.0,0.14419999934034422
+truncating,C20,2,hello world,HELLO WORLD,1,False,False,wrong,,,1.0,0.1384999995934777
+truncating,C20,3,hello world,HELLO WORLD,1,False,False,wrong,,,1.0,0.12870000500697643
+truncating,C20,4,hello world,HELLO WORLD,1,False,False,wrong,,,1.0,0.12799999967683107
+truncating,C21,0,tiny model,TINY MODEL,1,False,False,wrong,,,1.0,0.1353999978164211
+truncating,C21,1,tiny model,TINY MODEL,1,False,False,wrong,,,1.0,0.1370999962091446
+truncating,C21,2,tiny model,TINY MODEL,1,False,False,wrong,,,1.0,0.13079999916953966
+truncating,C21,3,tiny model,TINY MODEL,1,False,False,wrong,,,1.0,0.1269999993382953
+truncating,C21,4,tiny model,TINY MODEL,1,False,False,wrong,,,1.0,0.12930000229971483
+truncating,C22,0,evaluation runner,EVALUATION RUNNER,1,False,False,wrong,,,1.0,0.12990000686841086
+truncating,C22,1,evaluation runner,EVALUATION RUNNER,1,False,False,wrong,,,1.0,0.1320999945164658
+truncating,C22,2,evaluation runner,EVALUATION RUNNER,1,False,False,wrong,,,1.0,0.13079999916953966
+truncating,C22,3,evaluation runner,EVALUATION RUNNER,1,False,False,wrong,,,1.0,0.12820000119972974
+truncating,C22,4,evaluation runner,EVALUATION RUNNER,1,False,False,wrong,,,1.0,0.4996999996365048
+truncating,C23,0,adapter ranking,ADAPTER RANKING,1,False,False,wrong,,,1.0,0.14179999561747536
+truncating,C23,1,adapter ranking,ADAPTER RANKING,1,False,False,wrong,,,1.0,0.13410000246949494
+truncating,C23,2,adapter ranking,ADAPTER RANKING,1,False,False,wrong,,,1.0,0.13329999637790024
+truncating,C23,3,adapter ranking,ADAPTER RANKING,1,False,False,wrong,,,1.0,0.1292000015382655
+truncating,C23,4,adapter ranking,ADAPTER RANKING,1,False,False,wrong,,,1.0,0.14399999781744555
+truncating,C24,0,keep failures visible,KEEP FAILURES VISIBLE,1,False,False,wrong,,,1.0,0.14339999324874952
+truncating,C24,1,keep failures visible,KEEP FAILURES VISIBLE,1,False,False,wrong,,,1.0,0.1336999994236976
+truncating,C24,2,keep failures visible,KEEP FAILURES VISIBLE,1,False,False,wrong,,,1.0,0.13029999536229298
+truncating,C24,3,keep failures visible,KEEP FAILURES VISIBLE,1,False,False,wrong,,,1.0,0.12930000229971483
+truncating,C24,4,keep failures visible,KEEP FAILURES VISIBLE,1,False,False,wrong,,,1.0,0.12599999899975955
+truncating,C25,0,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.12759999663103372
+truncating,C25,1,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.13159999798517674
+truncating,C25,2,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.12820000119972974
+truncating,C25,3,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.12930000229971483
+truncating,C25,4,straße,STRASSE,1,True,True,correct,,1.0,1.0,0.12799999967683107
+truncating,C26,0,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.130599997646641
+truncating,C26,1,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.1384999995934777
+truncating,C26,2,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.1340000017080456
+truncating,C26,3,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.13020000187680125
+truncating,C26,4,mañana,MAÑANA,1,True,True,correct,,1.0,1.0,0.13339999713934958
+truncating,C27,0,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.12739999510813504
+truncating,C27,1,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.12620000052265823
+truncating,C27,2,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.12660000356845558
+truncating,C27,3,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.12840000272262841
+truncating,C27,4,café,CAFÉ,1,True,True,correct,,1.0,1.0,0.1266999970539473
+truncating,C28,0,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.13870000111637637
+truncating,C28,1,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.12940000306116417
+truncating,C28,2,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.13029999536229298
+truncating,C28,3,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.12850000348407775
+truncating,C28,4,naïve,NAÏVE,1,True,True,correct,,1.0,1.0,0.14370000280905515
+truncating,C29,0,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.1373999984934926
+truncating,C29,1,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.1351000028080307
+truncating,C29,2,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.12900000001536682
+truncating,C29,3,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.13179999950807542
+truncating,C29,4,Ångström,ÅNGSTRÖM,1,True,True,correct,,1.0,1.0,0.12710000009974465
+truncating,C30,0,a b c,A B C,1,True,True,correct,,1.0,1.0,0.13380000018514693
+truncating,C30,1,a b c,A B C,1,True,True,correct,,1.0,1.0,0.13300000136950985
+truncating,C30,2,a b c,A B C,1,True,True,correct,,1.0,1.0,0.12820000119972974
+truncating,C30,3,a b c,A B C,1,True,True,correct,,1.0,1.0,0.1269999993382953
+truncating,C30,4,a b c,A B C,1,True,True,correct,,1.0,1.0,0.13939999917056412
+truncating,C31,0,  spaced  ,  SPACED  ,1,False,False,wrong,,,1.0,0.12930000229971483
+truncating,C31,1,  spaced  ,  SPACED  ,1,False,False,wrong,,,1.0,0.13330000365385786
+truncating,C31,2,  spaced  ,  SPACED  ,1,False,False,wrong,,,1.0,0.1323000033153221
+truncating,C31,3,  spaced  ,  SPACED  ,1,False,False,wrong,,,1.0,0.1286000042455271
+truncating,C31,4,  spaced  ,  SPACED  ,1,False,False,wrong,,,1.0,0.1272999943466857
+truncating,C32,0,12345,12345,1,True,True,correct,,1.0,1.0,0.13440000475384295
+truncating,C32,1,12345,12345,1,True,True,correct,,1.0,1.0,0.12679999781539664
+truncating,C32,2,12345,12345,1,True,True,correct,,1.0,1.0,0.12789999891538173
+truncating,C32,3,12345,12345,1,True,True,correct,,1.0,1.0,0.1266999970539473
+truncating,C32,4,12345,12345,1,True,True,correct,,1.0,1.0,0.1294999965466559
+truncating,C33,0,mixedCase 42,MIXEDCASE 42,1,False,False,wrong,,,1.0,0.13069999840809032
+truncating,C33,1,mixedCase 42,MIXEDCASE 42,1,False,False,wrong,,,1.0,0.3059999944525771
+truncating,C33,2,mixedCase 42,MIXEDCASE 42,1,False,False,wrong,,,1.0,0.41870000131893903
+truncating,C33,3,mixedCase 42,MIXEDCASE 42,1,False,False,wrong,,,1.0,0.1779000012902543
+truncating,C33,4,mixedCase 42,MIXEDCASE 42,1,False,False,wrong,,,1.0,0.16630000027362257
+truncating,C34,0,xxxxxxxxxx,XXXXXXXXXX,1,False,False,wrong,,,1.0,0.16259999392786995
+truncating,C34,1,xxxxxxxxxx,XXXXXXXXXX,1,False,False,wrong,,,1.0,0.15839999832678586
+truncating,C34,2,xxxxxxxxxx,XXXXXXXXXX,1,False,False,wrong,,,1.0,0.1478000049246475
+truncating,C34,3,xxxxxxxxxx,XXXXXXXXXX,1,False,False,wrong,,,1.0,0.15619999612681568
+truncating,C34,4,xxxxxxxxxx,XXXXXXXXXX,1,False,False,wrong,,,1.0,0.14139999984763563
+truncating,C35,0,yyyyyyyyyyyy,YYYYYYYYYYYY,1,False,False,wrong,,,1.0,0.15430000348715112
+truncating,C35,1,yyyyyyyyyyyy,YYYYYYYYYYYY,1,False,False,wrong,,,1.0,0.1508999994257465
+truncating,C35,2,yyyyyyyyyyyy,YYYYYYYYYYYY,1,False,False,wrong,,,1.0,0.1536999989184551
+truncating,C35,3,yyyyyyyyyyyy,YYYYYYYYYYYY,1,False,False,wrong,,,1.0,0.13970000145491213
+truncating,C35,4,yyyyyyyyyyyy,YYYYYYYYYYYY,1,False,False,wrong,,,1.0,0.1286000042455271
+truncating,C36,0,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,False,False,wrong,,,1.0,0.13630000466946512
+truncating,C36,1,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,False,False,wrong,,,1.0,0.14209999790182337
+truncating,C36,2,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,False,False,wrong,,,1.0,0.16099999629659578
+truncating,C36,3,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,False,False,wrong,,,1.0,0.14200000441633165
+truncating,C36,4,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,False,False,wrong,,,1.0,0.13749999925494194
+truncating,C37,0,abababababababababab,ABABABABABABABABABAB,1,False,False,wrong,,,1.0,0.13130000297678635
+truncating,C37,1,abababababababababab,ABABABABABABABABABAB,1,False,False,wrong,,,1.0,0.13339999713934958
+truncating,C37,2,abababababababababab,ABABABABABABABABABAB,1,False,False,wrong,,,1.0,0.1401999979862012
+truncating,C37,3,abababababababababab,ABABABABABABABABABAB,1,False,False,wrong,,,1.0,0.16229999891947955
+truncating,C37,4,abababababababababab,ABABABABABABABABABAB,1,False,False,wrong,,,1.0,0.1598999951966107
+truncating,C38,0,short,SHORT,1,True,True,correct,,1.0,1.0,0.14680000458611175
+truncating,C38,1,short,SHORT,1,True,True,correct,,1.0,1.0,0.14509999891743064
+truncating,C38,2,short,SHORT,1,True,True,correct,,1.0,1.0,0.14240000018617138
+truncating,C38,3,short,SHORT,1,True,True,correct,,1.0,1.0,0.3728000010596588
+truncating,C38,4,short,SHORT,1,True,True,correct,,1.0,1.0,0.15759999951114878
+truncating,C39,0,longer phrase here,LONGER PHRASE HERE,1,False,False,wrong,,,1.0,0.16309999773511663
+truncating,C39,1,longer phrase here,LONGER PHRASE HERE,1,False,False,wrong,,,1.0,0.15359999815700576
+truncating,C39,2,longer phrase here,LONGER PHRASE HERE,1,False,False,wrong,,,1.0,0.14200000441633165
+truncating,C39,3,longer phrase here,LONGER PHRASE HERE,1,False,False,wrong,,,1.0,0.13000000035390258
+truncating,C39,4,longer phrase here,LONGER PHRASE HERE,1,False,False,wrong,,,1.0,0.13870000111637637

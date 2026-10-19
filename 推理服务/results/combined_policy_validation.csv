@@ -1,0 +1,6 @@
+config,case,status,error,body
+priority_batched,invalid_json,400,,"{""error"": ""invalid JSON: Expecting value""}"
+priority_batched,missing_text,400,,"{""error"": ""text must be a string""}"
+priority_batched,text_not_string,400,,"{""error"": ""text must be a string""}"
+priority_batched,text_too_long,400,,"{""error"": ""text exceeds 2000 characters""}"
+priority_batched,unknown_class,400,,"{""error"": ""class must be interactive or batch""}"

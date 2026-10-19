@@ -1,0 +1,5 @@
+adapter,accuracy_mean,accuracy_ci_low,accuracy_ci_high,cost_per_correct_mean,cost_ci_low,cost_ci_high
+fast,1.0,1.0,1.0,1.0,1.0,1.0
+slow,0.6502,0.5,0.8,4.360303316353831,2.5,7.0
+transient,0.9899349999999999,0.975,1.0,1.5010552653214517,1.4020100502512562,1.6031169867601653
+truncating,0.6502,0.5,0.8,1.5600505527256388,1.25,2.0

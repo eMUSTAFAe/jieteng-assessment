@@ -1,0 +1,37 @@
+{
+  "python": "3.11.1",
+  "torch": "2.14.1+cpu",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "vocab": 24,
+  "context": 16,
+  "d_model": 64,
+  "n_head": 4,
+  "n_layer": 2,
+  "d_ff": 128,
+  "steps": 600,
+  "batch": 64,
+  "lr": 0.003,
+  "weight_decay": 0.01,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "train_n": 12000,
+  "val_n": 2000,
+  "test_n": 2000,
+  "deterministic_prob": 0.7,
+  "bayes_loss": 1.5013526063417648,
+  "bayes_accuracy": 0.7124999999999999,
+  "attention_tests": {
+    "seed": 0,
+    "max_abs_diff_non_causal": 2.220446049250313e-16,
+    "max_abs_diff_causal": 2.220446049250313e-16,
+    "matches_baseline_non_causal": true,
+    "matches_baseline_causal": true,
+    "future_perturbation_ignored_when_causal": true,
+    "future_perturbation_changes_output_when_non_causal": true,
+    "passed": true
+  }
+}

@@ -1,0 +1,143 @@
+adapter,case_id,repeat,input_text,expected,attempts_used,first_attempt_correct,final_correct,final_outcome,final_detail,attempts_to_success,total_cost,total_latency_ms
+slow,C18,0,evaluation,EVALUATION,4,False,False,timeout,exceeded 50 ms,,6.0,251.68970000231639
+slow,C18,1,evaluation,EVALUATION,4,False,False,timeout,exceeded 50 ms,,6.0,252.4799999955576
+slow,C18,2,evaluation,EVALUATION,4,False,False,timeout,exceeded 50 ms,,6.0,253.2082999969134
+slow,C18,3,evaluation,EVALUATION,4,False,False,timeout,exceeded 50 ms,,6.0,248.34740000369493
+slow,C18,4,evaluation,EVALUATION,4,False,False,timeout,exceeded 50 ms,,6.0,249.98699999559904
+slow,C19,0,reproducible,REPRODUCIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,249.30160000076285
+slow,C19,1,reproducible,REPRODUCIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,250.602499996603
+slow,C19,2,reproducible,REPRODUCIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,253.3910999991349
+slow,C19,3,reproducible,REPRODUCIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,248.8255000062054
+slow,C19,4,reproducible,REPRODUCIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,249.87849999160971
+slow,C20,0,hello world,HELLO WORLD,4,False,False,timeout,exceeded 50 ms,,6.0,248.1296999976621
+slow,C20,1,hello world,HELLO WORLD,4,False,False,timeout,exceeded 50 ms,,6.0,255.87509999604663
+slow,C20,2,hello world,HELLO WORLD,4,False,False,timeout,exceeded 50 ms,,6.0,248.04639999638312
+slow,C20,3,hello world,HELLO WORLD,4,False,False,timeout,exceeded 50 ms,,6.0,249.75170000834623
+slow,C20,4,hello world,HELLO WORLD,4,False,False,timeout,exceeded 50 ms,,6.0,249.04249999963213
+slow,C21,0,tiny model,TINY MODEL,4,False,False,timeout,exceeded 50 ms,,6.0,252.36130000121193
+slow,C21,1,tiny model,TINY MODEL,4,False,False,timeout,exceeded 50 ms,,6.0,251.00620000739582
+slow,C21,2,tiny model,TINY MODEL,4,False,False,timeout,exceeded 50 ms,,6.0,249.489400004677
+slow,C21,3,tiny model,TINY MODEL,4,False,False,timeout,exceeded 50 ms,,6.0,249.47559999418445
+slow,C21,4,tiny model,TINY MODEL,4,False,False,timeout,exceeded 50 ms,,6.0,251.99079998856178
+slow,C22,0,evaluation runner,EVALUATION RUNNER,4,False,False,timeout,exceeded 50 ms,,6.0,250.45569999929285
+slow,C22,1,evaluation runner,EVALUATION RUNNER,4,False,False,timeout,exceeded 50 ms,,6.0,252.01640000886982
+slow,C22,2,evaluation runner,EVALUATION RUNNER,4,False,False,timeout,exceeded 50 ms,,6.0,250.06869999924675
+slow,C22,3,evaluation runner,EVALUATION RUNNER,4,False,False,timeout,exceeded 50 ms,,6.0,251.21439999929862
+slow,C22,4,evaluation runner,EVALUATION RUNNER,4,False,False,timeout,exceeded 50 ms,,6.0,251.35259999660775
+slow,C23,0,adapter ranking,ADAPTER RANKING,4,False,False,timeout,exceeded 50 ms,,6.0,251.51519999781158
+slow,C23,1,adapter ranking,ADAPTER RANKING,4,False,False,timeout,exceeded 50 ms,,6.0,252.77389999246225
+slow,C23,2,adapter ranking,ADAPTER RANKING,4,False,False,timeout,exceeded 50 ms,,6.0,249.77600001147948
+slow,C23,3,adapter ranking,ADAPTER RANKING,4,False,False,timeout,exceeded 50 ms,,6.0,253.5864999954356
+slow,C23,4,adapter ranking,ADAPTER RANKING,4,False,False,timeout,exceeded 50 ms,,6.0,250.16549999418203
+slow,C24,0,keep failures visible,KEEP FAILURES VISIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,252.611000003526
+slow,C24,1,keep failures visible,KEEP FAILURES VISIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,252.31509999139234
+slow,C24,2,keep failures visible,KEEP FAILURES VISIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,247.45370000164257
+slow,C24,3,keep failures visible,KEEP FAILURES VISIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,251.51479998748982
+slow,C24,4,keep failures visible,KEEP FAILURES VISIBLE,4,False,False,timeout,exceeded 50 ms,,6.0,246.98069999431027
+slow,C31,0,  spaced  ,  SPACED  ,4,False,False,timeout,exceeded 50 ms,,6.0,244.3344999992405
+slow,C31,1,  spaced  ,  SPACED  ,4,False,False,timeout,exceeded 50 ms,,6.0,250.80010000965558
+slow,C31,2,  spaced  ,  SPACED  ,4,False,False,timeout,exceeded 50 ms,,6.0,250.42279999615857
+slow,C31,3,  spaced  ,  SPACED  ,4,False,False,timeout,exceeded 50 ms,,6.0,247.6018000015756
+slow,C31,4,  spaced  ,  SPACED  ,4,False,False,timeout,exceeded 50 ms,,6.0,246.6370999973151
+slow,C33,0,mixedCase 42,MIXEDCASE 42,4,False,False,timeout,exceeded 50 ms,,6.0,241.73480000899872
+slow,C33,1,mixedCase 42,MIXEDCASE 42,4,False,False,timeout,exceeded 50 ms,,6.0,251.87910000386182
+slow,C33,2,mixedCase 42,MIXEDCASE 42,4,False,False,timeout,exceeded 50 ms,,6.0,250.31700000545243
+slow,C33,3,mixedCase 42,MIXEDCASE 42,4,False,False,timeout,exceeded 50 ms,,6.0,251.99830000201473
+slow,C33,4,mixedCase 42,MIXEDCASE 42,4,False,False,timeout,exceeded 50 ms,,6.0,251.85770000098273
+slow,C34,0,xxxxxxxxxx,XXXXXXXXXX,4,False,False,timeout,exceeded 50 ms,,6.0,253.3466000095359
+slow,C34,1,xxxxxxxxxx,XXXXXXXXXX,4,False,False,timeout,exceeded 50 ms,,6.0,253.43629998678807
+slow,C34,2,xxxxxxxxxx,XXXXXXXXXX,4,False,False,timeout,exceeded 50 ms,,6.0,250.73849999171216
+slow,C34,3,xxxxxxxxxx,XXXXXXXXXX,4,False,False,timeout,exceeded 50 ms,,6.0,249.22449999576202
+slow,C34,4,xxxxxxxxxx,XXXXXXXXXX,4,False,False,timeout,exceeded 50 ms,,6.0,252.74850000278093
+slow,C35,0,yyyyyyyyyyyy,YYYYYYYYYYYY,4,False,False,timeout,exceeded 50 ms,,6.0,250.17300000763498
+slow,C35,1,yyyyyyyyyyyy,YYYYYYYYYYYY,4,False,False,timeout,exceeded 50 ms,,6.0,252.6173000005656
+slow,C35,2,yyyyyyyyyyyy,YYYYYYYYYYYY,4,False,False,timeout,exceeded 50 ms,,6.0,249.93569999787724
+slow,C35,3,yyyyyyyyyyyy,YYYYYYYYYYYY,4,False,False,timeout,exceeded 50 ms,,6.0,250.6098000012571
+slow,C35,4,yyyyyyyyyyyy,YYYYYYYYYYYY,4,False,False,timeout,exceeded 50 ms,,6.0,249.94109999533975
+slow,C36,0,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,False,False,timeout,exceeded 50 ms,,6.0,250.9286999993492
+slow,C36,1,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,False,False,timeout,exceeded 50 ms,,6.0,252.7507000049809
+slow,C36,2,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,False,False,timeout,exceeded 50 ms,,6.0,251.26489999820478
+slow,C36,3,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,False,False,timeout,exceeded 50 ms,,6.0,249.77919999946607
+slow,C36,4,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,4,False,False,timeout,exceeded 50 ms,,6.0,251.02879999758443
+slow,C37,0,abababababababababab,ABABABABABABABABABAB,4,False,False,timeout,exceeded 50 ms,,6.0,252.2633999979007
+slow,C37,1,abababababababababab,ABABABABABABABABABAB,4,False,False,timeout,exceeded 50 ms,,6.0,253.4356999967713
+slow,C37,2,abababababababababab,ABABABABABABABABABAB,4,False,False,timeout,exceeded 50 ms,,6.0,253.3637000087765
+slow,C37,3,abababababababababab,ABABABABABABABABABAB,4,False,False,timeout,exceeded 50 ms,,6.0,250.96340000163764
+slow,C37,4,abababababababababab,ABABABABABABABABABAB,4,False,False,timeout,exceeded 50 ms,,6.0,252.41349999123486
+slow,C39,0,longer phrase here,LONGER PHRASE HERE,4,False,False,timeout,exceeded 50 ms,,6.0,240.87100000178907
+slow,C39,1,longer phrase here,LONGER PHRASE HERE,4,False,False,timeout,exceeded 50 ms,,6.0,251.62170000112383
+slow,C39,2,longer phrase here,LONGER PHRASE HERE,4,False,False,timeout,exceeded 50 ms,,6.0,252.02280000667088
+slow,C39,3,longer phrase here,LONGER PHRASE HERE,4,False,False,timeout,exceeded 50 ms,,6.0,251.1108000035165
+slow,C39,4,longer phrase here,LONGER PHRASE HERE,4,False,False,timeout,exceeded 50 ms,,6.0,250.13839999883203
+transient,C29,3,Ångström,ÅNGSTRÖM,4,False,False,error,RuntimeError: deterministic transient failure,,4.0,0.8670999959576875
+transient,C39,3,longer phrase here,LONGER PHRASE HERE,4,False,False,error,RuntimeError: deterministic transient failure,,4.0,2.1968000000924803
+truncating,C18,0,evaluation,EVALUATION,1,False,False,wrong,,,1.0,0.14319999900180846
+truncating,C18,1,evaluation,EVALUATION,1,False,False,wrong,,,1.0,0.13210000179242343
+truncating,C18,2,evaluation,EVALUATION,1,False,False,wrong,,,1.0,0.15100000018719584
+truncating,C18,3,evaluation,EVALUATION,1,False,False,wrong,,,1.0,0.12959999730810523
+truncating,C18,4,evaluation,EVALUATION,1,False,False,wrong,,,1.0,0.12849999620812014
+truncating,C19,0,reproducible,REPRODUCIBLE,1,False,False,wrong,,,1.0,0.15079999866429716
+truncating,C19,1,reproducible,REPRODUCIBLE,1,False,False,wrong,,,1.0,0.1520000005257316
+truncating,C19,2,reproducible,REPRODUCIBLE,1,False,False,wrong,,,1.0,0.13899999612476677
+truncating,C19,3,reproducible,REPRODUCIBLE,1,False,False,wrong,,,1.0,0.1294999965466559
+truncating,C19,4,reproducible,REPRODUCIBLE,1,False,False,wrong,,,1.0,0.13420000323094428
+truncating,C20,0,hello world,HELLO WORLD,1,False,False,wrong,,,1.0,0.14229999942472205
+truncating,C20,1,hello world,HELLO WORLD,1,False,False,wrong,,,1.0,0.14419999934034422
+truncating,C20,2,hello world,HELLO WORLD,1,False,False,wrong,,,1.0,0.1384999995934777
+truncating,C20,3,hello world,HELLO WORLD,1,False,False,wrong,,,1.0,0.12870000500697643
+truncating,C20,4,hello world,HELLO WORLD,1,False,False,wrong,,,1.0,0.12799999967683107
+truncating,C21,0,tiny model,TINY MODEL,1,False,False,wrong,,,1.0,0.1353999978164211
+truncating,C21,1,tiny model,TINY MODEL,1,False,False,wrong,,,1.0,0.1370999962091446
+truncating,C21,2,tiny model,TINY MODEL,1,False,False,wrong,,,1.0,0.13079999916953966
+truncating,C21,3,tiny model,TINY MODEL,1,False,False,wrong,,,1.0,0.1269999993382953
+truncating,C21,4,tiny model,TINY MODEL,1,False,False,wrong,,,1.0,0.12930000229971483
+truncating,C22,0,evaluation runner,EVALUATION RUNNER,1,False,False,wrong,,,1.0,0.12990000686841086
+truncating,C22,1,evaluation runner,EVALUATION RUNNER,1,False,False,wrong,,,1.0,0.1320999945164658
+truncating,C22,2,evaluation runner,EVALUATION RUNNER,1,False,False,wrong,,,1.0,0.13079999916953966
+truncating,C22,3,evaluation runner,EVALUATION RUNNER,1,False,False,wrong,,,1.0,0.12820000119972974
+truncating,C22,4,evaluation runner,EVALUATION RUNNER,1,False,False,wrong,,,1.0,0.4996999996365048
+truncating,C23,0,adapter ranking,ADAPTER RANKING,1,False,False,wrong,,,1.0,0.14179999561747536
+truncating,C23,1,adapter ranking,ADAPTER RANKING,1,False,False,wrong,,,1.0,0.13410000246949494
+truncating,C23,2,adapter ranking,ADAPTER RANKING,1,False,False,wrong,,,1.0,0.13329999637790024
+truncating,C23,3,adapter ranking,ADAPTER RANKING,1,False,False,wrong,,,1.0,0.1292000015382655
+truncating,C23,4,adapter ranking,ADAPTER RANKING,1,False,False,wrong,,,1.0,0.14399999781744555
+truncating,C24,0,keep failures visible,KEEP FAILURES VISIBLE,1,False,False,wrong,,,1.0,0.14339999324874952
+truncating,C24,1,keep failures visible,KEEP FAILURES VISIBLE,1,False,False,wrong,,,1.0,0.1336999994236976
+truncating,C24,2,keep failures visible,KEEP FAILURES VISIBLE,1,False,False,wrong,,,1.0,0.13029999536229298
+truncating,C24,3,keep failures visible,KEEP FAILURES VISIBLE,1,False,False,wrong,,,1.0,0.12930000229971483
+truncating,C24,4,keep failures visible,KEEP FAILURES VISIBLE,1,False,False,wrong,,,1.0,0.12599999899975955
+truncating,C31,0,  spaced  ,  SPACED  ,1,False,False,wrong,,,1.0,0.12930000229971483
+truncating,C31,1,  spaced  ,  SPACED  ,1,False,False,wrong,,,1.0,0.13330000365385786
+truncating,C31,2,  spaced  ,  SPACED  ,1,False,False,wrong,,,1.0,0.1323000033153221
+truncating,C31,3,  spaced  ,  SPACED  ,1,False,False,wrong,,,1.0,0.1286000042455271
+truncating,C31,4,  spaced  ,  SPACED  ,1,False,False,wrong,,,1.0,0.1272999943466857
+truncating,C33,0,mixedCase 42,MIXEDCASE 42,1,False,False,wrong,,,1.0,0.13069999840809032
+truncating,C33,1,mixedCase 42,MIXEDCASE 42,1,False,False,wrong,,,1.0,0.3059999944525771
+truncating,C33,2,mixedCase 42,MIXEDCASE 42,1,False,False,wrong,,,1.0,0.41870000131893903
+truncating,C33,3,mixedCase 42,MIXEDCASE 42,1,False,False,wrong,,,1.0,0.1779000012902543
+truncating,C33,4,mixedCase 42,MIXEDCASE 42,1,False,False,wrong,,,1.0,0.16630000027362257
+truncating,C34,0,xxxxxxxxxx,XXXXXXXXXX,1,False,False,wrong,,,1.0,0.16259999392786995
+truncating,C34,1,xxxxxxxxxx,XXXXXXXXXX,1,False,False,wrong,,,1.0,0.15839999832678586
+truncating,C34,2,xxxxxxxxxx,XXXXXXXXXX,1,False,False,wrong,,,1.0,0.1478000049246475
+truncating,C34,3,xxxxxxxxxx,XXXXXXXXXX,1,False,False,wrong,,,1.0,0.15619999612681568
+truncating,C34,4,xxxxxxxxxx,XXXXXXXXXX,1,False,False,wrong,,,1.0,0.14139999984763563
+truncating,C35,0,yyyyyyyyyyyy,YYYYYYYYYYYY,1,False,False,wrong,,,1.0,0.15430000348715112
+truncating,C35,1,yyyyyyyyyyyy,YYYYYYYYYYYY,1,False,False,wrong,,,1.0,0.1508999994257465
+truncating,C35,2,yyyyyyyyyyyy,YYYYYYYYYYYY,1,False,False,wrong,,,1.0,0.1536999989184551
+truncating,C35,3,yyyyyyyyyyyy,YYYYYYYYYYYY,1,False,False,wrong,,,1.0,0.13970000145491213
+truncating,C35,4,yyyyyyyyyyyy,YYYYYYYYYYYY,1,False,False,wrong,,,1.0,0.1286000042455271
+truncating,C36,0,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,False,False,wrong,,,1.0,0.13630000466946512
+truncating,C36,1,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,False,False,wrong,,,1.0,0.14209999790182337
+truncating,C36,2,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,False,False,wrong,,,1.0,0.16099999629659578
+truncating,C36,3,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,False,False,wrong,,,1.0,0.14200000441633165
+truncating,C36,4,zzzzzzzzzzzzzzzz,ZZZZZZZZZZZZZZZZ,1,False,False,wrong,,,1.0,0.13749999925494194
+truncating,C37,0,abababababababababab,ABABABABABABABABABAB,1,False,False,wrong,,,1.0,0.13130000297678635
+truncating,C37,1,abababababababababab,ABABABABABABABABABAB,1,False,False,wrong,,,1.0,0.13339999713934958
+truncating,C37,2,abababababababababab,ABABABABABABABABABAB,1,False,False,wrong,,,1.0,0.1401999979862012
+truncating,C37,3,abababababababababab,ABABABABABABABABABAB,1,False,False,wrong,,,1.0,0.16229999891947955
+truncating,C37,4,abababababababababab,ABABABABABABABABABAB,1,False,False,wrong,,,1.0,0.1598999951966107
+truncating,C39,0,longer phrase here,LONGER PHRASE HERE,1,False,False,wrong,,,1.0,0.16309999773511663
+truncating,C39,1,longer phrase here,LONGER PHRASE HERE,1,False,False,wrong,,,1.0,0.15359999815700576
+truncating,C39,2,longer phrase here,LONGER PHRASE HERE,1,False,False,wrong,,,1.0,0.14200000441633165
+truncating,C39,3,longer phrase here,LONGER PHRASE HERE,1,False,False,wrong,,,1.0,0.13000000035390258
+truncating,C39,4,longer phrase here,LONGER PHRASE HERE,1,False,False,wrong,,,1.0,0.13870000111637637

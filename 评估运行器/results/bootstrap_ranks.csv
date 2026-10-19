@@ -1,0 +1,5 @@
+adapter,rank_1_prob,rank_2_prob,rank_3_prob,rank_4_prob
+fast,1.0,0.0,0.0,0.0
+slow,0.0,0.0,0.0,1.0
+transient,0.0,1.0,0.0,0.0
+truncating,0.0,0.0,1.0,0.0

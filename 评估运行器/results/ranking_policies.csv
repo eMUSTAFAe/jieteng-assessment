@@ -1,0 +1,5 @@
+adapter,runs,correct_runs,completed_runs,accuracy_all,accuracy_completed,retained_fraction,cost_per_correct,latency_p95_all_ms,latency_p95_completed_ms,rank_exclude_all_failures,rank_completed_only,rank_failure_inclusive,rank_cost_per_correct
+fast,200,200,200,1.0,1.0,1.0,1.0,0.2367250039242204,0.2367250039242204,1,1,1,1
+slow,200,130,130,0.65,1.0,0.65,4.230769230769231,252.74861000289093,11.221415002364665,1,1,3,4
+transient,200,198,198,0.99,1.0,0.99,1.5,0.6090250000852389,0.5832399976497977,1,1,2,2
+truncating,200,130,200,0.65,0.65,0.65,1.5384615384615385,0.17845000111265089,0.17845000111265089,1,4,3,3

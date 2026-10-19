@@ -1,0 +1,145 @@
+==============================================================================
+EVALUATION RUNNER: ADAPTER RANKING WITH VISIBLE FAILURES
+==============================================================================
+Python   : 3.11.1
+numpy    : 1.26.4
+pandas   : 2.2.3
+seed     : 42
+cases    : 40 (26 short, 14 long)
+repeats  : 5
+timeout  : 50 ms per attempt
+retries  : 0..3
+cost     : 1 per attempt + 0.5 per timeout
+
+Adapters
+--------
+  fast        Supplied baseline: correct, fast
+  transient   Correct when it completes; 35% deterministic transient errors
+  slow        Correct; 10 ms short / 80 ms long; 50 ms timeout
+  truncating  Silently truncates to 8 chars; long inputs are wrong
+
+Repeatability check
+-------------------
+  passed: True  records: 44  checksum: 111a722e5039611c
+
+Executed 1107 attempts in 19.2 s wall-clock.
+Base runs: 800; per-example records: 1107.
+
+Adapter summary at retry budget 3 (all failures counted)
+--------------------------------------------------------
+   adapter  runs  correct_runs  completed_runs  wrong_runs  timeout_runs  error_runs accuracy_all accuracy_completed retained_fraction mean_attempts cost_per_run cost_per_correct latency_p95_all_ms latency_p95_completed_ms
+      fast   200           200             200           0             0           0        1.000              1.000             1.000         1.000        1.000            1.000              0.237                    0.237
+ transient   200           198             198           0             0           2        0.990              1.000             0.990         1.485        1.485            1.500              0.609                    0.583
+      slow   200           130             130           0            70           0        0.650              1.000             0.650         2.050        2.750            4.231            252.749                   11.221
+truncating   200           130             200          70             0           0        0.650              0.650             0.650         1.000        1.000            1.538              0.178                    0.178
+
+Read this table carefully: `accuracy_completed` drops timeouts and
+errors; `retained_fraction` is the share of runs that still count.
+The slow adapter looks perfect on completed runs but only 65% of its
+runs completed.  The truncating adapter never errors, so it keeps all
+of its runs, but its silent wrong answers are scored as wrong.
+
+Retry budget tradeoff (all adapters)
+------------------------------------
+   adapter  budget accuracy_all accuracy_completed mean_attempts cost_per_correct  timeout_runs  wrong_runs  error_runs
+      fast       0        1.000              1.000         1.000            1.000             0           0           0
+      fast       1        1.000              1.000         1.000            1.000             0           0           0
+      fast       2        1.000              1.000         1.000            1.000             0           0           0
+      fast       3        1.000              1.000         1.000            1.000             0           0           0
+      slow       0        0.650              1.000         1.000            1.808            70           0           0
+      slow       1        0.650              1.000         1.350            2.615            70           0           0
+      slow       2        0.650              1.000         1.700            3.423            70           0           0
+      slow       3        0.650              1.000         2.050            4.231            70           0           0
+ transient       0        0.655              1.000         1.000            1.527             0           0          69
+ transient       1        0.890              1.000         1.345            1.511             0           0          22
+ transient       2        0.970              1.000         1.455            1.500             0           0           6
+ transient       3        0.990              1.000         1.485            1.500             0           0           2
+truncating       0        0.650              0.650         1.000            1.538             0          70           0
+truncating       1        0.650              0.650         1.000            1.538             0          70           0
+truncating       2        0.650              0.650         1.000            1.538             0          70           0
+truncating       3        0.650              0.650         1.000            1.538             0          70           0
+
+Reporting lenses at retry budget 3
+----------------------------------
+   adapter  runs  correct_runs  completed_runs accuracy_all accuracy_completed retained_fraction cost_per_correct latency_p95_all_ms latency_p95_completed_ms  rank_exclude_all_failures  rank_completed_only  rank_failure_inclusive  rank_cost_per_correct
+      fast   200           200             200        1.000              1.000             1.000            1.000              0.237                    0.237                          1                    1                       1                      1
+      slow   200           130             130        0.650              1.000             0.650            4.231            252.749                   11.221                          1                    1                       3                      4
+ transient   200           198             198        0.990              1.000             0.990            1.500              0.609                    0.583                          1                    1                       2                      2
+truncating   200           130             200        0.650              0.650             0.650            1.538              0.178                    0.178                          1                    4                       3                      3
+
+The first lens excludes every failed run: all adapters reach 100%
+and the ranking becomes uninformative.  The second drops timeouts and
+errors but scores wrong outputs; the slow adapter still looks perfect.
+The third counts every run.  The fourth is a cost lens; it must not be
+used alone, because a cheap silent-wrong adapter can look competitive.
+
+Case-level clustered bootstrap (2000 resamples, budget 3)
+---------------------------------------------------------
+   adapter accuracy_mean accuracy_ci_low accuracy_ci_high cost_per_correct_mean cost_ci_low cost_ci_high
+      fast         1.000           1.000            1.000                 1.000       1.000        1.000
+      slow         0.650           0.500            0.800                 4.360       2.500        7.000
+ transient         0.990           0.975            1.000                 1.501       1.402        1.603
+truncating         0.650           0.500            0.800                 1.560       1.250        2.000
+
+Bootstrap rank probabilities
+----------------------------
+   adapter rank_1_prob rank_2_prob rank_3_prob rank_4_prob
+      fast       1.000       0.000       0.000       0.000
+      slow       0.000       0.000       0.000       1.000
+ transient       0.000       1.000       0.000       0.000
+truncating       0.000       0.000       1.000       0.000
+
+Practical reading: the fast/transient pair is not separated by the
+bootstrap interval, and slow/truncating are exactly tied on accuracy
+by construction (both are correct on the same 26 short cases).  A
+single strict ranking is therefore not justified; the report uses
+tiers and qualifies the lower pair by failure mode and cost.
+
+Cost sensitivity: timeout penalty (attempt cost fixed at 1)
+-----------------------------------------------------------
+timeout_penalty    adapter total_cost cost_per_correct accuracy_all
+          0.000       fast    200.000            1.000        1.000
+          0.000       slow    410.000            3.154        0.650
+          0.000  transient    297.000            1.500        0.990
+          0.000 truncating    200.000            1.538        0.650
+          0.500       fast    200.000            1.000        1.000
+          0.500       slow    550.000            4.231        0.650
+          0.500  transient    297.000            1.500        0.990
+          0.500 truncating    200.000            1.538        0.650
+          1.500       fast    200.000            1.000        1.000
+          1.500       slow    830.000            6.385        0.650
+          1.500  transient    297.000            1.500        0.990
+          1.500 truncating    200.000            1.538        0.650
+
+Final failure cases kept visible: 142 of 800 (17.8%)
+
+First 12 final failures
+-----------------------
+adapter case_id  repeat   input_text     expected  attempts_used final_outcome   final_detail total_cost
+   slow     C18       0   evaluation   EVALUATION              4       timeout exceeded 50 ms      6.000
+   slow     C18       1   evaluation   EVALUATION              4       timeout exceeded 50 ms      6.000
+   slow     C18       2   evaluation   EVALUATION              4       timeout exceeded 50 ms      6.000
+   slow     C18       3   evaluation   EVALUATION              4       timeout exceeded 50 ms      6.000
+   slow     C18       4   evaluation   EVALUATION              4       timeout exceeded 50 ms      6.000
+   slow     C19       0 reproducible REPRODUCIBLE              4       timeout exceeded 50 ms      6.000
+   slow     C19       1 reproducible REPRODUCIBLE              4       timeout exceeded 50 ms      6.000
+   slow     C19       2 reproducible REPRODUCIBLE              4       timeout exceeded 50 ms      6.000
+   slow     C19       3 reproducible REPRODUCIBLE              4       timeout exceeded 50 ms      6.000
+   slow     C19       4 reproducible REPRODUCIBLE              4       timeout exceeded 50 ms      6.000
+   slow     C20       0  hello world  HELLO WORLD              4       timeout exceeded 50 ms      6.000
+   slow     C20       1  hello world  HELLO WORLD              4       timeout exceeded 50 ms      6.000
+
+Saved:
+  results/adapter_summary.csv
+  results/bootstrap_metrics.csv
+  results/bootstrap_ranks.csv
+  results/budget_outcomes.csv
+  results/cost_sensitivity.csv
+  results/failure_cases.csv
+  results/metadata.json
+  results/per_example.csv
+  results/ranking_policies.csv
+  results/report.txt
+  results/run_outcomes.csv
+
+Done.

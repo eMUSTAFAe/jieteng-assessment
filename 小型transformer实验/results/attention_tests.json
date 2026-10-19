@@ -1,0 +1,10 @@
+{
+  "seed": 0,
+  "max_abs_diff_non_causal": 2.220446049250313e-16,
+  "max_abs_diff_causal": 2.220446049250313e-16,
+  "matches_baseline_non_causal": true,
+  "matches_baseline_causal": true,
+  "future_perturbation_ignored_when_causal": true,
+  "future_perturbation_changes_output_when_non_causal": true,
+  "passed": true
+}

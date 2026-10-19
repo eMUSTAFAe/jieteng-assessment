@@ -1,0 +1,157 @@
+{
+  "timeout": {
+    "first_status": 200,
+    "second_status": 504,
+    "second_error": "",
+    "server_records": [
+      {
+        "request_id": "t1",
+        "class": "interactive",
+        "arrival": 48057.453,
+        "queue_ms": 0.0,
+        "service_ms": 311.99999999807915,
+        "batch_size": 1,
+        "worker_id": 0,
+        "status": "ok"
+      },
+      {
+        "request_id": "t2",
+        "class": "interactive",
+        "arrival": 48057.515,
+        "queue_ms": 250.0,
+        "service_ms": 296.9999999986612,
+        "batch_size": 1,
+        "worker_id": 0,
+        "status": "cancelled"
+      }
+    ],
+    "passed": true
+  },
+  "cancellation": {
+    "cancel_responses": {
+      "k1": {
+        "status": 200,
+        "body": {
+          "request_id": "k1",
+          "cancelled": true
+        }
+      },
+      "k2": {
+        "status": 200,
+        "body": {
+          "request_id": "k2",
+          "cancelled": true
+        }
+      }
+    },
+    "cancelled_request_statuses": [
+      499,
+      499
+    ],
+    "server_records": [
+      {
+        "request_id": "c1",
+        "class": "interactive",
+        "arrival": 48058.625,
+        "queue_ms": 0.0,
+        "service_ms": 296.0000000020955,
+        "batch_size": 1,
+        "worker_id": 0,
+        "status": "ok"
+      },
+      {
+        "request_id": "c2",
+        "class": "interactive",
+        "arrival": 48058.625,
+        "queue_ms": 296.0000000020955,
+        "service_ms": 312.9999999946449,
+        "batch_size": 1,
+        "worker_id": 0,
+        "status": "ok"
+      },
+      {
+        "request_id": "k1",
+        "class": "batch",
+        "arrival": 48058.671,
+        "queue_ms": 562.9999999946449,
+        "service_ms": null,
+        "batch_size": null,
+        "worker_id": 0,
+        "status": "cancelled"
+      },
+      {
+        "request_id": "k2",
+        "class": "batch",
+        "arrival": 48058.671,
+        "queue_ms": 562.9999999946449,
+        "service_ms": null,
+        "batch_size": null,
+        "worker_id": 0,
+        "status": "cancelled"
+      }
+    ],
+    "passed": true
+  },
+  "in_service_cancellation": {
+    "cancel_response": {
+      "status": 200,
+      "body": {
+        "request_id": "s1",
+        "cancelled": false
+      }
+    },
+    "original_status": 200,
+    "server_records": [
+      {
+        "request_id": "s1",
+        "class": "interactive",
+        "arrival": 48059.796,
+        "queue_ms": 0.0,
+        "service_ms": 500.0,
+        "batch_size": 1,
+        "worker_id": 0,
+        "status": "ok"
+      }
+    ],
+    "passed": true
+  },
+  "ordering": {
+    "ordering_match_rate": 1.0,
+    "prediction_match_rate": 1.0,
+    "batch_sizes": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "passed": true
+  }
+}

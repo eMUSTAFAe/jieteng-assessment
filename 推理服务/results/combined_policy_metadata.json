@@ -1,0 +1,33 @@
+{
+  "config": {
+    "name": "priority_batched",
+    "max_workers": 8,
+    "max_queue": 64,
+    "per_item_ms": 30.0,
+    "queue_timeout_ms": 300.0,
+    "batch_size": 8,
+    "batch_wait_ms": 10.0,
+    "batch_overhead_ms": 5.0,
+    "batch_efficiency": 0.25,
+    "priority": true,
+    "client_wait_s": 3.0
+  },
+  "scenarios": {
+    "nominal": {
+      "n": 40,
+      "concurrency": 4,
+      "batch_fraction": 0.0
+    },
+    "overload": {
+      "n": 200,
+      "concurrency": 64,
+      "batch_fraction": 0.0
+    },
+    "mixed": {
+      "n": 200,
+      "concurrency": 64,
+      "batch_fraction": 0.3
+    }
+  },
+  "repeats": 3
+}

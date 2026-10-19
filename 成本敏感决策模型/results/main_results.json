@@ -1,0 +1,217 @@
+{
+  "dataset": {
+    "name": "German Credit (UCI Statlog)",
+    "path": "data\\german.data",
+    "sha256": "b21f3d81db8071257d5ff1deaeba1fd4303b62712e6fcc9715c7a86202cb5871",
+    "n_rows": 1000,
+    "n_features": 20,
+    "positive_class": "bad credit risk (would default)",
+    "positive_rate": 0.3
+  },
+  "protocol": {
+    "split": "stratified 60/20/20 train/dev/test",
+    "main_seed": 42,
+    "multiseed_seeds": [
+      42,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "cost_table": {
+      "c_fp": 1.0,
+      "c_fn": 4.0
+    },
+    "threshold_grid": {
+      "min": 0.001,
+      "max": 0.999,
+      "n": 999
+    },
+    "fp_guard_tolerance": 0.1,
+    "fp_guard_min_reduction": 0.25,
+    "fixed_threshold": 0.5,
+    "model_hyperparameters": {
+      "LogisticRegression": {
+        "max_iter": 5000,
+        "solver": "lbfgs"
+      },
+      "DecisionTree": {
+        "max_depth": 4,
+        "min_samples_leaf": 20
+      }
+    }
+  },
+  "main_split": {
+    "LogisticRegression": {
+      "dev_cost_optimal": {
+        "threshold": 0.136,
+        "cost": 0.445,
+        "fp": 77,
+        "fn": 3
+      },
+      "dev_fp_guarded": {
+        "threshold": 0.251,
+        "cost": 0.48,
+        "fp": 52,
+        "fn": 11
+      },
+      "guard_worthwhile": true,
+      "final_threshold": 0.251,
+      "final_dev_cost": 0.48,
+      "test_final": {
+        "n": 200,
+        "threshold": 0.251,
+        "tp": 47,
+        "fp": 47,
+        "fn": 13,
+        "tn": 93,
+        "expected_cost": 0.495,
+        "fp_per_1000": 235.0,
+        "fn_per_1000": 65.0,
+        "precision": 0.5,
+        "recall": 0.7833333333333333,
+        "predicted_positive_rate": 0.47,
+        "roc_auc": 0.7913095238095238
+      },
+      "test_cost_optimal": {
+        "n": 200,
+        "threshold": 0.136,
+        "tp": 53,
+        "fp": 75,
+        "fn": 7,
+        "tn": 65,
+        "expected_cost": 0.515,
+        "fp_per_1000": 375.0,
+        "fn_per_1000": 35.0,
+        "precision": 0.4140625,
+        "recall": 0.8833333333333333,
+        "predicted_positive_rate": 0.64,
+        "roc_auc": 0.7913095238095238
+      },
+      "test_fixed_0.50": {
+        "n": 200,
+        "threshold": 0.5,
+        "tp": 31,
+        "fp": 20,
+        "fn": 29,
+        "tn": 120,
+        "expected_cost": 0.68,
+        "fp_per_1000": 100.0,
+        "fn_per_1000": 145.0,
+        "precision": 0.6078431372549019,
+        "recall": 0.5166666666666667,
+        "predicted_positive_rate": 0.255,
+        "roc_auc": 0.7913095238095238
+      },
+      "test_ci_final": [
+        0.369875,
+        0.65
+      ],
+      "test_ci_optimal": [
+        0.409875,
+        0.635
+      ]
+    },
+    "DecisionTree": {
+      "dev_cost_optimal": {
+        "threshold": 0.2,
+        "cost": 0.465,
+        "fp": 73,
+        "fn": 5
+      },
+      "dev_fp_guarded": {
+        "threshold": 0.312,
+        "cost": 0.5,
+        "fp": 56,
+        "fn": 11
+      },
+      "guard_worthwhile": false,
+      "final_threshold": 0.2,
+      "final_dev_cost": 0.465,
+      "test_final": {
+        "n": 200,
+        "threshold": 0.2,
+        "tp": 53,
+        "fp": 79,
+        "fn": 7,
+        "tn": 61,
+        "expected_cost": 0.535,
+        "fp_per_1000": 395.0,
+        "fn_per_1000": 35.0,
+        "precision": 0.4015151515151515,
+        "recall": 0.8833333333333333,
+        "predicted_positive_rate": 0.66,
+        "roc_auc": 0.7273214285714286
+      },
+      "test_cost_optimal": {
+        "n": 200,
+        "threshold": 0.2,
+        "tp": 53,
+        "fp": 79,
+        "fn": 7,
+        "tn": 61,
+        "expected_cost": 0.535,
+        "fp_per_1000": 395.0,
+        "fn_per_1000": 35.0,
+        "precision": 0.4015151515151515,
+        "recall": 0.8833333333333333,
+        "predicted_positive_rate": 0.66,
+        "roc_auc": 0.7273214285714286
+      },
+      "test_fixed_0.50": {
+        "n": 200,
+        "threshold": 0.5,
+        "tp": 24,
+        "fp": 19,
+        "fn": 36,
+        "tn": 121,
+        "expected_cost": 0.815,
+        "fp_per_1000": 95.0,
+        "fn_per_1000": 180.0,
+        "precision": 0.5581395348837209,
+        "recall": 0.4,
+        "predicted_positive_rate": 0.215,
+        "roc_auc": 0.7273214285714286
+      },
+      "test_ci_final": [
+        0.43,
+        0.6501249999999993
+      ],
+      "test_ci_optimal": [
+        0.43,
+        0.6501249999999993
+      ]
+    }
+  },
+  "pairwise_test_cost_diff_LR_minus_DT": {
+    "mean_diff": -0.04079,
+    "ci95": [
+      -0.19012500000000004,
+      0.12012499999999932
+    ],
+    "prob_a_worse": 0.2865
+  },
+  "recommendation": {
+    "model": "LogisticRegression",
+    "threshold": 0.251,
+    "dev_cost": 0.48,
+    "dev_cost_optimal": 0.445,
+    "dev_threshold_optimal": 0.136,
+    "dev_threshold_guarded": 0.251,
+    "fp_guard_applied": true,
+    "test_cost": 0.495,
+    "test_confusion": {
+      "tp": 47,
+      "fp": 47,
+      "fn": 13,
+      "tn": 93
+    },
+    "selection_rule": "Model chosen by lower dev expected cost at the cost-optimal threshold.  The selected model's threshold is then set by the pre-registered FP guard: use the highest threshold within 10% of the minimum dev cost if it cuts dev FP by >=25%.  Test is not used for selection."
+  }
+}

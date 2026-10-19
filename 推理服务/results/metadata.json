@@ -1,0 +1,79 @@
+{
+  "python": "3.11.1",
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "client_timeout_s": 2.5,
+  "repeats": 3,
+  "configs": {
+    "baseline": null,
+    "bounded": {
+      "name": "bounded",
+      "max_workers": 4,
+      "max_queue": 32,
+      "per_item_ms": 30.0,
+      "queue_timeout_ms": 200.0,
+      "batch_size": 1,
+      "batch_wait_ms": 0.0,
+      "batch_overhead_ms": 5.0,
+      "batch_efficiency": 0.25,
+      "priority": false,
+      "client_wait_s": 3.0
+    },
+    "batched": {
+      "name": "batched",
+      "max_workers": 4,
+      "max_queue": 32,
+      "per_item_ms": 30.0,
+      "queue_timeout_ms": 300.0,
+      "batch_size": 8,
+      "batch_wait_ms": 10.0,
+      "batch_overhead_ms": 5.0,
+      "batch_efficiency": 0.25,
+      "priority": false,
+      "client_wait_s": 3.0
+    },
+    "wide_fast": {
+      "name": "wide_fast",
+      "max_workers": 16,
+      "max_queue": 128,
+      "per_item_ms": 30.0,
+      "queue_timeout_ms": 500.0,
+      "batch_size": 1,
+      "batch_wait_ms": 0.0,
+      "batch_overhead_ms": 5.0,
+      "batch_efficiency": 0.25,
+      "priority": false,
+      "client_wait_s": 3.0
+    },
+    "priority": {
+      "name": "priority",
+      "max_workers": 4,
+      "max_queue": 32,
+      "per_item_ms": 30.0,
+      "queue_timeout_ms": 200.0,
+      "batch_size": 1,
+      "batch_wait_ms": 0.0,
+      "batch_overhead_ms": 5.0,
+      "batch_efficiency": 0.25,
+      "priority": true,
+      "client_wait_s": 3.0
+    }
+  },
+  "scenarios": {
+    "nominal": {
+      "n": 40,
+      "concurrency": 4,
+      "batch_fraction": 0.0
+    },
+    "overload": {
+      "n": 200,
+      "concurrency": 64,
+      "batch_fraction": 0.0
+    },
+    "mixed": {
+      "n": 200,
+      "concurrency": 64,
+      "batch_fraction": 0.3
+    }
+  }
+}

@@ -1,0 +1,11 @@
+cost_ratio_fn_to_fp,model,threshold,dev_cost,dev_fp,dev_fn,test_cost,test_fp,test_fn,test_fp_per_1000,test_fn_per_1000
+1.0,LogisticRegression,0.5720000000000001,0.205,11,30,0.26,14,38,70.0,190.0
+2.0,LogisticRegression,0.41400000000000003,0.33,24,21,0.365,25,24,125.0,120.0
+4.0,LogisticRegression,0.136,0.445,77,3,0.515,75,7,375.0,35.0
+8.0,LogisticRegression,0.136,0.505,77,3,0.655,75,7,375.0,35.0
+16.0,LogisticRegression,0.136,0.625,77,3,0.935,75,7,375.0,35.0
+1.0,DecisionTree,0.639,0.27,14,40,0.265,15,38,75.0,190.0
+2.0,DecisionTree,0.312,0.39,56,11,0.45,60,15,300.0,75.0
+4.0,DecisionTree,0.2,0.465,73,5,0.535,79,7,395.0,35.0
+8.0,DecisionTree,0.2,0.565,73,5,0.675,79,7,395.0,35.0
+16.0,DecisionTree,0.023,0.7,140,0,0.7,140,0,700.0,0.0

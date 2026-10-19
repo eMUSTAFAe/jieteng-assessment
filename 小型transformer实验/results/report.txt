@@ -1,0 +1,94 @@
+==============================================================================
+TINY TRANSFORMER: CAUSAL MASK vs NO MASK
+==============================================================================
+Python     : 3.11.1
+PyTorch    : 2.14.1+cpu
+numpy      : 1.26.4
+pandas     : 2.2.3
+threads    : 4
+vocab      : 24
+context    : 16 (input 15)
+model      : 2 layers, 4 heads, d_model 64, d_ff 128
+training   : 600 steps, batch 64, lr 0.003, seeds [0, 1, 2]
+data       : 12000 train / 2000 val / 2000 test
+
+Data
+----
+  cached: True
+  train shape: (12000, 16); val: (2000, 16); test: (2000, 16)
+  unique tokens in train: 24/24
+  theoretical Bayes loss: 1.5014 nats
+  theoretical Bayes top-1 accuracy: 0.7125
+
+Attention component tests
+-------------------------
+  passed: True
+  max |ours - baseline|: non-causal 2.22e-16, causal 2.22e-16
+  causal ignores future perturbation: True; non-causal sees it: True
+
+Training unmasked / seed 0 ...
+  test loss 0.1128, accuracy 0.9801, next-token attention 0.4831, 11.1s
+
+Training causal / seed 0 ...
+  test loss 1.4862, accuracy 0.7188, next-token attention 0.0000, 10.8s
+
+Training unmasked / seed 1 ...
+  test loss 0.1151, accuracy 0.9799, next-token attention 0.4985, 10.4s
+
+Training causal / seed 1 ...
+  test loss 1.4877, accuracy 0.7188, next-token attention 0.0000, 10.7s
+
+Training unmasked / seed 2 ...
+  test loss 0.1116, accuracy 0.9801, next-token attention 0.5189, 10.5s
+
+Training causal / seed 2 ...
+  test loss 1.4882, accuracy 0.7188, next-token attention 0.0000, 10.5s
+
+Per-seed held-out metrics
+-------------------------
+   model  seed  parameters train_loss best_val_loss test_loss test_accuracy other_position_loss last_position_loss next_token_attention future_attention seconds
+unmasked     0       69632     0.1011        0.1128    0.1128        0.9801              0.0016             1.6684               0.4831           0.0939 11.1012
+  causal     0       69632     1.5111        1.5199    1.4862        0.7188              1.4808             1.5617               0.0000           0.0000 10.8244
+unmasked     1       69632     0.1056        0.1139    0.1151        0.9799              0.0024             1.6930               0.4985           0.0925 10.4197
+  causal     1       69632     1.5131        1.5225    1.4877        0.7188              1.4826             1.5585               0.0000           0.0000 10.7276
+unmasked     2       69632     0.1060        0.1127    0.1116        0.9801              0.0018             1.6489               0.5189           0.0936 10.5466
+  causal     2       69632     1.5122        1.5216    1.4882        0.7188              1.4830             1.5611               0.0000           0.0000 10.4917
+
+Summary (mean +/- sd across seeds)
+----------------------------------
+   model  seeds test_loss_mean test_loss_sd accuracy_mean accuracy_sd other_position_loss_mean last_position_loss_mean next_attention_mean next_attention_sd future_attention_mean val_loss_mean train_loss_mean
+unmasked      3         0.1132       0.0018        0.9800      0.0001                   0.0020                  1.6701              0.5002            0.0179                0.0933        0.1131          0.1042
+  causal      3         1.4874       0.0010        0.7188      0.0000                   1.4821                  1.5604              0.0000            0.0000                0.0000        1.5213          1.5121
+
+Sample predictions (seed 0, first test sequence)
+
+  unmasked: input=[4, 21, 6, 21, 6, 8, 4, 7, 4, 7, 4, 21, 2, 17, 1]
+            target=[21, 6, 21, 6, 8, 4, 7, 4, 7, 4, 21, 2, 17, 1, 20]
+            pred  =[21, 6, 21, 6, 8, 4, 7, 4, 7, 4, 21, 2, 17, 1, 10]
+
+  causal: input=[4, 21, 6, 21, 6, 8, 4, 7, 4, 7, 4, 21, 2, 17, 1]
+          target=[21, 6, 21, 6, 8, 4, 7, 4, 7, 4, 21, 2, 17, 1, 20]
+          pred  =[7, 6, 21, 6, 21, 11, 7, 4, 7, 4, 7, 6, 17, 2, 10]
+
+Interpretation
+--------------
+The unmasked model has a lower held-out loss, but the target token is
+present in its input at the next position.  Its low loss is therefore
+not a valid next-token result: it is copying from the future.  The
+causal model cannot see the future; its loss is compared with the
+theoretical Bayes loss above.  The next-token attention diagnostic is
+the mechanism check: it is exactly zero for the causal model and
+positive for the unmasked model.
+
+Position control: unmasked loss on positions 0..T-2 = 0.0020, on the last position = 1.6701; causal = 1.4821 / 1.5604.
+
+Saved:
+  results/attention_tests.json
+  results/metadata.json
+  results/metrics.csv
+  results/predictions.csv
+  results/report.txt
+  results/summary.csv
+  results/training_curves.csv
+
+Done.

@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "cases": 40,
+  "short_cases": 26,
+  "long_cases": 14,
+  "repeats": 5,
+  "timeout_ms": 50.0,
+  "max_retries": 3,
+  "cost_per_attempt": 1.0,
+  "timeout_penalty": 0.5,
+  "bootstrap_n": 2000,
+  "repeatability": {
+    "passed": true,
+    "records": 44,
+    "checksum": "111a722e5039611c"
+  },
+  "attempts": 1107,
+  "base_runs": 800
+}

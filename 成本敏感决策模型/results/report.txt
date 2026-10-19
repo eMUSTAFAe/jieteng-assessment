@@ -1,0 +1,111 @@
+==============================================================================
+COST-SENSITIVE DECISION MODELS
+Logistic regression vs. decision tree on German Credit (UCI)
+==============================================================================
+Python      : 3.11.1
+scikit-learn: 1.9.1
+numpy       : 1.26.4
+pandas      : 2.2.3
+seed        : 42
+cost table  : C_FP=1, C_FN=4
+
+Baseline logic check (supplied 4-row example):
+  {0.2: 0.25, 0.5: 1.25, 0.8: 1.0}
+  This is a logic check only; it is not empirical evidence.
+
+Dataset
+-------
+  rows: 1000, features: 20, positive rate: 0.300
+  positive class: bad credit risk (would default)
+  source: data\german.data
+  sha256: b21f3d81db8071257d5ff1deaeba1fd4303b62712e6fcc9715c7a86202cb5871
+
+Dev-set threshold selection (seed 42)
+-------------------------------------
+
+Threshold rules
+---------------
+             model         rule  threshold  dev_cost  dev_fp  dev_fn
+LogisticRegression cost-optimal      0.136     0.445      77       3
+LogisticRegression   FP-guarded      0.251     0.480      52      11
+      DecisionTree cost-optimal      0.200     0.465      73       5
+      DecisionTree   FP-guarded      0.312     0.500      56      11
+
+Theoretical Bayes threshold if probabilities were calibrated: 0.200
+Pre-registered FP guard: highest threshold with dev cost <= 10% above the minimum, used only if it cuts dev FP by >= 25%.
+  LogisticRegression: guard worthwhile = True; final threshold = 0.251
+  DecisionTree: guard worthwhile = False; final threshold = 0.200
+
+Model selected on dev: LogisticRegression (cost-optimal: dev cost 0.4450 at threshold 0.136; final rule: dev cost 0.4800 at threshold 0.251)
+Test cost at the recommended rule: 0.4950
+
+Held-out test results (seed 42; test used for reporting only)
+-------------------------------------------------------------
+             model     threshold_rule  threshold  tp  fp  fn  tn  expected_cost  fp_per_1000  fn_per_1000  precision   recall  roc_auc
+LogisticRegression cost-optimal (dev)      0.136  53  75   7  65          0.515        375.0         35.0   0.414062 0.883333 0.791310
+LogisticRegression   FP-guarded (dev)      0.251  47  47  13  93          0.495        235.0         65.0   0.500000 0.783333 0.791310
+LogisticRegression   final rule (dev)      0.251  47  47  13  93          0.495        235.0         65.0   0.500000 0.783333 0.791310
+LogisticRegression         fixed 0.50      0.500  31  20  29 120          0.680        100.0        145.0   0.607843 0.516667 0.791310
+      DecisionTree cost-optimal (dev)      0.200  53  79   7  61          0.535        395.0         35.0   0.401515 0.883333 0.727321
+      DecisionTree   FP-guarded (dev)      0.312  45  60  15  80          0.600        300.0         75.0   0.428571 0.750000 0.727321
+      DecisionTree   final rule (dev)      0.200  53  79   7  61          0.535        395.0         35.0   0.401515 0.883333 0.727321
+      DecisionTree         fixed 0.50      0.500  24  19  36 121          0.815         95.0        180.0   0.558140 0.400000 0.727321
+
+Test-set bootstrap 95% CIs (2000 resamples)
+--------------------------------------------
+  LogisticRegression @ final threshold 0.251: cost 0.4950 CI [0.3699, 0.6500]
+  LogisticRegression @ cost-optimal 0.136: cost 0.5150 CI [0.4099, 0.6350]
+  DecisionTree @ final threshold 0.200: cost 0.5350 CI [0.4300, 0.6501]
+  DecisionTree @ cost-optimal 0.200: cost 0.5350 CI [0.4300, 0.6501]
+  Paired cost difference (LR - DT) at each model's final threshold: -0.0408, 95% CI [-0.1901, 0.1201], P(LR worse) = 0.286
+
+Sensitivity to the assumed FN:FP cost ratio (threshold re-selected on dev)
+--------------------------------------------------------------------------
+ cost_ratio_fn_to_fp              model  threshold  dev_cost  dev_fp  dev_fn  test_cost  test_fp  test_fn  test_fp_per_1000  test_fn_per_1000
+                 1.0 LogisticRegression      0.572     0.205      11      30      0.260       14       38              70.0             190.0
+                 2.0 LogisticRegression      0.414     0.330      24      21      0.365       25       24             125.0             120.0
+                 4.0 LogisticRegression      0.136     0.445      77       3      0.515       75        7             375.0              35.0
+                 8.0 LogisticRegression      0.136     0.505      77       3      0.655       75        7             375.0              35.0
+                16.0 LogisticRegression      0.136     0.625      77       3      0.935       75        7             375.0              35.0
+                 1.0       DecisionTree      0.639     0.270      14      40      0.265       15       38              75.0             190.0
+                 2.0       DecisionTree      0.312     0.390      56      11      0.450       60       15             300.0              75.0
+                 4.0       DecisionTree      0.200     0.465      73       5      0.535       79        7             395.0              35.0
+                 8.0       DecisionTree      0.200     0.565      73       5      0.675       79        7             395.0              35.0
+                16.0       DecisionTree      0.023     0.700     140       0      0.700      140        0             700.0               0.0
+
+Sensitivity to an unmeasured FP harm (effective C_FP = 1 + s)
+-------------------------------------------------------------
+ added_fp_cost_s  effective_fp_cost              model  threshold  dev_effective_cost  test_business_cost  test_social_cost  test_fp  test_fn  test_fp_per_1000
+             0.0                1.0 LogisticRegression      0.136               0.445               0.515             0.515       75        7             375.0
+             0.5                1.5 LogisticRegression      0.388               0.585               0.580             0.650       28       22             140.0
+             1.0                2.0 LogisticRegression      0.414               0.660               0.605             0.730       25       24             125.0
+             2.0                3.0 LogisticRegression      0.550               0.760               0.795             0.945       15       36              75.0
+             4.0                5.0 LogisticRegression      0.572               0.875               0.830             1.110       14       38              70.0
+             8.0                9.0 LogisticRegression      0.646               1.070               0.900             1.380       12       42              60.0
+             0.0                1.0       DecisionTree      0.200               0.465               0.535             0.535       79        7             395.0
+             0.5                1.5       DecisionTree      0.312               0.640               0.600             0.750       60       15             300.0
+             1.0                2.0       DecisionTree      0.312               0.780               0.600             0.900       60       15             300.0
+             2.0                3.0       DecisionTree      0.639               1.010               0.835             0.985       15       38              75.0
+             4.0                5.0       DecisionTree      0.639               1.150               0.835             1.135       15       38              75.0
+             8.0                9.0       DecisionTree      0.999               1.200               1.200             1.200        0       60               0.0
+
+Split sensitivity across 11 stratified splits
+---------------------------------------------
+             model  n_splits  mean_test_cost  sd_test_cost  min_test_cost  max_test_cost  mean_threshold  min_threshold  max_threshold  mean_test_fp  mean_test_fn
+      DecisionTree        11        0.544091      0.049941          0.480          0.625        0.225818          0.098          0.352     75.363636      8.363636
+LogisticRegression        11        0.518636      0.066486          0.425          0.650        0.218545          0.131          0.413     55.363636     12.090909
+  Models chosen on dev across splits: {'DecisionTree': 2, 'LogisticRegression': 9}
+  LR had lower test cost in 7/11 splits; mean difference -0.0255
+
+Saved:
+  results/confusion_matrices.csv
+  results/cost_ratio_sensitivity.csv
+  results/dev_cost_curves.csv
+  results/dev_thresholds.csv
+  results/fp_harm_sensitivity.csv
+  results/main_results.json
+  results/main_table.csv
+  results/multiseed_results.csv
+  results/report.txt
+
+Done.
